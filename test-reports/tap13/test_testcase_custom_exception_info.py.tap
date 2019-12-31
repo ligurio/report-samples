@@ -1,0 +1,22 @@
+# TAP results for test_testcase_custom_exception_info.py
+not ok 1 - test_testcase_custom_exception_info.py::MyTestCase.test_hello
+# NOTE: Incompatible Exception Representation, displaying natively:
+# 
+# Traceback (most recent call last):
+#   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/python_api.py", line 618, in raises
+#     func(*args[1:], **kwargs)
+#   File "/tmp/pytest-of-sergeyb/pytest-28/test_testcase_custom_exception_info0/test_testcase_custom_exception_info.py", line 6, in <lambda>
+#     excinfo = pytest.raises(ZeroDivisionError, lambda: 0/0)
+# ZeroDivisionError: integer division or modulo by zero
+#
+not ok 2 - test_testcase_custom_exception_info.py::MyTestCase.test_hello
+# NOTE: Incompatible Exception Representation, displaying natively:
+# 
+# Traceback (most recent call last):
+#   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/python_api.py", line 618, in raises
+#     func(*args[1:], **kwargs)
+#   File "/tmp/pytest-of-sergeyb/pytest-28/test_testcase_custom_exception_info1/test_testcase_custom_exception_info.py", line 6, in <lambda>
+#     excinfo = pytest.raises(ZeroDivisionError, lambda: 0/0)
+# ZeroDivisionError: integer division or modulo by zero
+#
+1..2

@@ -1,0 +1,17 @@
+# TAP results for test_basic_testitem_events.py
+ok 1 - test_basic_testitem_events.py::test_one
+not ok 2 - test_basic_testitem_events.py::test_one_one
+# 
+#     def test_one_one():
+# >       assert 0
+# E       assert 0
+# 
+# test_basic_testitem_events.py:4: AssertionError
+not ok 3 - test_basic_testitem_events.py::test_other
+# 
+#     def test_other():
+# >       raise ValueError(23)
+# E       ValueError: 23
+# 
+# test_basic_testitem_events.py:6: ValueError
+1..3

@@ -1,0 +1,13 @@
+# TAP results for test_addcall_with_two_funcargs_generators.py
+ok 1 - test_addcall_with_two_funcargs_generators.py::TestClass.test_myfunc[0]
+not ok 2 - test_addcall_with_two_funcargs_generators.py::TestClass.test_myfunc[1]
+# 
+# self = <test_addcall_with_two_funcargs_generators.TestClass object at 0x7fa010357550>
+# arg1 = 1, arg2 = 2
+# 
+#     def test_myfunc(self, arg1, arg2):
+# >       assert arg1 == arg2
+# E       assert 1 == 2
+# 
+# test_addcall_with_two_funcargs_generators.py:6: AssertionError
+1..2

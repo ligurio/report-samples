@@ -1,0 +1,12 @@
+# TAP results for test_parametrize_scope_overrides.py
+ok 1 - test_parametrize_scope_overrides.py::test_hello[1]
+ok 2 - test_parametrize_scope_overrides.py::test_world[1]
+ok 3 - test_parametrize_scope_overrides.py::test_hello[2]
+ok 4 - test_parametrize_scope_overrides.py::test_world[2]
+ok 5 - test_parametrize_scope_overrides.py::test_checklength
+ok 6 - test_parametrize_scope_overrides.py::test_hello[1]
+ok 7 - test_parametrize_scope_overrides.py::test_hello[2]
+ok 8 - test_parametrize_scope_overrides.py::test_world[1]
+ok 9 - test_parametrize_scope_overrides.py::test_world[2]
+ok 10 - test_parametrize_scope_overrides.py::test_checklength
+1..10

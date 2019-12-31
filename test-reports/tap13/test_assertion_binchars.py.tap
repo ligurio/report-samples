@@ -1,0 +1,13 @@
+# TAP results for test_assertion_binchars.py
+not ok 1 - test_assertion_binchars.py::test_str_compare
+# 
+#     def test_str_compare():
+# >       assert M1 == M2
+# E       AssertionError: assert '\x01\x02\x03\x04' == '\x01\x02\x03\x05'
+# E         - \x01\x02\x03\x04
+# E         ?                ^
+# E         + \x01\x02\x03\x05
+# E         ?                ^
+# 
+# test_assertion_binchars.py:5: AssertionError
+1..1

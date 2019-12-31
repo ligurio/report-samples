@@ -1,0 +1,4 @@
+# TAP results for test_exact_teardown_issue1206.py
+ok 1 - test_exact_teardown_issue1206.py::TestClass.test_method
+ok 2 - test_exact_teardown_issue1206.py::TestClass.test_method
+1..2

@@ -1,0 +1,8 @@
+# TAP results for test_pass_reporting_on_fail.py
+not ok 1 - test_pass_reporting_on_fail.py::test_this
+# 
+# >   def test_this(): assert 0
+# E   assert 0
+# 
+# test_pass_reporting_on_fail.py:1: AssertionError
+1..1

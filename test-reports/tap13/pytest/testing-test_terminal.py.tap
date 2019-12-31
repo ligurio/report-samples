@@ -1,0 +1,118 @@
+# TAP results for testing/test_terminal.py
+ok 1 - testing/test_terminal.py::test_plugin_nameversion[normal]
+ok 2 - testing/test_terminal.py::test_plugin_nameversion[prefix-strip]
+ok 3 - testing/test_terminal.py::test_plugin_nameversion[deduplicate]
+ok 4 - testing/test_terminal.py::TestTerminal.test_pass_skip_fail[default]
+ok 5 - testing/test_terminal.py::TestTerminal.test_pass_skip_fail[verbose]
+ok 6 - testing/test_terminal.py::TestTerminal.test_pass_skip_fail[quiet]
+ok 7 - testing/test_terminal.py::TestTerminal.test_pass_skip_fail[fulltrace]
+ok 8 - testing/test_terminal.py::TestTerminal.test_internalerror
+ok 9 - testing/test_terminal.py::TestTerminal.test_writeline
+ok 10 - testing/test_terminal.py::TestTerminal.test_show_runtest_logstart
+ok 11 - testing/test_terminal.py::TestTerminal.test_runtest_location_shown_before_test_starts # SKIP could not import 'pexpect'
+ok 12 - testing/test_terminal.py::TestTerminal.test_itemreport_subclasses_show_subclassed_file
+ok 13 - testing/test_terminal.py::TestTerminal.test_itemreport_directclasses_not_shown_as_subclasses
+ok 14 - testing/test_terminal.py::TestTerminal.test_keyboard_interrupt[default]
+ok 15 - testing/test_terminal.py::TestTerminal.test_keyboard_interrupt[verbose]
+ok 16 - testing/test_terminal.py::TestTerminal.test_keyboard_interrupt[quiet]
+ok 17 - testing/test_terminal.py::TestTerminal.test_keyboard_interrupt[fulltrace]
+ok 18 - testing/test_terminal.py::TestTerminal.test_keyboard_in_sessionstart
+ok 19 - testing/test_terminal.py::TestTerminal.test_collect_single_item
+ok 20 - testing/test_terminal.py::TestTerminal.test_rewrite
+ok 21 - testing/test_terminal.py::TestCollectonly.test_collectonly_basic
+ok 22 - testing/test_terminal.py::TestCollectonly.test_collectonly_skipped_module
+ok 23 - testing/test_terminal.py::TestCollectonly.test_collectonly_failed_module
+ok 24 - testing/test_terminal.py::TestCollectonly.test_collectonly_fatal
+ok 25 - testing/test_terminal.py::TestCollectonly.test_collectonly_simple
+ok 26 - testing/test_terminal.py::TestCollectonly.test_collectonly_error
+ok 27 - testing/test_terminal.py::TestCollectonly.test_collectonly_missing_path
+ok 28 - testing/test_terminal.py::TestCollectonly.test_collectonly_quiet
+ok 29 - testing/test_terminal.py::TestCollectonly.test_collectonly_more_quiet
+ok 30 - testing/test_terminal.py::test_repr_python_version
+ok 31 - testing/test_terminal.py::TestFixtureReporting.test_setup_fixture_error
+ok 32 - testing/test_terminal.py::TestFixtureReporting.test_teardown_fixture_error
+ok 33 - testing/test_terminal.py::TestFixtureReporting.test_teardown_fixture_error_and_test_failure
+ok 34 - testing/test_terminal.py::TestFixtureReporting.test_setup_teardown_output_and_test_failure
+ok 35 - testing/test_terminal.py::TestTerminalFunctional.test_deselected
+ok 36 - testing/test_terminal.py::TestTerminalFunctional.test_show_deselected_items_using_markexpr_before_test_execution
+ok 37 - testing/test_terminal.py::TestTerminalFunctional.test_no_skip_summary_if_failure
+ok 38 - testing/test_terminal.py::TestTerminalFunctional.test_passes
+ok 39 - testing/test_terminal.py::TestTerminalFunctional.test_header_trailer_info
+ok 40 - testing/test_terminal.py::TestTerminalFunctional.test_showlocals
+ok 41 - testing/test_terminal.py::TestTerminalFunctional.test_verbose_reporting # SKIP xdist plugin not installed
+ok 42 - testing/test_terminal.py::TestTerminalFunctional.test_quiet_reporting
+ok 43 - testing/test_terminal.py::TestTerminalFunctional.test_more_quiet_reporting
+ok 44 - testing/test_terminal.py::TestTerminalFunctional.test_report_collectionfinish_hook
+ok 45 - testing/test_terminal.py::test_fail_extra_reporting
+ok 46 - testing/test_terminal.py::test_fail_reporting_on_pass
+ok 47 - testing/test_terminal.py::test_pass_extra_reporting
+ok 48 - testing/test_terminal.py::test_pass_reporting_on_fail
+ok 49 - testing/test_terminal.py::test_pass_output_reporting
+ok 50 - testing/test_terminal.py::test_color_yes
+ok 51 - testing/test_terminal.py::test_color_no
+ok 52 - testing/test_terminal.py::test_color_yes_collection_on_non_atty[True]
+ok 53 - testing/test_terminal.py::test_color_yes_collection_on_non_atty[False]
+ok 54 - testing/test_terminal.py::test_getreportopt
+ok 55 - testing/test_terminal.py::test_terminalreporter_reportopt_addopts
+ok 56 - testing/test_terminal.py::test_tbstyle_short
+ok 57 - testing/test_terminal.py::test_traceconfig
+ok 58 - testing/test_terminal.py::TestGenericReporting.test_collect_fail[default]
+ok 59 - testing/test_terminal.py::TestGenericReporting.test_collect_fail[verbose]
+ok 60 - testing/test_terminal.py::TestGenericReporting.test_collect_fail[quiet]
+ok 61 - testing/test_terminal.py::TestGenericReporting.test_collect_fail[fulltrace]
+ok 62 - testing/test_terminal.py::TestGenericReporting.test_maxfailures[default]
+ok 63 - testing/test_terminal.py::TestGenericReporting.test_maxfailures[verbose]
+ok 64 - testing/test_terminal.py::TestGenericReporting.test_maxfailures[quiet]
+ok 65 - testing/test_terminal.py::TestGenericReporting.test_maxfailures[fulltrace]
+ok 66 - testing/test_terminal.py::TestGenericReporting.test_tb_option[default]
+ok 67 - testing/test_terminal.py::TestGenericReporting.test_tb_option[verbose]
+ok 68 - testing/test_terminal.py::TestGenericReporting.test_tb_option[quiet]
+ok 69 - testing/test_terminal.py::TestGenericReporting.test_tb_option[fulltrace]
+ok 70 - testing/test_terminal.py::TestGenericReporting.test_tb_crashline[default]
+ok 71 - testing/test_terminal.py::TestGenericReporting.test_tb_crashline[verbose]
+ok 72 - testing/test_terminal.py::TestGenericReporting.test_tb_crashline[quiet]
+ok 73 - testing/test_terminal.py::TestGenericReporting.test_tb_crashline[fulltrace]
+ok 74 - testing/test_terminal.py::TestGenericReporting.test_pytest_report_header[default]
+ok 75 - testing/test_terminal.py::TestGenericReporting.test_pytest_report_header[verbose]
+ok 76 - testing/test_terminal.py::TestGenericReporting.test_pytest_report_header[quiet]
+ok 77 - testing/test_terminal.py::TestGenericReporting.test_pytest_report_header[fulltrace]
+ok 78 - testing/test_terminal.py::TestGenericReporting.test_show_capture
+ok 79 - testing/test_terminal.py::test_fdopen_kept_alive_issue124
+ok 80 - testing/test_terminal.py::test_tbstyle_native_setup_error
+ok 81 - testing/test_terminal.py::test_terminal_summary
+ok 82 - testing/test_terminal.py::test_terminal_summary_warnings_are_displayed
+ok 83 - testing/test_terminal.py::test_summary_stats[red-1 failed-stats_arg0]
+ok 84 - testing/test_terminal.py::test_summary_stats[red-1 failed, 1 passed-stats_arg1]
+ok 85 - testing/test_terminal.py::test_summary_stats[red-1 error-stats_arg2]
+ok 86 - testing/test_terminal.py::test_summary_stats[red-1 passed, 1 error-stats_arg3]
+ok 87 - testing/test_terminal.py::test_summary_stats[yellow-1 weird-stats_arg4]
+ok 88 - testing/test_terminal.py::test_summary_stats[yellow-1 passed, 1 weird-stats_arg5]
+ok 89 - testing/test_terminal.py::test_summary_stats[yellow-1 warnings-stats_arg6]
+ok 90 - testing/test_terminal.py::test_summary_stats[yellow-1 passed, 1 warnings-stats_arg7]
+ok 91 - testing/test_terminal.py::test_summary_stats[green-5 passed-stats_arg8]
+ok 92 - testing/test_terminal.py::test_summary_stats[yellow-1 skipped-stats_arg9]
+ok 93 - testing/test_terminal.py::test_summary_stats[green-1 passed, 1 skipped-stats_arg10]
+ok 94 - testing/test_terminal.py::test_summary_stats[yellow-1 deselected-stats_arg11]
+ok 95 - testing/test_terminal.py::test_summary_stats[green-1 passed, 1 deselected-stats_arg12]
+ok 96 - testing/test_terminal.py::test_summary_stats[yellow-1 xfailed-stats_arg13]
+ok 97 - testing/test_terminal.py::test_summary_stats[green-1 passed, 1 xfailed-stats_arg14]
+ok 98 - testing/test_terminal.py::test_summary_stats[yellow-1 xpassed-stats_arg15]
+ok 99 - testing/test_terminal.py::test_summary_stats[green-1 passed, 1 xpassed-stats_arg16]
+ok 100 - testing/test_terminal.py::test_summary_stats[yellow-no tests ran-stats_arg17]
+ok 101 - testing/test_terminal.py::test_summary_stats[yellow-no tests ran-stats_arg18]
+ok 102 - testing/test_terminal.py::test_summary_stats[green-1 passed-stats_arg19]
+ok 103 - testing/test_terminal.py::test_summary_stats[red-1 failed, 2 passed, 3 xfailed-stats_arg20]
+ok 104 - testing/test_terminal.py::test_summary_stats[green-1 passed, 2 skipped, 3 deselected, 2 xfailed-stats_arg21]
+ok 105 - testing/test_terminal.py::test_no_trailing_whitespace_after_inifile_word
+ok 106 - testing/test_terminal.py::TestProgress.test_zero_tests_collected
+ok 107 - testing/test_terminal.py::TestProgress.test_normal
+ok 108 - testing/test_terminal.py::TestProgress.test_verbose
+ok 109 - testing/test_terminal.py::TestProgress.test_xdist_normal # SKIP could not import 'xdist'
+ok 110 - testing/test_terminal.py::TestProgress.test_xdist_verbose # SKIP could not import 'xdist'
+ok 111 - testing/test_terminal.py::TestProgress.test_capture_no
+ok 112 - testing/test_terminal.py::TestProgressWithTeardown.test_teardown_simple
+ok 113 - testing/test_terminal.py::TestProgressWithTeardown.test_teardown_with_test_also_failing
+ok 114 - testing/test_terminal.py::TestProgressWithTeardown.test_teardown_many
+ok 115 - testing/test_terminal.py::TestProgressWithTeardown.test_teardown_many_verbose
+ok 116 - testing/test_terminal.py::TestProgressWithTeardown.test_xdist_normal # SKIP could not import 'xdist'
+1..116

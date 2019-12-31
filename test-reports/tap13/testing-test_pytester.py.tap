@@ -1,0 +1,25 @@
+# TAP results for testing/test_pytester.py
+ok 1 - testing/test_pytester.py::test_make_hook_recorder # SKIP reason: internal reportrecorder tests need refactoring
+ok 2 - testing/test_pytester.py::test_parseconfig
+ok 3 - testing/test_pytester.py::test_testdir_runs_with_plugin
+ok 4 - testing/test_pytester.py::test_hookrecorder_basic[apiclass]
+ok 5 - testing/test_pytester.py::test_hookrecorder_basic[holder1]
+ok 6 - testing/test_pytester.py::test_makepyfile_unicode
+ok 7 - testing/test_pytester.py::test_makepyfile_utf8
+ok 8 - testing/test_pytester.py::TestInlineRunModulesCleanup.test_inline_run_test_module_not_cleaned_up
+ok 9 - testing/test_pytester.py::TestInlineRunModulesCleanup.test_inline_run_taking_and_restoring_a_sys_modules_snapshot
+ok 10 - testing/test_pytester.py::TestInlineRunModulesCleanup.test_inline_run_sys_modules_snapshot_restore_preserving_modules
+ok 11 - testing/test_pytester.py::TestInlineRunModulesCleanup.test_external_test_module_imports_not_cleaned_up
+ok 12 - testing/test_pytester.py::test_inline_run_clean_sys_paths
+ok 13 - testing/test_pytester.py::test_assert_outcomes_after_pytest_error
+ok 14 - testing/test_pytester.py::test_cwd_snapshot
+ok 15 - testing/test_pytester.py::TestSysModulesSnapshot.test_remove_added
+ok 16 - testing/test_pytester.py::TestSysModulesSnapshot.test_add_removed
+ok 17 - testing/test_pytester.py::TestSysModulesSnapshot.test_restore_reloaded
+ok 18 - testing/test_pytester.py::TestSysModulesSnapshot.test_preserve_modules
+ok 19 - testing/test_pytester.py::TestSysModulesSnapshot.test_preserve_container
+ok 20 - testing/test_pytester.py::TestSysPathsSnapshot.test_restore[path]
+ok 21 - testing/test_pytester.py::TestSysPathsSnapshot.test_restore[meta_path]
+ok 22 - testing/test_pytester.py::TestSysPathsSnapshot.test_preserve_container[path]
+ok 23 - testing/test_pytester.py::TestSysPathsSnapshot.test_preserve_container[meta_path]
+1..23

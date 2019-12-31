@@ -1,0 +1,12 @@
+# TAP results for test_parametrize_with_identical_ids_get_unique_names.py
+ok 1 - test_parametrize_with_identical_ids_get_unique_names.py::test_function[a0]
+not ok 2 - test_parametrize_with_identical_ids_get_unique_names.py::test_function[a1]
+# 
+# a = 1, b = 2
+# 
+#     def test_function(a, b):
+# >       assert a == b
+# E       assert 1 == 2
+# 
+# test_parametrize_with_identical_ids_get_unique_names.py:7: AssertionError
+1..2

@@ -1,0 +1,8 @@
+# TAP results for test_funcarg.py
+ok 1 - test_funcarg.py::test_func[a]
+ok 2 - test_funcarg.py::test_func[b]
+ok 3 - test_funcarg.py::test_func
+ok 4 - test_funcarg.py::test_func
+ok 5 - test_funcarg.py::test_func
+ok 6 - test_funcarg.py::test_func
+1..6

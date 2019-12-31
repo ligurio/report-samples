@@ -1,0 +1,4 @@
+# TAP results for test_p1.py
+ok 1 - test_p1.py::TestMore.test_p1
+ok 2 - test_p1.py::TestMore.test_p1
+1..2

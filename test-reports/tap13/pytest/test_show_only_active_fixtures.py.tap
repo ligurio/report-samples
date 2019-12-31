@@ -1,0 +1,3 @@
+# TAP results for test_show_only_active_fixtures.py
+ok 1 - test_show_only_active_fixtures.py::test_arg1
+1..1

@@ -1,0 +1,5 @@
+# TAP results for test_only_skips_marked_test.py
+ok 1 - test_only_skips_marked_test.py::test_foo # SKIP unconditional skip
+ok 2 - test_only_skips_marked_test.py::test_bar # SKIP nothing in particular
+ok 3 - test_only_skips_marked_test.py::test_baz
+1..3

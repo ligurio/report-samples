@@ -1,0 +1,11 @@
+# TAP results for test_junit_report_for_doctest.py
+not ok 1 - test_junit_report_for_doctest.py::[doctest] test_junit_report_for_doctest.foo
+# 002 
+# 003                 >>> 1 + 1
+# Expected:
+#     3
+# Got:
+#     2
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_junit_report_for_doctest0/test_junit_report_for_doctest.py:3: DocTestFailure
+1..1

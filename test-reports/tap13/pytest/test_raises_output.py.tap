@@ -1,0 +1,9 @@
+# TAP results for test_raises_output.py
+not ok 1 - test_raises_output.py::test_raises_doesnt
+# 
+#     def test_raises_doesnt():
+# >       pytest.raises(ValueError, int, "3")
+# E       Failed: DID NOT RAISE <type 'exceptions.ValueError'>
+# 
+# test_raises_output.py:3: Failed
+1..1

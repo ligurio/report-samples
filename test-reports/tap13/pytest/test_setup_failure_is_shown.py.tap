@@ -1,0 +1,12 @@
+# TAP results for test_setup_failure_is_shown.py
+not ok 1 - test_setup_failure_is_shown.py::TC.test_method
+# 
+# self = <test_setup_failure_is_shown.TC testMethod=test_method>
+# 
+#     def setUp(self):
+# >       assert 0, "down1"
+# E       AssertionError: down1
+# E       assert 0
+# 
+# test_setup_failure_is_shown.py:5: AssertionError
+1..1

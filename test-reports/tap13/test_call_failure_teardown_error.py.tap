@@ -1,0 +1,11 @@
+# TAP results for test_call_failure_teardown_error.py
+not ok 1 - test_call_failure_teardown_error.py::test_function
+# 
+# arg = None
+# 
+#     def test_function(arg):
+# >       raise Exception("Call Exception")
+# E       Exception: Call Exception
+# 
+# test_call_failure_teardown_error.py:8: Exception
+1..1

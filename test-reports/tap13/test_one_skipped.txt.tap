@@ -1,0 +1,3 @@
+# TAP results for test_one_skipped.txt
+ok 1 - test_one_skipped.txt::[doctest] test_one_skipped.txt
+1..1

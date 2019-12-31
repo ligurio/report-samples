@@ -1,0 +1,4 @@
+# TAP results for local/lib/foo/bar/test_bar.py
+ok 1 - local/lib/foo/bar/test_bar.py::test_bar
+ok 2 - local/lib/foo/bar/test_bar.py::test_other
+1..2

@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_and_scope.py
+ok 1 - test_parametrize_and_scope.py::test_param[a]
+ok 2 - test_parametrize_and_scope.py::test_param[b]
+ok 3 - test_parametrize_and_scope.py::test_param[c]
+1..3

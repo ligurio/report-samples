@@ -1,0 +1,3 @@
+# TAP results for test_log_file_cli_level.py
+ok 1 - test_log_file_cli_level.py::test_log_file
+1..1

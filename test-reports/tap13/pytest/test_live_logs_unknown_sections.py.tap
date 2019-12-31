@@ -1,0 +1,3 @@
+# TAP results for test_live_logs_unknown_sections.py
+ok 1 - test_live_logs_unknown_sections.py::test_log_1
+1..1

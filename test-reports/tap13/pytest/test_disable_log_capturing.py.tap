@@ -1,0 +1,12 @@
+# TAP results for test_disable_log_capturing.py
+not ok 1 - test_disable_log_capturing.py::test_foo
+# 
+#     def test_foo():
+#         sys.stdout.write('text going to stdout')
+#         logger.warning('catch me if you can!')
+#         sys.stderr.write('text going to stderr')
+# >       assert False
+# E       assert False
+# 
+# test_disable_log_capturing.py:10: AssertionError
+1..1

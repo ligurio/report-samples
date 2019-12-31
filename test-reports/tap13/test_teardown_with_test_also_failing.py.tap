@@ -1,0 +1,11 @@
+# TAP results for test_teardown_with_test_also_failing.py
+not ok 1 - test_teardown_with_test_also_failing.py::test_foo
+# 
+# fail_teardown = None
+# 
+#     def test_foo(fail_teardown):
+# >       assert False
+# E       assert False
+# 
+# test_teardown_with_test_also_failing.py:2: AssertionError
+1..1

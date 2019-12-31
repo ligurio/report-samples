@@ -1,0 +1,43 @@
+# TAP results for test_something.txt
+not ok 1 - test_something.txt::[doctest] test_something.txt
+# 001 >>> i = 5
+# 002 >>> def foo():
+# 003 ...     raise ValueError('error1')
+# 004 >>> foo()
+# UNEXPECTED EXCEPTION: ValueError('error1',)
+# Traceback (most recent call last):
+# 
+#   File "/usr/lib/python2.7/doctest.py", line 1315, in __run
+#     compileflags, 1) in test.globs
+# 
+#   File "<doctest test_something.txt[2]>", line 1, in <module>
+# 
+#   File "<doctest test_something.txt[1]>", line 2, in foo
+# 
+# ValueError: error1
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_continue_on_failure0/test_something.txt:4: UnexpectedException
+# 001 >>> i = 5
+# 002 >>> def foo():
+# 003 ...     raise ValueError('error1')
+# 004 >>> foo()
+# 005 >>> i
+# Expected nothing
+# Got:
+#     5
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_continue_on_failure0/test_something.txt:5: DocTestFailure
+# 001 >>> i = 5
+# 002 >>> def foo():
+# 003 ...     raise ValueError('error1')
+# 004 >>> foo()
+# 005 >>> i
+# 006 >>> i + 2
+# 007 7
+# 008 >>> i + 1
+# Expected nothing
+# Got:
+#     6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_continue_on_failure0/test_something.txt:8: DocTestFailure
+1..1

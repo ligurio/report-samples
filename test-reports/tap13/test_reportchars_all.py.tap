@@ -1,0 +1,12 @@
+# TAP results for test_reportchars_all.py
+not ok 1 - test_reportchars_all.py::test_1
+# 
+#     def test_1():
+# >       assert 0
+# E       assert 0
+# 
+# test_reportchars_all.py:3: AssertionError
+ok 2 - test_reportchars_all.py::test_2 # SKIP 
+ok 3 - test_reportchars_all.py::test_3
+ok 4 - test_reportchars_all.py::test_4 # SKIP four
+1..4

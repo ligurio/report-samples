@@ -1,0 +1,11 @@
+# TAP results for test_failed.py
+ok 1 - test_failed.py::test_pass
+not ok 2 - test_failed.py::test_fail
+# 
+#     def test_fail():
+# >       assert 0
+# E       assert 0
+# 
+# test_failed.py:5: AssertionError
+ok 3 - test_failed.py::test_skip # SKIP <Skipped instance>
+1..3

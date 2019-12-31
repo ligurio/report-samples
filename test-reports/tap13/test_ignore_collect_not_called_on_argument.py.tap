@@ -1,0 +1,3 @@
+# TAP results for test_ignore_collect_not_called_on_argument.py
+ok 1 - test_ignore_collect_not_called_on_argument.py::test_hello
+1..1

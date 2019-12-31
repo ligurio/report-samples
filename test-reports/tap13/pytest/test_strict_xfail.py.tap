@@ -1,0 +1,5 @@
+# TAP results for test_strict_xfail.py
+not ok 1 - test_strict_xfail.py::test_foo
+# [XPASS(strict)] unsupported feature
+ok 2 - test_strict_xfail.py::test_foo
+1..2

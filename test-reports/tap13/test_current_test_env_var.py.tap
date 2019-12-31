@@ -1,0 +1,3 @@
+# TAP results for test_current_test_env_var.py
+ok 1 - test_current_test_env_var.py::test
+1..1

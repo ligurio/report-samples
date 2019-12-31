@@ -1,0 +1,3 @@
+# TAP results for test_direct_addressing_selects.py
+ok 1 - test_direct_addressing_selects.py::test_func[1]
+1..1

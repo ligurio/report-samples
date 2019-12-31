@@ -1,0 +1,4 @@
+# TAP results for test_logstart_logfinish_hooks.py
+ok 1 - test_logstart_logfinish_hooks.py::test_func
+ok 2 - test_logstart_logfinish_hooks.py::test_func
+1..2

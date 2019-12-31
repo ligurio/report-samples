@@ -1,0 +1,4 @@
+# TAP results for test_teardown.py
+ok 1 - test_teardown.py::MyTestCase.test_one
+ok 2 - test_teardown.py::Second.test_check
+1..2

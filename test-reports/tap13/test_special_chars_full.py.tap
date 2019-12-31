@@ -1,0 +1,11 @@
+# TAP results for test_special_chars_full.py
+not ok 1 - test_special_chars_full.py::test_foo
+# 
+#     def test_foo():
+# >       assert '\n}' == ''
+# E       AssertionError: assert '\n}' == ''
+# E         - 
+# E         - }
+# 
+# test_special_chars_full.py:2: AssertionError
+1..1

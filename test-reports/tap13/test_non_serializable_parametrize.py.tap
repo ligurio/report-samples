@@ -1,0 +1,14 @@
+# TAP results for test_non_serializable_parametrize.py
+not ok 1 - test_non_serializable_parametrize.py::test_fail[\xac\x10\x02G]
+# 
+# val = '\xac\x10\x02G'
+# 
+#     @pytest.mark.parametrize('val', [
+#         b'\xac\x10\x02G',
+#     ])
+#     def test_fail(val):
+# >       assert False
+# E       assert False
+# 
+# test_non_serializable_parametrize.py:7: AssertionError
+1..1

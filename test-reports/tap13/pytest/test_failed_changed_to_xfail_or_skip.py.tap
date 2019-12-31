@@ -1,0 +1,18 @@
+# TAP results for test_failed_changed_to_xfail_or_skip.py
+not ok 1 - test_failed_changed_to_xfail_or_skip.py::test
+# 
+#     def test():
+# >       assert 0
+# E       assert 0
+# 
+# test_failed_changed_to_xfail_or_skip.py:3: AssertionError
+ok 2 - test_failed_changed_to_xfail_or_skip.py::test # SKIP 
+not ok 3 - test_failed_changed_to_xfail_or_skip.py::test
+# 
+#     def test():
+# >       assert 0
+# E       assert 0
+# 
+# test_failed_changed_to_xfail_or_skip.py:3: AssertionError
+ok 4 - test_failed_changed_to_xfail_or_skip.py::test # SKIP unconditional skip
+1..4

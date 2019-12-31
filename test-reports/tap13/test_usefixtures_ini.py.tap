@@ -1,0 +1,4 @@
+# TAP results for test_usefixtures_ini.py
+ok 1 - test_usefixtures_ini.py::TestClass.test_one
+ok 2 - test_usefixtures_ini.py::TestClass.test_two
+1..2

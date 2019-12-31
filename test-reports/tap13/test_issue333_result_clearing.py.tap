@@ -1,0 +1,11 @@
+# TAP results for test_issue333_result_clearing.py
+not ok 1 - test_issue333_result_clearing.py::TestIt.test_func
+# 
+# self = <test_issue333_result_clearing.TestIt testMethod=test_func>
+# 
+#     def test_func(self):
+# >       0/0
+# E       ZeroDivisionError: integer division or modulo by zero
+# 
+# test_issue333_result_clearing.py:4: ZeroDivisionError
+1..1

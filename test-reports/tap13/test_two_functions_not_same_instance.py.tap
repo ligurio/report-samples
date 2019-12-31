@@ -1,0 +1,4 @@
+# TAP results for test_two_functions_not_same_instance.py
+ok 1 - test_two_functions_not_same_instance.py::TestClass.test_func[0]
+ok 2 - test_two_functions_not_same_instance.py::TestClass.test_func[1]
+1..2

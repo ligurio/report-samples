@@ -1,0 +1,4 @@
+# TAP results for test_rerun.py
+ok 1 - test_rerun.py::test_fix
+ok 2 - test_rerun.py::test_fix
+1..2

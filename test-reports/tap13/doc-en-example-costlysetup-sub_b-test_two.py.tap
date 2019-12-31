@@ -1,0 +1,4 @@
+# TAP results for doc/en/example/costlysetup/sub_b/test_two.py
+ok 1 - doc/en/example/costlysetup/sub_b/test_two.py::test_something
+ok 2 - doc/en/example/costlysetup/sub_b/test_two.py::test_something_more
+1..2

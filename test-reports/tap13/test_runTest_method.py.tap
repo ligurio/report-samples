@@ -1,0 +1,4 @@
+# TAP results for test_runTest_method.py
+ok 1 - test_runTest_method.py::MyTestCaseWithRunTest.runTest
+ok 2 - test_runTest_method.py::MyTestCaseWithoutRunTest.test_something
+1..2

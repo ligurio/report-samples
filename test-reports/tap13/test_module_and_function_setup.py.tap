@@ -1,0 +1,4 @@
+# TAP results for test_module_and_function_setup.py
+ok 1 - test_module_and_function_setup.py::test_modlevel
+ok 2 - test_module_and_function_setup.py::TestFromClass.test_module
+1..2

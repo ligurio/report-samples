@@ -1,0 +1,16 @@
+# TAP results for test_sequence_comparison_uses_repr.py
+not ok 1 - test_sequence_comparison_uses_repr.py::test_hello
+# 
+#     def test_hello():
+#         x = set("hello x")
+#         y = set("hello y")
+# >       assert x == y
+# E       AssertionError: assert set([' ', 'e'...l', 'o', 'x']) == set([' ', 'e',...l', 'o', 'y'])
+# E         Extra items in the left set:
+# E         'x'
+# E         Extra items in the right set:
+# E         'y'
+# E         Use -v to get the full diff
+# 
+# test_sequence_comparison_uses_repr.py:4: AssertionError
+1..1

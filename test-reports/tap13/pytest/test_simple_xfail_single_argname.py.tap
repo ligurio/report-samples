@@ -1,0 +1,5 @@
+# TAP results for test_simple_xfail_single_argname.py
+ok 1 - test_simple_xfail_single_argname.py::test_isEven[2]
+ok 2 - test_simple_xfail_single_argname.py::test_isEven[3] # SKIP 
+ok 3 - test_simple_xfail_single_argname.py::test_isEven[4]
+1..3

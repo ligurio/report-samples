@@ -1,0 +1,3 @@
+# TAP results for test_parametrize_on_setup_arg.py
+ok 1 - test_parametrize_on_setup_arg.py::test_func[1]
+1..1

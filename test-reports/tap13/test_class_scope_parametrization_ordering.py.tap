@@ -1,0 +1,8 @@
+# TAP results for test_class_scope_parametrization_ordering.py
+ok 1 - test_class_scope_parametrization_ordering.py::TestGreetings.test_hello[John]
+ok 2 - test_class_scope_parametrization_ordering.py::TestGreetings.test_hello[Doe]
+ok 3 - test_class_scope_parametrization_ordering.py::TestMetrics.test_name[John]
+ok 4 - test_class_scope_parametrization_ordering.py::TestMetrics.test_population[John]
+ok 5 - test_class_scope_parametrization_ordering.py::TestMetrics.test_name[Doe]
+ok 6 - test_class_scope_parametrization_ordering.py::TestMetrics.test_population[Doe]
+1..6

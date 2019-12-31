@@ -1,0 +1,4 @@
+# TAP results for ns_pkg/world/test_world.py
+ok 1 - ns_pkg/world/test_world.py::test_world
+ok 2 - ns_pkg/world/test_world.py::test_other
+1..2

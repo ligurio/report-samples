@@ -1,0 +1,3 @@
+# TAP results for test_lastfailed_xpass.py
+ok 1 - test_lastfailed_xpass.py::test_hello
+1..1

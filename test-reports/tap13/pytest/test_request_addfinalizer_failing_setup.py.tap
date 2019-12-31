@@ -1,0 +1,3 @@
+# TAP results for test_request_addfinalizer_failing_setup.py
+ok 1 - test_request_addfinalizer_failing_setup.py::test_finalizer_ran
+1..1

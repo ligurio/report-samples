@@ -1,0 +1,26 @@
+# TAP results for testing/python/setup_only.py
+ok 1 - testing/python/setup_only.py::test_show_only_active_fixtures[--setup-only]
+ok 2 - testing/python/setup_only.py::test_show_different_scopes[--setup-only]
+ok 3 - testing/python/setup_only.py::test_show_nested_fixtures[--setup-only]
+ok 4 - testing/python/setup_only.py::test_show_fixtures_with_autouse[--setup-only]
+ok 5 - testing/python/setup_only.py::test_show_fixtures_with_parameters[--setup-only]
+ok 6 - testing/python/setup_only.py::test_show_fixtures_with_parameter_ids[--setup-only]
+ok 7 - testing/python/setup_only.py::test_show_fixtures_with_parameter_ids_function[--setup-only]
+ok 8 - testing/python/setup_only.py::test_show_only_active_fixtures[--setup-plan]
+ok 9 - testing/python/setup_only.py::test_show_different_scopes[--setup-plan]
+ok 10 - testing/python/setup_only.py::test_show_nested_fixtures[--setup-plan]
+ok 11 - testing/python/setup_only.py::test_show_fixtures_with_autouse[--setup-plan]
+ok 12 - testing/python/setup_only.py::test_show_fixtures_with_parameters[--setup-plan]
+ok 13 - testing/python/setup_only.py::test_show_fixtures_with_parameter_ids[--setup-plan]
+ok 14 - testing/python/setup_only.py::test_show_fixtures_with_parameter_ids_function[--setup-plan]
+ok 15 - testing/python/setup_only.py::test_show_only_active_fixtures[--setup-show]
+ok 16 - testing/python/setup_only.py::test_show_different_scopes[--setup-show]
+ok 17 - testing/python/setup_only.py::test_show_nested_fixtures[--setup-show]
+ok 18 - testing/python/setup_only.py::test_show_fixtures_with_autouse[--setup-show]
+ok 19 - testing/python/setup_only.py::test_show_fixtures_with_parameters[--setup-show]
+ok 20 - testing/python/setup_only.py::test_show_fixtures_with_parameter_ids[--setup-show]
+ok 21 - testing/python/setup_only.py::test_show_fixtures_with_parameter_ids_function[--setup-show]
+ok 22 - testing/python/setup_only.py::test_dynamic_fixture_request
+ok 23 - testing/python/setup_only.py::test_capturing
+ok 24 - testing/python/setup_only.py::test_show_fixtures_and_execute_test
+1..24

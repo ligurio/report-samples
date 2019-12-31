@@ -1,0 +1,44 @@
+# TAP results for test_doc.txt
+not ok 1 - test_doc.txt::[doctest] test_doc.txt
+# 001 >>> x = 1
+# 002 >>> x == 1
+# Expected:
+#     False
+# Got:
+#     True
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_simple_doctestfile0/test_doc.txt:2: DocTestFailure
+ok 2 - test_doc.txt::[doctest] test_doc.txt
+ok 3 - test_doc.txt::[doctest] test_doc.txt
+ok 4 - test_doc.txt::[doctest] test_doc.txt
+ok 5 - test_doc.txt::[doctest] test_doc.txt
+not ok 6 - test_doc.txt::[doctest] test_doc.txt
+# 001 >>> b'12'.decode('ascii')
+# Expected:
+#     '12'
+# Got:
+#     u'12'
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_unicode_string0/test_doc.txt:1: DocTestFailure
+ok 7 - test_doc.txt::[doctest] test_doc.txt
+ok 8 - test_doc.txt::[doctest] test_doc.txt
+ok 9 - test_doc.txt::[doctest] test_doc.txt
+ok 10 - test_doc.txt::[doctest] test_doc.txt
+ok 11 - test_doc.txt::[doctest] test_doc.txt
+ok 12 - test_doc.txt::[doctest] test_doc.txt
+ok 13 - test_doc.txt::[doctest] test_doc.txt
+ok 14 - test_doc.txt::[doctest] test_doc.txt
+ok 15 - test_doc.txt::[doctest] test_doc.txt
+ok 16 - test_doc.txt::[doctest] test_doc.txt
+ok 17 - test_doc.txt::[doctest] test_doc.txt
+ok 18 - test_doc.txt::[doctest] test_doc.txt
+ok 19 - test_doc.txt::[doctest] test_doc.txt
+ok 20 - test_doc.txt::[doctest] test_doc.txt
+ok 21 - test_doc.txt::[doctest] test_doc.txt
+ok 22 - test_doc.txt::[doctest] test_doc.txt
+ok 23 - test_doc.txt::[doctest] test_doc.txt
+ok 24 - test_doc.txt::[doctest] test_doc.txt
+ok 25 - test_doc.txt::[doctest] test_doc.txt
+ok 26 - test_doc.txt::[doctest] test_doc.txt
+ok 27 - test_doc.txt::[doctest] test_doc.txt
+1..27

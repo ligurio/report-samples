@@ -1,0 +1,8 @@
+# TAP results for testing/python/show_fixtures_per_test.py
+ok 1 - testing/python/show_fixtures_per_test.py::test_no_items_should_not_show_output
+ok 2 - testing/python/show_fixtures_per_test.py::test_fixtures_in_module
+ok 3 - testing/python/show_fixtures_per_test.py::test_fixtures_in_conftest
+ok 4 - testing/python/show_fixtures_per_test.py::test_should_show_fixtures_used_by_test
+ok 5 - testing/python/show_fixtures_per_test.py::test_verbose_include_private_fixtures_and_loc
+ok 6 - testing/python/show_fixtures_per_test.py::test_doctest_items
+1..6

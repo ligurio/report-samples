@@ -1,0 +1,3 @@
+# TAP results for test_cache_reportheader.py
+ok 1 - test_cache_reportheader.py::test_hello
+1..1

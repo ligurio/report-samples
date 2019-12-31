@@ -1,0 +1,4 @@
+# TAP results for test_parametrize_with_non_hashable_values.py
+ok 1 - test_parametrize_with_non_hashable_values.py::test_archival_to_version[1.2.2a1-value0]
+ok 2 - test_parametrize_with_non_hashable_values.py::test_archival_to_version[1.0-value1]
+1..2

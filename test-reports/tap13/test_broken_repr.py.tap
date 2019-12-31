@@ -1,0 +1,14 @@
+# TAP results for test_broken_repr.py
+ok 1 - test_broken_repr.py::TestBrokenClass.test_explicit_bad_repr
+not ok 2 - test_broken_repr.py::TestBrokenClass.test_implicit_bad_repr1
+# 
+# self = <test_broken_repr.TestBrokenClass object at 0x7fa010491d10>
+# 
+#     def test_implicit_bad_repr1(self):
+#         t = BrokenRepr1()
+# >       assert t.foo == 1
+# E       assert 0 == 1
+# E        +  where 0 = <[Exception("Ha Ha fooled you, I'm a broken repr().") raised in repr()] SafeRepr object at 0x7fa010e471b8>.foo
+# 
+# test_broken_repr.py:14: AssertionError
+1..2

@@ -1,0 +1,4 @@
+# TAP results for test_fixture_values_leak.py
+ok 1 - test_fixture_values_leak.py::test1
+ok 2 - test_fixture_values_leak.py::test2
+1..2

@@ -1,0 +1,18 @@
+# TAP results for test_capture_and_fixtures.py
+not ok 1 - test_capture_and_fixtures.py::test_func1
+# 
+#     def test_func1():
+#         print ("in func1")
+# >       assert 0
+# E       assert 0
+# 
+# test_capture_and_fixtures.py:7: AssertionError
+not ok 2 - test_capture_and_fixtures.py::test_func2
+# 
+#     def test_func2():
+#         print ("in func2")
+# >       assert 0
+# E       assert 0
+# 
+# test_capture_and_fixtures.py:10: AssertionError
+1..2

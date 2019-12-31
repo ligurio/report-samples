@@ -1,0 +1,6 @@
+# TAP results for test_exact_teardown_issue90.py
+ok 1 - test_exact_teardown_issue90.py::TestClass.test_method
+ok 2 - test_exact_teardown_issue90.py::test_func
+ok 3 - test_exact_teardown_issue90.py::TestClass.test_method
+ok 4 - test_exact_teardown_issue90.py::test_func
+1..4

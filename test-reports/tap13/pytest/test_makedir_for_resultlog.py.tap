@@ -1,0 +1,3 @@
+# TAP results for test_makedir_for_resultlog.py
+ok 1 - test_makedir_for_resultlog.py::test_pass
+1..1

@@ -1,0 +1,11 @@
+# TAP results for testing/logging/test_fixture.py
+ok 1 - testing/logging/test_fixture.py::test_fixture_help
+ok 2 - testing/logging/test_fixture.py::test_change_level
+ok 3 - testing/logging/test_fixture.py::test_change_level_undo
+ok 4 - testing/logging/test_fixture.py::test_with_statement
+ok 5 - testing/logging/test_fixture.py::test_log_access
+ok 6 - testing/logging/test_fixture.py::test_record_tuples
+ok 7 - testing/logging/test_fixture.py::test_unicode
+ok 8 - testing/logging/test_fixture.py::test_clear
+ok 9 - testing/logging/test_fixture.py::test_caplog_captures_for_all_stages
+1..9

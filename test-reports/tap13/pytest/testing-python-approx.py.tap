@@ -1,0 +1,39 @@
+# TAP results for testing/python/approx.py
+ok 1 - testing/python/approx.py::TestApprox.test_repr_string
+ok 2 - testing/python/approx.py::TestApprox.test_operator_overloading
+ok 3 - testing/python/approx.py::TestApprox.test_exactly_equal
+ok 4 - testing/python/approx.py::TestApprox.test_opposite_sign
+ok 5 - testing/python/approx.py::TestApprox.test_zero_tolerance
+ok 6 - testing/python/approx.py::TestApprox.test_negative_tolerance
+ok 7 - testing/python/approx.py::TestApprox.test_inf_tolerance
+ok 8 - testing/python/approx.py::TestApprox.test_inf_tolerance_expecting_zero
+ok 9 - testing/python/approx.py::TestApprox.test_nan_tolerance
+ok 10 - testing/python/approx.py::TestApprox.test_reasonable_defaults
+ok 11 - testing/python/approx.py::TestApprox.test_default_tolerances
+ok 12 - testing/python/approx.py::TestApprox.test_custom_tolerances
+ok 13 - testing/python/approx.py::TestApprox.test_relative_tolerance
+ok 14 - testing/python/approx.py::TestApprox.test_absolute_tolerance
+ok 15 - testing/python/approx.py::TestApprox.test_expecting_zero
+ok 16 - testing/python/approx.py::TestApprox.test_expecting_inf
+ok 17 - testing/python/approx.py::TestApprox.test_expecting_nan
+ok 18 - testing/python/approx.py::TestApprox.test_int
+ok 19 - testing/python/approx.py::TestApprox.test_decimal
+ok 20 - testing/python/approx.py::TestApprox.test_fraction
+ok 21 - testing/python/approx.py::TestApprox.test_complex
+ok 22 - testing/python/approx.py::TestApprox.test_list
+ok 23 - testing/python/approx.py::TestApprox.test_list_wrong_len
+ok 24 - testing/python/approx.py::TestApprox.test_tuple
+ok 25 - testing/python/approx.py::TestApprox.test_tuple_wrong_len
+ok 26 - testing/python/approx.py::TestApprox.test_dict
+ok 27 - testing/python/approx.py::TestApprox.test_dict_wrong_len
+ok 28 - testing/python/approx.py::TestApprox.test_numpy_array # SKIP could not import 'numpy'
+ok 29 - testing/python/approx.py::TestApprox.test_numpy_array_wrong_shape # SKIP could not import 'numpy'
+ok 30 - testing/python/approx.py::TestApprox.test_doctests
+ok 31 - testing/python/approx.py::TestApprox.test_unicode_plus_minus
+ok 32 - testing/python/approx.py::TestApprox.test_comparison_operator_type_error[<=]
+ok 33 - testing/python/approx.py::TestApprox.test_comparison_operator_type_error[<]
+ok 34 - testing/python/approx.py::TestApprox.test_comparison_operator_type_error[>=]
+ok 35 - testing/python/approx.py::TestApprox.test_comparison_operator_type_error[>]
+ok 36 - testing/python/approx.py::TestApprox.test_numpy_array_with_scalar # SKIP could not import 'numpy'
+ok 37 - testing/python/approx.py::TestApprox.test_numpy_scalar_with_array # SKIP could not import 'numpy'
+1..37

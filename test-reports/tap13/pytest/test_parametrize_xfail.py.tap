@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_xfail.py
+ok 1 - test_parametrize_xfail.py::test_xfail[0]
+ok 2 - test_parametrize_xfail.py::test_xfail[1]
+ok 3 - test_parametrize_xfail.py::test_xfail[2] # SKIP condition: True
+1..3

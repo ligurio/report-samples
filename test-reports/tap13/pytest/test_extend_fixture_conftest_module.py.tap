@@ -1,0 +1,4 @@
+# TAP results for test_extend_fixture_conftest_module.py
+ok 1 - test_extend_fixture_conftest_module.py::test_spam
+ok 2 - test_extend_fixture_conftest_module.py::test_spam
+1..2

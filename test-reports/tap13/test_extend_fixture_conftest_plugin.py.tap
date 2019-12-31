@@ -1,0 +1,3 @@
+# TAP results for test_extend_fixture_conftest_plugin.py
+ok 1 - test_extend_fixture_conftest_plugin.py::test_foo
+1..1

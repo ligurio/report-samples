@@ -1,0 +1,14 @@
+# TAP results for test_capturing_getfixturevalue.py
+not ok 1 - test_capturing_getfixturevalue.py::test_one
+# file /tmp/pytest-of-sergeyb/pytest-28/test_capturing_getfixturevalue0/test_capturing_getfixturevalue.py, line 1
+#   def test_one(capsys, request):
+# E       cannot use capsys and capfd at the same time
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_capturing_getfixturevalue0/test_capturing_getfixturevalue.py:1
+not ok 2 - test_capturing_getfixturevalue.py::test_two
+# file /tmp/pytest-of-sergeyb/pytest-28/test_capturing_getfixturevalue0/test_capturing_getfixturevalue.py, line 3
+#   def test_two(capfd, request):
+# E       cannot use capfd and capsys at the same time
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_capturing_getfixturevalue0/test_capturing_getfixturevalue.py:3
+1..2

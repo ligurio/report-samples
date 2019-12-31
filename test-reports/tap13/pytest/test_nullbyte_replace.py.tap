@@ -1,0 +1,11 @@
+# TAP results for test_nullbyte_replace.py
+not ok 1 - test_nullbyte_replace.py::test_print_nullbyte
+# 
+#     def test_print_nullbyte():
+#         sys.stdout.write('Here the null -->' + chr(0) + '<--')
+#         sys.stdout.write('In repr form -->' + repr(chr(0)) + '<--')
+# >       assert False
+# E       assert False
+# 
+# test_nullbyte_replace.py:5: AssertionError
+1..1

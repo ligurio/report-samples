@@ -1,0 +1,241 @@
+# TAP results for testing/test_doctest.py
+ok 1 - testing/test_doctest.py::TestDoctests.test_collect_testtextfile
+ok 2 - testing/test_doctest.py::TestDoctests.test_collect_module_empty
+ok 3 - testing/test_doctest.py::TestDoctests.test_collect_module_single_modulelevel_doctest
+ok 4 - testing/test_doctest.py::TestDoctests.test_collect_module_two_doctest_one_modulelevel
+ok 5 - testing/test_doctest.py::TestDoctests.test_collect_module_two_doctest_no_modulelevel
+ok 6 - testing/test_doctest.py::TestDoctests.test_simple_doctestfile
+ok 7 - testing/test_doctest.py::TestDoctests.test_new_pattern
+ok 8 - testing/test_doctest.py::TestDoctests.test_multiple_patterns
+ok 9 - testing/test_doctest.py::TestDoctests.test_encoding[foo-ascii]
+ok 10 - testing/test_doctest.py::TestDoctests.test_encoding[\xf6\xe4\xfc-latin1]
+ok 11 - testing/test_doctest.py::TestDoctests.test_encoding[\xf6\xe4\xfc-utf-8]
+ok 12 - testing/test_doctest.py::TestDoctests.test_doctest_unexpected_exception
+ok 13 - testing/test_doctest.py::TestDoctests.test_docstring_partial_context_around_error
+ok 14 - testing/test_doctest.py::TestDoctests.test_docstring_full_context_around_error
+ok 15 - testing/test_doctest.py::TestDoctests.test_doctest_linedata_missing
+ok 16 - testing/test_doctest.py::TestDoctests.test_doctest_unex_importerror_only_txt
+ok 17 - testing/test_doctest.py::TestDoctests.test_doctest_unex_importerror_with_module
+ok 18 - testing/test_doctest.py::TestDoctests.test_doctestmodule
+ok 19 - testing/test_doctest.py::TestDoctests.test_doctestmodule_external_and_issue116
+ok 20 - testing/test_doctest.py::TestDoctests.test_txtfile_failing
+ok 21 - testing/test_doctest.py::TestDoctests.test_txtfile_with_fixtures
+ok 22 - testing/test_doctest.py::TestDoctests.test_txtfile_with_usefixtures_in_ini
+ok 23 - testing/test_doctest.py::TestDoctests.test_doctestmodule_with_fixtures
+ok 24 - testing/test_doctest.py::TestDoctests.test_doctestmodule_three_tests
+ok 25 - testing/test_doctest.py::TestDoctests.test_doctestmodule_two_tests_one_fail
+ok 26 - testing/test_doctest.py::TestDoctests.test_ignored_whitespace
+ok 27 - testing/test_doctest.py::TestDoctests.test_non_ignored_whitespace
+ok 28 - testing/test_doctest.py::TestDoctests.test_ignored_whitespace_glob
+ok 29 - testing/test_doctest.py::TestDoctests.test_non_ignored_whitespace_glob
+ok 30 - testing/test_doctest.py::TestDoctests.test_contains_unicode
+ok 31 - testing/test_doctest.py::TestDoctests.test_ignore_import_errors_on_doctest
+ok 32 - testing/test_doctest.py::TestDoctests.test_junit_report_for_doctest
+not ok 33 - testing/test_doctest.py::TestDoctests.test_unicode_doctest
+# 
+# self = <test_doctest.TestDoctests object at 0x7fa010cedd10>
+# testdir = <Testdir local('/tmp/pytest-of-sergeyb/pytest-28/test_unicode_doctest0')>
+# 
+#     def test_unicode_doctest(self, testdir):
+#         """
+#             Test case for issue 2434: DecodeError on Python 2 when doctest contains non-ascii
+#             characters.
+#             """
+#         p = testdir.maketxtfile(test_unicode_doctest="""
+#                 .. doctest::
+#     
+#                     >>> print(
+#                     ...    "Hi\\n\\nByé")
+#                     Hi
+#                     ...
+#                     Byé
+#                     >>> 1/0  # Byé
+#                     1
+#             """)
+#         result = testdir.runpytest(p)
+#         result.stdout.fnmatch_lines([
+#             '*UNEXPECTED EXCEPTION: ZeroDivisionError*',
+# >           '*1 failed*',
+#         ])
+# 
+# /home/sergeyb/Downloads/pytest/testing/test_doctest.py:552: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_pytest.pytester.LineMatcher object at 0x7fa011c592d0>, lines2 = ['*UNEXPECTED EXCEPTION: ZeroDivisionError*', '*1 failed*']
+# 
+#     def fnmatch_lines(self, lines2):
+#         """Search captured text for matching lines using ``fnmatch.fnmatch``.
+#     
+#             The argument is a list of lines which have to match and can use glob
+#             wildcards.  If they do not match a pytest.fail() is called.  The
+#             matches and non-matches are also printed on stdout.
+#     
+#             """
+# >       self._match_lines(lines2, fnmatch, 'fnmatch')
+# E       Failed: nomatch: '*UNEXPECTED EXCEPTION: ZeroDivisionError*'
+# E           and: u'============================= test session starts =============================='
+# E           and: u'platform linux2 -- Python 2.7.14, pytest-3.5.0, py-1.5.3, pluggy-0.6.0'
+# E           and: u'rootdir: /tmp/pytest-of-sergeyb/pytest-28/test_unicode_doctest0, inifile:'
+# E           and: u'plugins: tap-2.2, hypothesis-3.55.1'
+# E           and: u'collected 1 item'
+# E           and: u''
+# E           and: u'test_unicode_doctest.txt F'
+# E           and: u'INTERNALERROR> Traceback (most recent call last):'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 107, in wrap_session'
+# E           and: u'INTERNALERROR>     session.exitstatus = doit(config, session) or 0'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 145, in _main'
+# E           and: u'INTERNALERROR>     config.hook.pytest_runtestloop(session=session)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 168, in pytest_runtestloop'
+# E           and: u'INTERNALERROR>     item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 62, in pytest_runtest_protocol'
+# E           and: u'INTERNALERROR>     runtestprotocol(item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 79, in runtestprotocol'
+# E           and: u'INTERNALERROR>     reports.append(call_and_report(item, "call", log))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 162, in call_and_report'
+# E           and: u'INTERNALERROR>     hook.pytest_runtest_logreport(report=report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 68, in pytest_runtest_logreport'
+# E           and: u'INTERNALERROR>     diagnostics = _make_as_diagnostics(report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 82, in _make_as_diagnostics'
+# E           and: u'INTERNALERROR>     report.toterminal(tw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 233, in toterminal'
+# E           and: u'INTERNALERROR>     longrepr.toterminal(out)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/doctest.py", line 94, in toterminal'
+# E           and: u'INTERNALERROR>     tw.line(line)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 234, in line'
+# E           and: u'INTERNALERROR>     self.write(s, **kw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 224, in write'
+# E           and: u'INTERNALERROR>     write_out(self._file, markupmsg)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 372, in write_out'
+# E           and: u'INTERNALERROR>     if fil.encoding:'
+# E           and: u"INTERNALERROR> AttributeError: 'cStringIO.StringO' object has no attribute 'encoding'"
+# E           and: u''
+# E           and: u'=========================== 1 failed in 0.01 seconds ==========================='
+# E           and: u''
+# E       remains unmatched: '*UNEXPECTED EXCEPTION: ZeroDivisionError*'
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/pytester.py:1175: Failed
+ok 34 - testing/test_doctest.py::TestDoctests.test_unicode_doctest_module
+ok 35 - testing/test_doctest.py::TestDoctests.test_reportinfo
+ok 36 - testing/test_doctest.py::TestDoctests.test_valid_setup_py
+ok 37 - testing/test_doctest.py::TestDoctests.test_invalid_setup_py
+ok 38 - testing/test_doctest.py::TestLiterals.test_allow_unicode[ini]
+ok 39 - testing/test_doctest.py::TestLiterals.test_allow_unicode[comment]
+ok 40 - testing/test_doctest.py::TestLiterals.test_allow_bytes[ini]
+ok 41 - testing/test_doctest.py::TestLiterals.test_allow_bytes[comment]
+ok 42 - testing/test_doctest.py::TestLiterals.test_unicode_string
+ok 43 - testing/test_doctest.py::TestLiterals.test_bytes_literal
+ok 44 - testing/test_doctest.py::TestDoctestSkips.test_one_skipped[text]
+ok 45 - testing/test_doctest.py::TestDoctestSkips.test_one_skipped[module]
+ok 46 - testing/test_doctest.py::TestDoctestSkips.test_one_skipped_failed[text]
+ok 47 - testing/test_doctest.py::TestDoctestSkips.test_one_skipped_failed[module]
+ok 48 - testing/test_doctest.py::TestDoctestSkips.test_all_skipped[text]
+ok 49 - testing/test_doctest.py::TestDoctestSkips.test_all_skipped[module]
+ok 50 - testing/test_doctest.py::TestDoctestSkips.test_vacuous_all_skipped[text]
+ok 51 - testing/test_doctest.py::TestDoctestSkips.test_vacuous_all_skipped[module]
+ok 52 - testing/test_doctest.py::TestDoctestSkips.test_continue_on_failure
+ok 53 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_doctest_module_session_fixture
+ok 54 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[True-module]
+ok 55 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[True-session]
+ok 56 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[True-class]
+ok 57 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[True-function]
+ok 58 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[False-module]
+ok 59 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[False-session]
+ok 60 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[False-class]
+ok 61 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_scopes[False-function]
+ok 62 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-True-module]
+ok 63 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-True-session]
+ok 64 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-True-class]
+ok 65 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-True-function]
+ok 66 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-False-module]
+ok 67 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-False-session]
+ok 68 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-False-class]
+ok 69 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[True-False-function]
+ok 70 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-True-module]
+ok 71 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-True-session]
+ok 72 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-True-class]
+ok 73 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-True-function]
+ok 74 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-False-module]
+ok 75 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-False-session]
+ok 76 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-False-class]
+ok 77 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_fixture_module_doctest_scopes[False-False-function]
+ok 78 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_auto_use_request_attributes[module]
+ok 79 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_auto_use_request_attributes[session]
+ok 80 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_auto_use_request_attributes[class]
+ok 81 - testing/test_doctest.py::TestDoctestAutoUseFixtures.test_auto_use_request_attributes[function]
+ok 82 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_doctestfile[module]
+ok 83 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_doctestfile[session]
+ok 84 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_doctestfile[class]
+ok 85 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_doctestfile[function]
+ok 86 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_pyfile[module]
+ok 87 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_pyfile[session]
+ok 88 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_pyfile[class]
+ok 89 - testing/test_doctest.py::TestDoctestNamespaceFixture.test_namespace_pyfile[function]
+ok 90 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_udiff[udiff]
+ok 91 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_udiff[UDIFF]
+ok 92 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_udiff[uDiFf]
+ok 93 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_cdiff
+ok 94 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_ndiff
+ok 95 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_none_or_only_first_failure[none]
+ok 96 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_none_or_only_first_failure[only_first_failure]
+ok 97 - testing/test_doctest.py::TestDoctestReportingOption.test_doctest_report_invalid
+1..97

@@ -1,0 +1,3 @@
+# TAP results for test_capfdbinary.py
+ok 1 - test_capfdbinary.py::test_hello
+1..1

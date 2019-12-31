@@ -1,0 +1,12 @@
+# TAP results for test_one_skipped_failed.txt
+not ok 1 - test_one_skipped_failed.txt::[doctest] test_one_skipped_failed.txt
+# 001 >>> 1 + 1  # doctest: +SKIP
+# 002 2
+# 003 >>> 2 + 2
+# Expected:
+#     200
+# Got:
+#     4
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_one_skipped_failed0/test_one_skipped_failed.txt:3: DocTestFailure
+1..1

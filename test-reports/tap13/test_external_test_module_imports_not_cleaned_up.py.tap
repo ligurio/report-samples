@@ -1,0 +1,3 @@
+# TAP results for test_external_test_module_imports_not_cleaned_up.py
+ok 1 - test_external_test_module_imports_not_cleaned_up.py::test_foo
+1..1

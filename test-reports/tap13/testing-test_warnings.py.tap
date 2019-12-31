@@ -1,0 +1,15 @@
+# TAP results for testing/test_warnings.py
+ok 1 - testing/test_warnings.py::test_normal_flow
+ok 2 - testing/test_warnings.py::test_setup_teardown_warnings
+ok 3 - testing/test_warnings.py::test_as_errors[cmdline]
+ok 4 - testing/test_warnings.py::test_as_errors[ini]
+ok 5 - testing/test_warnings.py::test_ignore[cmdline]
+ok 6 - testing/test_warnings.py::test_ignore[ini]
+ok 7 - testing/test_warnings.py::test_unicode # SKIP warnings message is unicode is ok in python3
+ok 8 - testing/test_warnings.py::test_py2_unicode
+ok 9 - testing/test_warnings.py::test_py2_unicode_ascii
+ok 10 - testing/test_warnings.py::test_works_with_filterwarnings
+ok 11 - testing/test_warnings.py::test_filterwarnings_mark[ini]
+ok 12 - testing/test_warnings.py::test_filterwarnings_mark[cmdline]
+ok 13 - testing/test_warnings.py::test_non_string_warning_argument
+1..13

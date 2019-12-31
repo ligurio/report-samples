@@ -1,0 +1,3 @@
+# TAP results for test_stdfd_functional.py
+ok 1 - test_stdfd_functional.py::test_hello
+1..1

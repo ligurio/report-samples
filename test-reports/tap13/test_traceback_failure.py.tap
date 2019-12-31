@@ -1,0 +1,34 @@
+# TAP results for test_traceback_failure.py
+not ok 1 - test_traceback_failure.py::test_onefails
+# 
+#     def test_onefails():
+# >       f(3)
+# 
+# test_traceback_failure.py:6: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# x = 3
+# 
+#     def f(x):
+# >       assert x == g()
+# E       assert 3 == 2
+# E        +  where 2 = g()
+# 
+# test_traceback_failure.py:4: AssertionError
+not ok 2 - test_traceback_failure.py::test_onefails
+# 
+#     def test_onefails():
+# >       f(3)
+# 
+# test_traceback_failure.py:6: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# x = 3
+# 
+#     def f(x):
+# >       assert x == g()
+# E       assert 3 == 2
+# E        +  where 2 = g()
+# 
+# test_traceback_failure.py:4: AssertionError
+1..2

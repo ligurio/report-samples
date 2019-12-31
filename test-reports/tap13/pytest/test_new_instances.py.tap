@@ -1,0 +1,4 @@
+# TAP results for test_new_instances.py
+ok 1 - test_new_instances.py::MyTestCase.test_func1
+ok 2 - test_new_instances.py::MyTestCase.test_func2
+1..2

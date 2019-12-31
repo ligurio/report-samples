@@ -1,0 +1,4 @@
+# TAP results for test_method_setup.py
+ok 1 - test_method_setup.py::TestSetupMethod.test_some
+ok 2 - test_method_setup.py::TestSetupMethod.test_other
+1..2

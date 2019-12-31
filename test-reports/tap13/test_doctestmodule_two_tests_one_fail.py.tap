@@ -1,0 +1,13 @@
+# TAP results for test_doctestmodule_two_tests_one_fail.py
+not ok 1 - test_doctestmodule_two_tests_one_fail.py::[doctest] test_doctestmodule_two_tests_one_fail.MyClass.bad_meth
+# 003 
+# 004                     >>> magic = 42
+# 005                     >>> magic
+# Expected:
+#     0
+# Got:
+#     42
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctestmodule_two_tests_one_fail0/test_doctestmodule_two_tests_one_fail.py:5: DocTestFailure
+ok 2 - test_doctestmodule_two_tests_one_fail.py::[doctest] test_doctestmodule_two_tests_one_fail.MyClass.nice_meth
+1..2

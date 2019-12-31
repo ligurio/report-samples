@@ -1,0 +1,5 @@
+# TAP results for ../test_rootdir_option_arg.py
+ok 1 - ../test_rootdir_option_arg.py::test_one
+ok 2 - ../test_rootdir_option_arg.py::test_one
+ok 3 - ../test_rootdir_option_arg.py::test_one
+1..3

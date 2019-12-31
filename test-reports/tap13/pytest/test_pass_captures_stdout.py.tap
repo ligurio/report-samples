@@ -1,0 +1,3 @@
+# TAP results for test_pass_captures_stdout.py
+ok 1 - test_pass_captures_stdout.py::test_pass
+1..1

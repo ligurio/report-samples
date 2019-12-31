@@ -1,0 +1,5 @@
+# TAP results for ../../../../usr/lib/python2.7/unittest/case.py
+ok 1 - ../../../../usr/lib/python2.7/unittest/case.py::MyTestCase.test_failing_test_is_xfail # SKIP reason: 
+ok 2 - ../../../../usr/lib/python2.7/unittest/case.py::MyTestCase.test_passing_test_is_fail
+ok 3 - ../../../../usr/lib/python2.7/unittest/case.py::MyTestCase.test_skip # SKIP skipping due to reasons
+1..3

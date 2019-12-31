@@ -1,0 +1,32 @@
+# TAP results for testing/test_pdb.py
+ok 1 - testing/test_pdb.py::TestPDB.test_pdb_on_fail
+ok 2 - testing/test_pdb.py::TestPDB.test_pdb_on_xfail
+ok 3 - testing/test_pdb.py::TestPDB.test_pdb_on_skip
+ok 4 - testing/test_pdb.py::TestPDB.test_pdb_on_BdbQuit
+ok 5 - testing/test_pdb.py::TestPDB.test_pdb_interaction # SKIP could not import 'pexpect'
+ok 6 - testing/test_pdb.py::TestPDB.test_pdb_unittest_postmortem # SKIP could not import 'pexpect'
+ok 7 - testing/test_pdb.py::TestPDB.test_pdb_unittest_skip # SKIP could not import 'pexpect'
+ok 8 - testing/test_pdb.py::TestPDB.test_pdb_print_captured_stdout # SKIP could not import 'pexpect'
+ok 9 - testing/test_pdb.py::TestPDB.test_pdb_print_captured_stderr # SKIP could not import 'pexpect'
+ok 10 - testing/test_pdb.py::TestPDB.test_pdb_dont_print_empty_captured_stdout_and_stderr # SKIP could not import 'pexpect'
+ok 11 - testing/test_pdb.py::TestPDB.test_pdb_print_captured_logs[all] # SKIP could not import 'pexpect'
+ok 12 - testing/test_pdb.py::TestPDB.test_pdb_print_captured_logs[no] # SKIP could not import 'pexpect'
+ok 13 - testing/test_pdb.py::TestPDB.test_pdb_print_captured_logs[log] # SKIP could not import 'pexpect'
+ok 14 - testing/test_pdb.py::TestPDB.test_pdb_print_captured_logs_nologging # SKIP could not import 'pexpect'
+ok 15 - testing/test_pdb.py::TestPDB.test_pdb_interaction_exception # SKIP could not import 'pexpect'
+ok 16 - testing/test_pdb.py::TestPDB.test_pdb_interaction_on_collection_issue181 # SKIP could not import 'pexpect'
+ok 17 - testing/test_pdb.py::TestPDB.test_pdb_interaction_on_internal_error # SKIP could not import 'pexpect'
+ok 18 - testing/test_pdb.py::TestPDB.test_pdb_interaction_capturing_simple # SKIP could not import 'pexpect'
+ok 19 - testing/test_pdb.py::TestPDB.test_pdb_set_trace_interception # SKIP could not import 'pexpect'
+ok 20 - testing/test_pdb.py::TestPDB.test_pdb_and_capsys # SKIP could not import 'pexpect'
+ok 21 - testing/test_pdb.py::TestPDB.test_set_trace_capturing_afterwards # SKIP could not import 'pexpect'
+ok 22 - testing/test_pdb.py::TestPDB.test_pdb_interaction_doctest # SKIP could not import 'pexpect'
+ok 23 - testing/test_pdb.py::TestPDB.test_pdb_interaction_capturing_twice # SKIP could not import 'pexpect'
+ok 24 - testing/test_pdb.py::TestPDB.test_pdb_used_outside_test # SKIP could not import 'pexpect'
+ok 25 - testing/test_pdb.py::TestPDB.test_pdb_used_in_generate_tests # SKIP could not import 'pexpect'
+ok 26 - testing/test_pdb.py::TestPDB.test_pdb_collection_failure_is_shown
+ok 27 - testing/test_pdb.py::TestPDB.test_enter_pdb_hook_is_called # SKIP could not import 'pexpect'
+ok 28 - testing/test_pdb.py::TestPDB.test_pdb_custom_cls
+ok 29 - testing/test_pdb.py::TestPDB.test_pdb_custom_cls_without_pdb
+ok 30 - testing/test_pdb.py::TestPDB.test_pdb_custom_cls_with_settrace # SKIP could not import 'pexpect'
+1..30

@@ -1,0 +1,3 @@
+# TAP results for test_funcarg_prefix_deprecation.py
+ok 1 - test_funcarg_prefix_deprecation.py::test_funcarg_prefix
+1..1

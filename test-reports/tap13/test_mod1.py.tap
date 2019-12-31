@@ -1,0 +1,10 @@
+# TAP results for test_mod1.py
+ok 1 - test_mod1.py::TestClassMethod.test_1
+ok 2 - test_mod1.py::test_1
+ok 3 - test_mod1.py::test_2
+ok 4 - test_mod1.py::test_1
+ok 5 - test_mod1.py::test_func[s1]
+ok 6 - test_mod1.py::test_func[s2]
+ok 7 - test_mod1.py::test_func1[m1]
+ok 8 - test_mod1.py::test_func1[m2]
+1..8

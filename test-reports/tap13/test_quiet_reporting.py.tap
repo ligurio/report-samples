@@ -1,0 +1,3 @@
+# TAP results for test_quiet_reporting.py
+ok 1 - test_quiet_reporting.py::test_pass
+1..1

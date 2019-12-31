@@ -1,0 +1,4 @@
+# TAP results for test_setup_that_skips_calledagain.py
+ok 1 - test_setup_that_skips_calledagain.py::test_function1 # SKIP x
+ok 2 - test_setup_that_skips_calledagain.py::test_function2 # SKIP x
+1..2

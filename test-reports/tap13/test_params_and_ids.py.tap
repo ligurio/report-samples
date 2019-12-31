@@ -1,0 +1,4 @@
+# TAP results for test_params_and_ids.py
+ok 1 - test_params_and_ids.py::test_foo[alpha]
+ok 2 - test_params_and_ids.py::test_foo[beta]
+1..2

@@ -1,0 +1,6 @@
+# TAP results for test_class_setup.py
+ok 1 - test_class_setup.py::TestSimpleClassSetup.test_classlevel
+ok 2 - test_class_setup.py::TestInheritedClassSetupStillWorks.test_classlevel
+ok 3 - test_class_setup.py::TestInheritedClassSetupStillWorks.test_classlevel_anothertime
+ok 4 - test_class_setup.py::test_cleanup
+1..4

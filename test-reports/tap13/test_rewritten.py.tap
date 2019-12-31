@@ -1,0 +1,3 @@
+# TAP results for test_rewritten.py
+ok 1 - test_rewritten.py::test_rewritten
+1..1

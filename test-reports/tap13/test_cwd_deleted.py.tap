@@ -1,0 +1,13 @@
+# TAP results for test_cwd_deleted.py
+not ok 1 - test_cwd_deleted.py::test
+# 
+# tmpdir = local('/tmp/pytest-of-sergeyb/pytest-28/basetemp/test0')
+# 
+#     def test(tmpdir):
+#         tmpdir.chdir()
+#         tmpdir.remove()
+# >       assert False
+# E       assert False
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_cwd_deleted0/test_cwd_deleted.py:4: AssertionError
+1..1

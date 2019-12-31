@@ -1,0 +1,3 @@
+# TAP results for testing/python/test_deprecations.py
+ok 1 - testing/python/test_deprecations.py::test_pycollector_makeitem_is_deprecated
+1..1

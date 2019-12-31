@@ -1,0 +1,6 @@
+# TAP results for test_order_of_execution_generator_different_codeline.py
+ok 1 - test_order_of_execution_generator_different_codeline.py::test_generative_tests_different_codeline[0]
+ok 2 - test_order_of_execution_generator_different_codeline.py::test_generative_tests_different_codeline[1]
+ok 3 - test_order_of_execution_generator_different_codeline.py::test_generative_tests_different_codeline[2]
+ok 4 - test_order_of_execution_generator_different_codeline.py::test_generative_tests_different_codeline[3]
+1..4

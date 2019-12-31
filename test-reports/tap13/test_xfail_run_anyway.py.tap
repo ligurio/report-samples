@@ -1,0 +1,11 @@
+# TAP results for test_xfail_run_anyway.py
+not ok 1 - test_xfail_run_anyway.py::test_func
+# 
+#     @pytest.mark.xfail
+#     def test_func():
+# >       assert 0
+# E       assert 0
+# 
+# test_xfail_run_anyway.py:4: AssertionError
+ok 2 - test_xfail_run_anyway.py::test_func2
+1..2

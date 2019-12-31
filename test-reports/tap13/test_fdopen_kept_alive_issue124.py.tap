@@ -1,0 +1,4 @@
+# TAP results for test_fdopen_kept_alive_issue124.py
+ok 1 - test_fdopen_kept_alive_issue124.py::test_open_file_and_keep_alive
+ok 2 - test_fdopen_kept_alive_issue124.py::test_close_kept_alive_file
+1..2

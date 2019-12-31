@@ -1,0 +1,10 @@
+# TAP results for test_failure_verbose_message.py
+not ok 1 - test_failure_verbose_message.py::test_fail
+# 
+#     def test_fail():
+# >       assert 0, "An error"
+# E       AssertionError: An error
+# E       assert 0
+# 
+# test_failure_verbose_message.py:3: AssertionError
+1..1

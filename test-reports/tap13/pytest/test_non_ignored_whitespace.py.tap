@@ -1,0 +1,12 @@
+# TAP results for test_non_ignored_whitespace.py
+not ok 1 - test_non_ignored_whitespace.py::[doctest] test_non_ignored_whitespace.MyClass
+# 002 
+# 003                 >>> a = "foo    "
+# 004                 >>> print(a)
+# Expected:
+#     foo
+# Got:
+#     foo    
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_non_ignored_whitespace0/test_non_ignored_whitespace.py:4: DocTestFailure
+1..1

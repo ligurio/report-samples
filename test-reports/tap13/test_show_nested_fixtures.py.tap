@@ -1,0 +1,3 @@
+# TAP results for test_show_nested_fixtures.py
+ok 1 - test_show_nested_fixtures.py::test_arg1
+1..1

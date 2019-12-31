@@ -1,0 +1,10 @@
+# TAP results for test_makereport_getsource.py
+not ok 1 - test_makereport_getsource.py::test_foo
+# 
+#     def test_foo():
+#         if False: pass
+# >       else: assert False
+# E       assert False
+# 
+# test_makereport_getsource.py:3: AssertionError
+1..1

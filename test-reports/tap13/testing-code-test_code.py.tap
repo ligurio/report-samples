@@ -1,0 +1,17 @@
+# TAP results for testing/code/test_code.py
+ok 1 - testing/code/test_code.py::test_ne
+ok 2 - testing/code/test_code.py::test_code_gives_back_name_for_not_existing_file
+ok 3 - testing/code/test_code.py::test_code_with_class
+ok 4 - testing/code/test_code.py::test_code_fullsource
+ok 5 - testing/code/test_code.py::test_code_source
+ok 6 - testing/code/test_code.py::test_frame_getsourcelineno_myself
+ok 7 - testing/code/test_code.py::test_getstatement_empty_fullsource
+ok 8 - testing/code/test_code.py::test_code_from_func
+ok 9 - testing/code/test_code.py::test_unicode_handling
+ok 10 - testing/code/test_code.py::test_unicode_handling_syntax_error
+ok 11 - testing/code/test_code.py::test_code_getargs
+ok 12 - testing/code/test_code.py::test_frame_getargs
+ok 13 - testing/code/test_code.py::TestExceptionInfo.test_bad_getsource
+ok 14 - testing/code/test_code.py::TestTracebackEntry.test_getsource
+ok 15 - testing/code/test_code.py::TestReprFuncArgs.test_not_raise_exception_with_mixed_encoding
+1..15

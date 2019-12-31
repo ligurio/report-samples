@@ -1,0 +1,15 @@
+# TAP results for test_method_generator_setup.py
+ok 1 - test_method_generator_setup.py::TestSetupTeardownOnInstance.test_generate[0]
+not ok 2 - test_method_generator_setup.py::TestSetupTeardownOnInstance.test_generate[1]
+# 
+# self = <test_method_generator_setup.TestSetupTeardownOnInstance object at 0x7fa010490a90>
+# value = 2
+# 
+#     def generated(self, value):
+#         assert self.classsetup
+#         assert self.methsetup == self.test_generate
+# >       assert value == 5
+# E       assert 2 == 5
+# 
+# test_method_generator_setup.py:17: AssertionError
+1..2

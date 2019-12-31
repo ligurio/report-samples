@@ -1,0 +1,10 @@
+# TAP results for test_assertion_message_tuple.py
+not ok 1 - test_assertion_message_tuple.py::test_foo
+# 
+#     def test_foo():
+# >       assert 1 == 2, (1, 2)
+# E       AssertionError: (1, 2)
+# E       assert 1 == 2
+# 
+# test_assertion_message_tuple.py:2: AssertionError
+1..1

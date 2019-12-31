@@ -1,0 +1,4 @@
+# TAP results for test_xfailure_xpass_strict.py
+not ok 1 - test_xfailure_xpass_strict.py::test_xpass
+# [XPASS(strict)] This needs to fail!
+1..1

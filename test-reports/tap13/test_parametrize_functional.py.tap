@@ -1,0 +1,4 @@
+# TAP results for test_parametrize_functional.py
+ok 1 - test_parametrize_functional.py::test_simple[1-2]
+ok 2 - test_parametrize_functional.py::test_simple[2-2]
+1..2

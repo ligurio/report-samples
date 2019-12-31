@@ -1,0 +1,5 @@
+# TAP results for test_setupdecorator_and_xunit.py
+ok 1 - test_setupdecorator_and_xunit.py::test_func
+ok 2 - test_setupdecorator_and_xunit.py::TestClass.test_method
+ok 3 - test_setupdecorator_and_xunit.py::test_all
+1..3

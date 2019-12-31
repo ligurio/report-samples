@@ -1,0 +1,13 @@
+# TAP results for test_maybe.py
+ok 1 - test_maybe.py::test_hello
+not ok 2 - test_maybe.py::test_hello
+# 
+#     def test_hello():
+# >       assert '0' == env['FAILTEST']
+# E       AssertionError: assert '0' == '1'
+# E         - 0
+# E         + 1
+# 
+# test_maybe.py:6: AssertionError
+ok 3 - test_maybe.py::test_hello
+1..3

@@ -1,0 +1,3 @@
+# TAP results for test_namespace_import_doesnt_confuse_import_hook.py
+ok 1 - test_namespace_import_doesnt_confuse_import_hook.py::test_whatever
+1..1

@@ -1,0 +1,3 @@
+# TAP results for test_unicode_doctest_module.py
+ok 1 - test_unicode_doctest_module.py::[doctest] test_unicode_doctest_module.fix_bad_unicode
+1..1

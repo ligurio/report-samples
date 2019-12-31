@@ -1,0 +1,8 @@
+# TAP results for test_marked_class_run_twice.py
+ok 1 - test_marked_class_run_twice.py::Test1.test_1[1]
+ok 2 - test_marked_class_run_twice.py::Test1.test_1[2]
+ok 3 - test_marked_class_run_twice.py::Test1.test_1[3]
+ok 4 - test_marked_class_run_twice.py::Test1.test_1[1]
+ok 5 - test_marked_class_run_twice.py::Test1.test_1[2]
+ok 6 - test_marked_class_run_twice.py::Test1.test_1[3]
+1..6

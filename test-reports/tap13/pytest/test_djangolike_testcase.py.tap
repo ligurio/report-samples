@@ -1,0 +1,3 @@
+# TAP results for test_djangolike_testcase.py
+ok 1 - test_djangolike_testcase.py::DjangoLikeTestCase.test_presetup_has_been_run
+1..1

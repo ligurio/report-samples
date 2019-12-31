@@ -1,0 +1,6 @@
+# TAP results for conftest.py
+ok 1 - conftest.py::
+ok 2 - conftest.py::
+ok 3 - conftest.py::
+ok 4 - conftest.py::
+1..4

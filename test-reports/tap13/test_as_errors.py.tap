@@ -1,0 +1,28 @@
+# TAP results for test_as_errors.py
+not ok 1 - test_as_errors.py::test_func
+# 
+#     def test_func():
+# >       assert as_errors_module.foo() == 1
+# 
+# test_as_errors.py:3: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def foo():
+# >       warnings.warn(UserWarning("user warning"))
+# E       UserWarning: user warning
+# 
+# as_errors_module.py:3: UserWarning
+not ok 2 - test_as_errors.py::test_func
+# 
+#     def test_func():
+# >       assert as_errors_module.foo() == 1
+# 
+# test_as_errors.py:3: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def foo():
+# >       warnings.warn(UserWarning("user warning"))
+# E       UserWarning: user warning
+# 
+# as_errors_module.py:3: UserWarning
+1..2

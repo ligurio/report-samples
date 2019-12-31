@@ -1,0 +1,4 @@
+# TAP results for test_getbasetemp_custom_removes_old.py
+ok 1 - test_getbasetemp_custom_removes_old.py::test_1
+ok 2 - test_getbasetemp_custom_removes_old.py::test_1
+1..2

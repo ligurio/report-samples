@@ -1,0 +1,4 @@
+# TAP results for test_request_is_clean.py
+ok 1 - test_request_is_clean.py::test_fix[1]
+ok 2 - test_request_is_clean.py::test_fix[2]
+1..2

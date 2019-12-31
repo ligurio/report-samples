@@ -1,0 +1,16 @@
+# TAP results for test_01_failure.py
+not ok 1 - test_01_failure.py::test_1
+# 
+#     def test_1():
+# >       assert False
+# E       assert False
+# 
+# test_01_failure.py:2: AssertionError
+not ok 2 - test_01_failure.py::test_1
+# 
+#     def test_1():
+# >       assert False
+# E       assert False
+# 
+# test_01_failure.py:2: AssertionError
+1..2

@@ -1,0 +1,14 @@
+# TAP results for test_fail_extra_reporting.py
+not ok 1 - test_fail_extra_reporting.py::test_this
+# 
+# >   def test_this(): assert 0
+# E   assert 0
+# 
+# test_fail_extra_reporting.py:1: AssertionError
+not ok 2 - test_fail_extra_reporting.py::test_this
+# 
+# >   def test_this(): assert 0
+# E   assert 0
+# 
+# test_fail_extra_reporting.py:1: AssertionError
+1..2

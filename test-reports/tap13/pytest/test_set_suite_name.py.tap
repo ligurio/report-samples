@@ -1,0 +1,4 @@
+# TAP results for test_set_suite_name.py
+ok 1 - test_set_suite_name.py::test_func
+ok 2 - test_set_suite_name.py::test_func
+1..2

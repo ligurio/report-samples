@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_all_indirects.py
+ok 1 - test_parametrize_all_indirects.py::test_1[dog-1]
+ok 2 - test_parametrize_all_indirects.py::test_1[cat-2]
+ok 3 - test_parametrize_all_indirects.py::test_2[fish-3]
+1..3

@@ -1,0 +1,4 @@
+# TAP results for test_accessmarker_dynamic.py
+ok 1 - test_accessmarker_dynamic.py::test_fun1
+ok 2 - test_accessmarker_dynamic.py::test_fun2
+1..2

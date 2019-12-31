@@ -1,0 +1,10 @@
+# TAP results for test_capture_scope_cache.py
+not ok 1 - test_capture_scope_cache.py::test_func
+# 
+#     def test_func():
+#         print ("in function")
+# >       assert 0
+# E       assert 0
+# 
+# test_capture_scope_cache.py:8: AssertionError
+1..1

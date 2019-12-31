@@ -1,0 +1,7 @@
+# TAP results for test_parametrize_function_scoped_finalizers_called.py
+ok 1 - test_parametrize_function_scoped_finalizers_called.py::test_1[1]
+ok 2 - test_parametrize_function_scoped_finalizers_called.py::test_1[2]
+ok 3 - test_parametrize_function_scoped_finalizers_called.py::test_2[1]
+ok 4 - test_parametrize_function_scoped_finalizers_called.py::test_2[2]
+ok 5 - test_parametrize_function_scoped_finalizers_called.py::test_3
+1..5

@@ -1,0 +1,10 @@
+# TAP results for test_setup_teardown_function_level_with_optional_argument.py
+ok 1 - test_setup_teardown_function_level_with_optional_argument.py::test_function_1
+ok 2 - test_setup_teardown_function_level_with_optional_argument.py::test_function_2
+ok 3 - test_setup_teardown_function_level_with_optional_argument.py::Test.test_method_1
+ok 4 - test_setup_teardown_function_level_with_optional_argument.py::Test.test_method_2
+ok 5 - test_setup_teardown_function_level_with_optional_argument.py::test_function_1
+ok 6 - test_setup_teardown_function_level_with_optional_argument.py::test_function_2
+ok 7 - test_setup_teardown_function_level_with_optional_argument.py::Test.test_method_1
+ok 8 - test_setup_teardown_function_level_with_optional_argument.py::Test.test_method_2
+1..8

@@ -1,0 +1,3 @@
+# TAP results for test_keyword_added_for_session.py
+ok 1 - test_keyword_added_for_session.py::test_some
+1..1

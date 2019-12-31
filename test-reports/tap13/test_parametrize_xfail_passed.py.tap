@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_xfail_passed.py
+ok 1 - test_parametrize_xfail_passed.py::test_passed[0]
+ok 2 - test_parametrize_xfail_passed.py::test_passed[1]
+ok 3 - test_parametrize_xfail_passed.py::test_passed[2]
+1..3

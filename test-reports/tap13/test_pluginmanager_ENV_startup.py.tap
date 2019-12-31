@@ -1,0 +1,3 @@
+# TAP results for test_pluginmanager_ENV_startup.py
+ok 1 - test_pluginmanager_ENV_startup.py::test_hello
+1..1

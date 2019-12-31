@@ -1,0 +1,227 @@
+# TAP results for test_pass_skip_fail.py
+ok 1 - test_pass_skip_fail.py::test_ok
+ok 2 - test_pass_skip_fail.py::test_skip # SKIP xx
+not ok 3 - test_pass_skip_fail.py::test_func
+# 
+#     def test_func():
+# >       assert 0
+# E       assert 0
+# 
+# test_pass_skip_fail.py:7: AssertionError
+ok 4 - test_pass_skip_fail.py::test_ok
+ok 5 - test_pass_skip_fail.py::test_skip # SKIP xx
+not ok 6 - test_pass_skip_fail.py::test_func
+# 
+#     def test_func():
+# >       assert 0
+# E       assert 0
+# 
+# test_pass_skip_fail.py:7: AssertionError
+ok 7 - test_pass_skip_fail.py::test_ok
+ok 8 - test_pass_skip_fail.py::test_skip # SKIP xx
+not ok 9 - test_pass_skip_fail.py::test_func
+# 
+#     def test_func():
+# >       assert 0
+# E       assert 0
+# 
+# test_pass_skip_fail.py:7: AssertionError
+ok 10 - test_pass_skip_fail.py::test_ok
+ok 11 - test_pass_skip_fail.py::test_skip # SKIP xx
+not ok 12 - test_pass_skip_fail.py::test_func
+# 
+# self = <CallInfo when='call' exception: assert 0>
+# func = <function <lambda> at 0x7fa0104a87d0>, when = 'call'
+# 
+#     def __init__(self, func, when):
+#         #: context of invocation: one of "setup", "call",
+#         #: "teardown", "memocollect"
+#         self.when = when
+#         self.start = time()
+#         try:
+# >           self.result = func()
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py:192: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# >   return CallInfo(lambda: ihook(item=item, **kwds), when=when)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py:178: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_HookCaller 'pytest_runtest_call'>, args = ()
+# kwargs = {'item': <Function 'test_func'>}, notincall = set([])
+# 
+#     def __call__(self, *args, **kwargs):
+#         if args:
+#             raise TypeError("hook calling supports only keyword arguments")
+#         assert not self.is_historic()
+#         if self.argnames:
+#             notincall = set(self.argnames) - set(['__multicall__']) - set(
+#                 kwargs.keys())
+#             if notincall:
+#                 warnings.warn(
+#                     "Argument(s) {} which are declared in the hookspec "
+#                     "can not be found in this hook call"
+#                     .format(tuple(notincall)),
+#                     stacklevel=2,
+#                 )
+# >       return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:617: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_pytest.config.PytestPluginManager object at 0x7fa010447e50>
+# hook = <_HookCaller 'pytest_runtest_call'>
+# methods = [<pluggy.HookImpl object at 0x7fa010adc710>, <pluggy.HookImpl object at 0x7fa0158c1110>, <pluggy.HookImpl object at 0x7fa0159003d0>, <pluggy.HookImpl object at 0x7fa0158c1b90>]
+# kwargs = {'item': <Function 'test_func'>}
+# 
+#     def _hookexec(self, hook, methods, kwargs):
+#         # called from all hookcaller instances.
+#         # enable_tracing will set its own wrapping function at self._inner_hookexec
+# >       return self._inner_hookexec(hook, methods, kwargs)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:222: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <pluggy._TracedHookExecution object at 0x7fa010b71ed0>
+# hook = <_HookCaller 'pytest_runtest_call'>
+# hook_impls = [<pluggy.HookImpl object at 0x7fa010adc710>, <pluggy.HookImpl object at 0x7fa0158c1110>, <pluggy.HookImpl object at 0x7fa0159003d0>, <pluggy.HookImpl object at 0x7fa0158c1b90>]
+# kwargs = {'item': <Function 'test_func'>}
+# 
+#     def __call__(self, hook, hook_impls, kwargs):
+#         self.before(hook.name, hook_impls, kwargs)
+#         outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))
+#         self.after(outcome, hook.name, hook_impls, kwargs)
+# >       return outcome.get_result()
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:182: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# >   outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:180: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# hook = <_HookCaller 'pytest_runtest_call'>
+# methods = [<pluggy.HookImpl object at 0x7fa010adc710>, <pluggy.HookImpl object at 0x7fa0158c1110>, <pluggy.HookImpl object at 0x7fa0159003d0>, <pluggy.HookImpl object at 0x7fa0158c1b90>]
+# kwargs = {'item': <Function 'test_func'>}
+# 
+#     self._inner_hookexec = lambda hook, methods, kwargs: \
+#         hook.multicall(
+#             methods, kwargs,
+# >           firstresult=hook.spec_opts.get('firstresult'),
+#         )
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:216: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# item = <Function 'test_func'>
+# 
+#     def pytest_runtest_call(item):
+#         _update_current_test_var(item, 'call')
+#         try:
+# >           item.runtest()
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py:109: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <Function 'test_func'>
+# 
+#     def runtest(self):
+#         """ execute the underlying test function. """
+# >       self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/python.py:1179: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_HookCaller 'pytest_pyfunc_call'>, args = ()
+# kwargs = {'pyfuncitem': <Function 'test_func'>}, notincall = set([])
+# 
+#     def __call__(self, *args, **kwargs):
+#         if args:
+#             raise TypeError("hook calling supports only keyword arguments")
+#         assert not self.is_historic()
+#         if self.argnames:
+#             notincall = set(self.argnames) - set(['__multicall__']) - set(
+#                 kwargs.keys())
+#             if notincall:
+#                 warnings.warn(
+#                     "Argument(s) {} which are declared in the hookspec "
+#                     "can not be found in this hook call"
+#                     .format(tuple(notincall)),
+#                     stacklevel=2,
+#                 )
+# >       return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:617: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_pytest.config.PytestPluginManager object at 0x7fa010447e50>
+# hook = <_HookCaller 'pytest_pyfunc_call'>
+# methods = [<pluggy.HookImpl object at 0x7fa011a2f610>, <pluggy.HookImpl object at 0x7fa011a17d90>]
+# kwargs = {'pyfuncitem': <Function 'test_func'>}
+# 
+#     def _hookexec(self, hook, methods, kwargs):
+#         # called from all hookcaller instances.
+#         # enable_tracing will set its own wrapping function at self._inner_hookexec
+# >       return self._inner_hookexec(hook, methods, kwargs)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:222: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <pluggy._TracedHookExecution object at 0x7fa010b71ed0>
+# hook = <_HookCaller 'pytest_pyfunc_call'>
+# hook_impls = [<pluggy.HookImpl object at 0x7fa011a2f610>, <pluggy.HookImpl object at 0x7fa011a17d90>]
+# kwargs = {'pyfuncitem': <Function 'test_func'>}
+# 
+#     def __call__(self, hook, hook_impls, kwargs):
+#         self.before(hook.name, hook_impls, kwargs)
+#         outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))
+#         self.after(outcome, hook.name, hook_impls, kwargs)
+# >       return outcome.get_result()
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:182: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# >   outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:180: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# hook = <_HookCaller 'pytest_pyfunc_call'>
+# methods = [<pluggy.HookImpl object at 0x7fa011a2f610>, <pluggy.HookImpl object at 0x7fa011a17d90>]
+# kwargs = {'pyfuncitem': <Function 'test_func'>}
+# 
+#     self._inner_hookexec = lambda hook, methods, kwargs: \
+#         hook.multicall(
+#             methods, kwargs,
+# >           firstresult=hook.spec_opts.get('firstresult'),
+#         )
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py:216: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# pyfuncitem = <Function 'test_func'>
+# 
+#     @hookimpl(trylast=True)
+#     def pytest_pyfunc_call(pyfuncitem):
+#         testfunction = pyfuncitem.obj
+#         if pyfuncitem._isyieldedfunction():
+#             testfunction(*pyfuncitem._args)
+#         else:
+#             funcargs = pyfuncitem.funcargs
+#             testargs = {}
+#             for arg in pyfuncitem._fixtureinfo.argnames:
+#                 testargs[arg] = funcargs[arg]
+# >           testfunction(**testargs)
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/python.py:155: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def test_func():
+# >       assert 0
+# E       assert 0
+# 
+# test_pass_skip_fail.py:7: AssertionError
+1..12

@@ -1,0 +1,32 @@
+# TAP results for test_doctest_report_none_or_only_first_failure.py
+not ok 1 - test_doctest_report_none_or_only_first_failure.py::[doctest] test_doctest_report_none_or_only_first_failure.foo
+# 002 
+# 003                 >>> foo()
+# Expected:
+#        a  b
+#     0  1  4
+#     1  2  4
+#     2  3  6
+# Got:
+#        a  b
+#     0  1  4
+#     1  2  5
+#     2  3  6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_report_none_or_only_first_failure0/test_doctest_report_none_or_only_first_failure.py:3: DocTestFailure
+not ok 2 - test_doctest_report_none_or_only_first_failure.py::[doctest] test_doctest_report_none_or_only_first_failure.foo
+# 002 
+# 003                 >>> foo()
+# Expected:
+#        a  b
+#     0  1  4
+#     1  2  4
+#     2  3  6
+# Got:
+#        a  b
+#     0  1  4
+#     1  2  5
+#     2  3  6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_report_none_or_only_first_failure1/test_doctest_report_none_or_only_first_failure.py:3: DocTestFailure
+1..2

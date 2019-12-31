@@ -1,0 +1,6 @@
+# TAP results for test_scoped.py
+ok 1 - test_scoped.py::test_1
+ok 2 - test_scoped.py::test_2
+ok 3 - test_scoped.py::test_1
+ok 4 - test_scoped.py::test_2
+1..4

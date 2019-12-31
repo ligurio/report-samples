@@ -1,0 +1,8 @@
+# TAP results for test_collect_functools_partial.py
+ok 1 - test_collect_functools_partial.py::test_ok_1
+ok 2 - test_collect_functools_partial.py::test_ok_3
+ok 3 - test_collect_functools_partial.py::test_ok_2
+ok 4 - test_collect_functools_partial.py::test_ok_4
+ok 5 - test_collect_functools_partial.py::test_ok_5
+ok 6 - test_collect_functools_partial.py::test_ok_6
+1..6

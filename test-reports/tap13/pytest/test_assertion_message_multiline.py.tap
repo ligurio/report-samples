@@ -1,0 +1,11 @@
+# TAP results for test_assertion_message_multiline.py
+not ok 1 - test_assertion_message_multiline.py::test_foo
+# 
+#     def test_foo():
+# >       assert 1 == 2, "A multiline\nfailure message"
+# E       AssertionError: A multiline
+# E         failure message
+# E       assert 1 == 2
+# 
+# test_assertion_message_multiline.py:2: AssertionError
+1..1

@@ -1,0 +1,8 @@
+# TAP results for test_override_non_parametrized_fixture_conftest_module.py
+ok 1 - test_override_non_parametrized_fixture_conftest_module.py::test_spam[1]
+ok 2 - test_override_non_parametrized_fixture_conftest_module.py::test_spam[2]
+ok 3 - test_override_non_parametrized_fixture_conftest_module.py::test_spam[3]
+ok 4 - test_override_non_parametrized_fixture_conftest_module.py::test_spam[1]
+ok 5 - test_override_non_parametrized_fixture_conftest_module.py::test_spam[2]
+ok 6 - test_override_non_parametrized_fixture_conftest_module.py::test_spam[3]
+1..6

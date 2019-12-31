@@ -1,0 +1,3 @@
+# TAP results for test_dont_collect_non_function_callable.py
+ok 1 - test_dont_collect_non_function_callable.py::test_real
+1..1

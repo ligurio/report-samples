@@ -1,0 +1,3 @@
+# TAP results for test_usefixtures_seen_in_generate_tests.py
+ok 1 - test_usefixtures_seen_in_generate_tests.py::test_function[1]
+1..1

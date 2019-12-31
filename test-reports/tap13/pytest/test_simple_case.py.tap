@@ -1,0 +1,9 @@
+# TAP results for test_simple_case.py
+not ok 1 - test_simple_case.py::test_ternary_display
+# 
+#     def test_ternary_display():
+# >       assert (False == False) == False
+# E       assert (False == False) == False
+# 
+# test_simple_case.py:2: AssertionError
+1..1

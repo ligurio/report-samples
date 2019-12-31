@@ -1,0 +1,6 @@
+# TAP results for testing/test_pastebin.py
+ok 1 - testing/test_pastebin.py::TestPasteCapture.test_failed
+ok 2 - testing/test_pastebin.py::TestPasteCapture.test_all
+ok 3 - testing/test_pastebin.py::TestPasteCapture.test_non_ascii_paste_text
+ok 4 - testing/test_pastebin.py::TestPaste.test_create_new_paste
+1..4

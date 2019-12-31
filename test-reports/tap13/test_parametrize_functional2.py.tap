@@ -1,0 +1,42 @@
+# TAP results for test_parametrize_functional2.py
+not ok 1 - test_parametrize_functional2.py::test_hello[1-4]
+# 
+# arg1 = 1, arg2 = 4
+# 
+#     def test_hello(arg1, arg2):
+# >       assert 0, (arg1, arg2)
+# E       AssertionError: (1, 4)
+# E       assert 0
+# 
+# test_parametrize_functional2.py:5: AssertionError
+not ok 2 - test_parametrize_functional2.py::test_hello[1-5]
+# 
+# arg1 = 1, arg2 = 5
+# 
+#     def test_hello(arg1, arg2):
+# >       assert 0, (arg1, arg2)
+# E       AssertionError: (1, 5)
+# E       assert 0
+# 
+# test_parametrize_functional2.py:5: AssertionError
+not ok 3 - test_parametrize_functional2.py::test_hello[2-4]
+# 
+# arg1 = 2, arg2 = 4
+# 
+#     def test_hello(arg1, arg2):
+# >       assert 0, (arg1, arg2)
+# E       AssertionError: (2, 4)
+# E       assert 0
+# 
+# test_parametrize_functional2.py:5: AssertionError
+not ok 4 - test_parametrize_functional2.py::test_hello[2-5]
+# 
+# arg1 = 2, arg2 = 5
+# 
+#     def test_hello(arg1, arg2):
+# >       assert 0, (arg1, arg2)
+# E       AssertionError: (2, 5)
+# E       assert 0
+# 
+# test_parametrize_functional2.py:5: AssertionError
+1..4

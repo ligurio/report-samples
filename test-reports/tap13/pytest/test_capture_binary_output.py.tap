@@ -1,0 +1,4 @@
+# TAP results for test_capture_binary_output.py
+ok 1 - test_capture_binary_output.py::test_a
+ok 2 - test_capture_binary_output.py::test_foo
+1..2

@@ -1,0 +1,4 @@
+# TAP results for test_setUpModule.py
+ok 1 - test_setUpModule.py::test_hello
+ok 2 - test_setUpModule.py::test_world
+1..2

@@ -1,0 +1,14 @@
+# TAP results for test_class_ordering.py
+ok 1 - test_class_ordering.py::TestClass2.test_1[a-1]
+ok 2 - test_class_ordering.py::TestClass2.test_1[a-2]
+ok 3 - test_class_ordering.py::TestClass2.test_2[a-1]
+ok 4 - test_class_ordering.py::TestClass2.test_2[a-2]
+ok 5 - test_class_ordering.py::TestClass2.test_1[b-1]
+ok 6 - test_class_ordering.py::TestClass2.test_1[b-2]
+ok 7 - test_class_ordering.py::TestClass2.test_2[b-1]
+ok 8 - test_class_ordering.py::TestClass2.test_2[b-2]
+ok 9 - test_class_ordering.py::TestClass.test_3[a-1]
+ok 10 - test_class_ordering.py::TestClass.test_3[a-2]
+ok 11 - test_class_ordering.py::TestClass.test_3[b-1]
+ok 12 - test_class_ordering.py::TestClass.test_3[b-2]
+1..12

@@ -1,0 +1,20 @@
+# TAP results for test_verbose_reporting.py
+not ok 1 - test_verbose_reporting.py::test_fail
+# 
+#     def test_fail():
+# >       raise ValueError()
+# E       ValueError
+# 
+# test_verbose_reporting.py:3: ValueError
+ok 2 - test_verbose_reporting.py::test_pass
+ok 3 - test_verbose_reporting.py::TestClass.test_skip # SKIP hello
+not ok 4 - test_verbose_reporting.py::test_gen[0]
+# 
+# x = 0
+# 
+#     def check(x):
+# >       assert x == 1
+# E       assert 0 == 1
+# 
+# test_verbose_reporting.py:11: AssertionError
+1..4

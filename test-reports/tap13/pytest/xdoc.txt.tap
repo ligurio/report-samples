@@ -1,0 +1,22 @@
+# TAP results for xdoc.txt
+not ok 1 - xdoc.txt::[doctest] xdoc.txt
+# 001 >>> x = 1
+# 002 >>> x == 1
+# Expected:
+#     False
+# Got:
+#     True
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_new_pattern0/xdoc.txt:2: DocTestFailure
+ok 2 - xdoc.txt::[doctest] xdoc.txt
+ok 3 - xdoc.txt::[doctest] xdoc.txt
+not ok 4 - xdoc.txt::[doctest] xdoc.txt
+# 001 >>> a = "foo    "
+# 002 >>> print(a)
+# Expected:
+#     foo
+# Got:
+#     foo    
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_non_ignored_whitespace_glob0/xdoc.txt:2: DocTestFailure
+1..4

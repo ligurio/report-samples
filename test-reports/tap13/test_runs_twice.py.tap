@@ -1,0 +1,4 @@
+# TAP results for test_runs_twice.py
+ok 1 - test_runs_twice.py::test_pass
+ok 2 - test_runs_twice.py::test_pass
+1..2

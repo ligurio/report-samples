@@ -1,0 +1,4 @@
+# TAP results for test_attributes.py
+ok 1 - test_attributes.py::test_function[0]
+ok 2 - test_attributes.py::TestClass.test_method[0]
+1..2

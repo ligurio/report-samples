@@ -1,0 +1,14 @@
+# TAP results for test_two_functions.py
+ok 1 - test_two_functions.py::test_func1[0]
+not ok 2 - test_two_functions.py::test_func1[1]
+# 
+# arg1 = 20
+# 
+#     def test_func1(arg1):
+# >       assert arg1 == 10
+# E       assert 20 == 10
+# 
+# test_two_functions.py:11: AssertionError
+ok 3 - test_two_functions.py::test_func2[0]
+ok 4 - test_two_functions.py::test_func2[1]
+1..4

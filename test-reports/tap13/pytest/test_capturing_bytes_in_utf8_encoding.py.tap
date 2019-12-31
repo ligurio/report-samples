@@ -1,0 +1,4 @@
+# TAP results for test_capturing_bytes_in_utf8_encoding.py
+ok 1 - test_capturing_bytes_in_utf8_encoding.py::test_unicode
+ok 2 - test_capturing_bytes_in_utf8_encoding.py::test_unicode
+1..2

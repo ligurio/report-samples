@@ -1,0 +1,3 @@
+# TAP results for test_issue197_parametrize_emptyset.py
+ok 1 - test_issue197_parametrize_emptyset.py::test_function[arg0] # SKIP got empty parameter set ['arg'], function test_function at /tmp/pytest-of-sergeyb/pytest-28/test_issue197_parametrize_emptyset0/test_issue197_parametrize_emptyset.py:1
+1..1

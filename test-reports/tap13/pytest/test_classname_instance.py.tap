@@ -1,0 +1,11 @@
+# TAP results for test_classname_instance.py
+not ok 1 - test_classname_instance.py::TestClass.test_method
+# 
+# self = <test_classname_instance.TestClass object at 0x7fa011f05390>
+# 
+#     def test_method(self):
+# >       assert 0
+# E       assert 0
+# 
+# test_classname_instance.py:3: AssertionError
+1..1

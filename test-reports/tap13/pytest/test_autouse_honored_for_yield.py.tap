@@ -1,0 +1,4 @@
+# TAP results for test_autouse_honored_for_yield.py
+ok 1 - test_autouse_honored_for_yield.py::test_gen[0]
+ok 2 - test_autouse_honored_for_yield.py::test_gen[1]
+1..2

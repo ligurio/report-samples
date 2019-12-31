@@ -1,0 +1,4 @@
+# TAP results for test_metafunc_addcall_deprecated.py
+ok 1 - test_metafunc_addcall_deprecated.py::test_func[0]
+ok 2 - test_metafunc_addcall_deprecated.py::test_func[1]
+1..2

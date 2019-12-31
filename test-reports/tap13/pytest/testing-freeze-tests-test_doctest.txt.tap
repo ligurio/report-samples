@@ -1,0 +1,3 @@
+# TAP results for testing/freeze/tests/test_doctest.txt
+ok 1 - testing/freeze/tests/test_doctest.txt::[doctest] test_doctest.txt
+1..1

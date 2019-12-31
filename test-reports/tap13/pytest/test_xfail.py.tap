@@ -1,0 +1,3 @@
+# TAP results for test_xfail.py
+ok 1 - test_xfail.py::test_func # SKIP True123
+1..1

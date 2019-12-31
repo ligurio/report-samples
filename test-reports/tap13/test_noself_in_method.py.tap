@@ -1,0 +1,3 @@
+# TAP results for test_noself_in_method.py
+ok 1 - test_noself_in_method.py::TestHello.test_hello
+1..1

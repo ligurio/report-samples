@@ -1,0 +1,3 @@
+# TAP results for test_py2_unicode_ascii.py
+ok 1 - test_py2_unicode_ascii.py::test_func
+1..1

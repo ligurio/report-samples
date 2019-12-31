@@ -1,0 +1,66 @@
+# TAP results for test_call_from_test.py
+not ok 1 - test_call_from_test.py::test_foo
+# 
+# request = <FixtureRequest for <Function 'test_foo'>>
+# 
+#     def test_foo(request):
+# >       request.getfixturevalue('fix_with_param')
+# 
+# test_call_from_test.py:8: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/fixtures.py:430: in getfixturevalue
+#     return self._get_active_fixturedef(argname).cached_result[0]
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/fixtures.py:455: in _get_active_fixturedef
+#     self._compute_fixture_value(fixturedef)
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <FixtureRequest for <Function 'test_foo'>>
+# fixturedef = <FixtureDef name='fix_with_param' scope='function' baseid='test_call_from_test.py' >
+# 
+#     def _compute_fixture_value(self, fixturedef):
+#         """
+#             Creates a SubRequest based on "self" and calls the execute method of the given fixturedef object. This will
+#             force the FixtureDef object to throw away any previous results and compute a new fixture value, which
+#             will be stored into the FixtureDef object itself.
+#     
+#             :param FixtureDef fixturedef:
+#             """
+#         # prepare a subrequest object before calling fixture function
+#         # (latter managed by fixturedef)
+#         argname = fixturedef.argname
+#         funcitem = self._pyfuncitem
+#         scope = fixturedef.scope
+#         try:
+#             param = funcitem.callspec.getparam(argname)
+#         except (AttributeError, ValueError):
+#             param = NOTSET
+#             param_index = 0
+#             if fixturedef.params is not None:
+#                 frame = inspect.stack()[3]
+#                 frameinfo = inspect.getframeinfo(frame[0])
+#                 source_path = frameinfo.filename
+#                 source_lineno = frameinfo.lineno
+#                 source_path = py.path.local(source_path)
+#                 if source_path.relto(funcitem.config.rootdir):
+#                     source_path = source_path.relto(funcitem.config.rootdir)
+#                 msg = (
+#                     "The requested fixture has no parameter defined for the "
+#                     "current test.\n\nRequested fixture '{0}' defined in:\n{1}"
+#                     "\n\nRequested here:\n{2}:{3}".format(
+#                         fixturedef.argname,
+#                         getlocation(fixturedef.func, funcitem.config.rootdir),
+#                         source_path,
+#                         source_lineno,
+#                     )
+#                 )
+# >               fail(msg)
+# E               Failed: The requested fixture has no parameter defined for the current test.
+# E               
+# E               Requested fixture 'fix_with_param' defined in:
+# E               test_call_from_test.py:4
+# E               
+# E               Requested here:
+# E               test_call_from_test.py:8
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/fixtures.py:506: Failed
+1..1

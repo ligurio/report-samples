@@ -1,0 +1,10 @@
+# TAP results for test_override_parametrized_fixture_issue_979.py
+ok 1 - test_override_parametrized_fixture_issue_979.py::test_foo[3-x]
+ok 2 - test_override_parametrized_fixture_issue_979.py::test_foo[4-x]
+ok 3 - test_override_parametrized_fixture_issue_979.py::test_foo[3-x]
+ok 4 - test_override_parametrized_fixture_issue_979.py::test_foo[4-x]
+ok 5 - test_override_parametrized_fixture_issue_979.py::test_foo[3-x]
+ok 6 - test_override_parametrized_fixture_issue_979.py::test_foo[4-x]
+ok 7 - test_override_parametrized_fixture_issue_979.py::test_foo[3-x]
+ok 8 - test_override_parametrized_fixture_issue_979.py::test_foo[4-x]
+1..8

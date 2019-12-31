@@ -1,0 +1,3 @@
+# TAP results for test_mark_skip_contains_name_reason.py
+ok 1 - test_mark_skip_contains_name_reason.py::test_skip # SKIP hello24
+1..1

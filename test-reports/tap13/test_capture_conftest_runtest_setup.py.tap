@@ -1,0 +1,3 @@
+# TAP results for test_capture_conftest_runtest_setup.py
+ok 1 - test_capture_conftest_runtest_setup.py::test_func
+1..1

@@ -1,0 +1,11 @@
+# TAP results for test_unicode_plus_minus.py
+not ok 1 - test_unicode_plus_minus.py::test_foo
+# 
+#     def test_foo():
+# >       assert [3] == [pytest.approx(4)]
+# E       assert [3] == [4 +- 4.0e-06]
+# E         At index 0 diff: 3 != 4 +- 4.0e-06
+# E         Use -v to get the full diff
+# 
+# test_unicode_plus_minus.py:3: AssertionError
+1..1

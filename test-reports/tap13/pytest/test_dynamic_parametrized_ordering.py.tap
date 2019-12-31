@@ -1,0 +1,10 @@
+# TAP results for test_dynamic_parametrized_ordering.py
+ok 1 - test_dynamic_parametrized_ordering.py::test[flavor1-vxlan]
+ok 2 - test_dynamic_parametrized_ordering.py::test2[flavor1-vxlan]
+ok 3 - test_dynamic_parametrized_ordering.py::test[flavor2-vxlan]
+ok 4 - test_dynamic_parametrized_ordering.py::test2[flavor2-vxlan]
+ok 5 - test_dynamic_parametrized_ordering.py::test[flavor2-vlan]
+ok 6 - test_dynamic_parametrized_ordering.py::test2[flavor2-vlan]
+ok 7 - test_dynamic_parametrized_ordering.py::test[flavor1-vlan]
+ok 8 - test_dynamic_parametrized_ordering.py::test2[flavor1-vlan]
+1..8

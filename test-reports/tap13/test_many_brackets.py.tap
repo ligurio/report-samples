@@ -1,0 +1,9 @@
+# TAP results for test_many_brackets.py
+not ok 1 - test_many_brackets.py::test_ternary_display
+# 
+#     def test_ternary_display():
+# >        assert True == ((False == True) == True)
+# E        assert True == ((False == True) == True)
+# 
+# test_many_brackets.py:2: AssertionError
+1..1

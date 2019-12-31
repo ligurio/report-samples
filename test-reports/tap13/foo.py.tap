@@ -1,0 +1,8 @@
+# TAP results for foo.py
+ok 1 - foo.py::[doctest] foo.foo
+ok 2 - foo.py::[doctest] foo.foo
+ok 3 - foo.py::[doctest] foo.foo
+ok 4 - foo.py::[doctest] foo.foo
+ok 5 - foo.py::[doctest] foo.bar
+ok 6 - foo.py::[doctest] foo.foo
+1..6

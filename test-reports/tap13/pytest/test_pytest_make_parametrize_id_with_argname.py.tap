@@ -1,0 +1,5 @@
+# TAP results for test_pytest_make_parametrize_id_with_argname.py
+ok 1 - test_pytest_make_parametrize_id_with_argname.py::test_func_a[0]
+ok 2 - test_pytest_make_parametrize_id_with_argname.py::test_func_a[2]
+ok 3 - test_pytest_make_parametrize_id_with_argname.py::test_func_b[10]
+1..3

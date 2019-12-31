@@ -1,0 +1,4 @@
+# TAP results for test_xfail_condition_keyword.py
+ok 1 - test_xfail_condition_keyword.py::test_foo
+ok 2 - test_xfail_condition_keyword.py::test_foo
+1..2

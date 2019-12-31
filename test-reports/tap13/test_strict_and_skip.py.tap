@@ -1,0 +1,3 @@
+# TAP results for test_strict_and_skip.py
+ok 1 - test_strict_and_skip.py::test_hello # SKIP unconditional skip
+1..1

@@ -1,0 +1,16 @@
+# TAP results for test_lastfailed_usecase_splice.py
+not ok 1 - test_lastfailed_usecase_splice.py::test_1
+# 
+#     def test_1():
+# >       assert 0
+# E       assert 0
+# 
+# test_lastfailed_usecase_splice.py:2: AssertionError
+not ok 2 - test_lastfailed_usecase_splice.py::test_1
+# 
+#     def test_1():
+# >       assert 0
+# E       assert 0
+# 
+# test_lastfailed_usecase_splice.py:2: AssertionError
+1..2

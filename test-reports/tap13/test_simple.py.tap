@@ -1,0 +1,26 @@
+# TAP results for test_simple.py
+ok 1 - test_simple.py::test_foo
+ok 2 - test_simple.py::test_foo
+ok 3 - test_simple.py::test_1
+not ok 4 - test_simple.py::test_2
+# 
+# arg1 = 1
+# 
+#     def test_2(arg1):
+#         print ("test2 %s" % arg1)
+# >       assert 0
+# E       assert 0
+# 
+# test_simple.py:11: AssertionError
+ok 5 - test_simple.py::test_1
+not ok 6 - test_simple.py::test_2
+# 
+# arg1 = 1
+# 
+#     def test_2(arg1):
+#         print ("test2 %s" % arg1)
+# >       assert 0
+# E       assert 0
+# 
+# test_simple.py:11: AssertionError
+1..6

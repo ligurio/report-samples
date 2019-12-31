@@ -1,0 +1,8 @@
+# TAP results for test_unittest_setup_interaction.py
+ok 1 - test_unittest_setup_interaction.py::MyTestCase.test_classattr
+ok 2 - test_unittest_setup_interaction.py::MyTestCase.test_method1
+ok 3 - test_unittest_setup_interaction.py::MyTestCase.test_method2
+ok 4 - test_unittest_setup_interaction.py::MyTestCase.test_classattr
+ok 5 - test_unittest_setup_interaction.py::MyTestCase.test_method1
+ok 6 - test_unittest_setup_interaction.py::MyTestCase.test_method2
+1..6

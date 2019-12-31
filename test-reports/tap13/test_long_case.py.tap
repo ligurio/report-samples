@@ -1,0 +1,9 @@
+# TAP results for test_long_case.py
+not ok 1 - test_long_case.py::test_ternary_display
+# 
+#     def test_ternary_display():
+# >        assert False == (False == True) == True
+# E        assert (False == True) == True
+# 
+# test_long_case.py:2: AssertionError
+1..1

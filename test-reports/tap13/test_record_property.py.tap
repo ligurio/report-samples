@@ -1,0 +1,3 @@
+# TAP results for test_record_property.py
+ok 1 - test_record_property.py::test_record
+1..1

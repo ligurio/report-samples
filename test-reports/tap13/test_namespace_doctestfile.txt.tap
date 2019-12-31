@@ -1,0 +1,6 @@
+# TAP results for test_namespace_doctestfile.txt
+ok 1 - test_namespace_doctestfile.txt::[doctest] test_namespace_doctestfile.txt
+ok 2 - test_namespace_doctestfile.txt::[doctest] test_namespace_doctestfile.txt
+ok 3 - test_namespace_doctestfile.txt::[doctest] test_namespace_doctestfile.txt
+ok 4 - test_namespace_doctestfile.txt::[doctest] test_namespace_doctestfile.txt
+1..4

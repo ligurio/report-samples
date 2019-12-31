@@ -1,0 +1,3 @@
+# TAP results for test_do_ext_namespace.py
+ok 1 - test_do_ext_namespace.py::test_hello
+1..1

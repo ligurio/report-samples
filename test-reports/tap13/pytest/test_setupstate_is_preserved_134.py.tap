@@ -1,0 +1,6 @@
+# TAP results for test_setupstate_is_preserved_134.py
+ok 1 - test_setupstate_is_preserved_134.py::TestClass.test_func1
+ok 2 - test_setupstate_is_preserved_134.py::TestClass.test_func2[0]
+ok 3 - test_setupstate_is_preserved_134.py::TestClass.test_func2[1]
+ok 4 - test_setupstate_is_preserved_134.py::test_setuplist
+1..4

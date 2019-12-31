@@ -1,0 +1,3 @@
+# TAP results for xyz123/tests/test_app.py
+ok 1 - xyz123/tests/test_app.py::test_app
+1..1

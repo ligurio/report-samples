@@ -1,0 +1,25 @@
+# TAP results for test_select_simple.py
+not ok 1 - test_select_simple.py::test_one
+# 
+#     def test_one():
+# >       assert 0
+# E       assert 0
+# 
+# test_select_simple.py:2: AssertionError
+not ok 2 - test_select_simple.py::test_one
+# 
+#     def test_one():
+# >       assert 0
+# E       assert 0
+# 
+# test_select_simple.py:2: AssertionError
+not ok 3 - test_select_simple.py::TestClass.test_method_one
+# 
+# self = <test_select_simple.TestClass object at 0x7fa010c3d990>
+# 
+#     def test_method_one(self):
+# >       assert 42 == 43
+# E       assert 42 == 43
+# 
+# test_select_simple.py:5: AssertionError
+1..3

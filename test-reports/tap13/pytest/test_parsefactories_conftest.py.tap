@@ -1,0 +1,4 @@
+# TAP results for test_parsefactories_conftest.py
+ok 1 - test_parsefactories_conftest.py::test_hello
+ok 2 - test_parsefactories_conftest.py::test_check_setup
+1..2

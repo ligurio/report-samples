@@ -1,0 +1,8 @@
+# TAP results for xyz123/test_2.py
+not ok 1 - xyz123/test_2.py::test_2
+# 
+# >   def test_2(): 0/0
+# E   ZeroDivisionError: integer division or modulo by zero
+# 
+# xyz123/test_2.py:1: ZeroDivisionError
+1..1

@@ -1,0 +1,3 @@
+# TAP results for test_teardown_logging.py
+ok 1 - test_teardown_logging.py::test_foo
+1..1

@@ -1,0 +1,13 @@
+# TAP results for test_summing_simple.py
+ok 1 - test_summing_simple.py::test_pass
+not ok 2 - test_summing_simple.py::test_fail
+# 
+#     def test_fail():
+# >       assert 0
+# E       assert 0
+# 
+# test_summing_simple.py:5: AssertionError
+ok 3 - test_summing_simple.py::test_skip # SKIP <Skipped instance>
+ok 4 - test_summing_simple.py::test_xfail # SKIP 
+ok 5 - test_summing_simple.py::test_xpass
+1..5

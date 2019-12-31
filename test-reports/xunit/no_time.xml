@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="pytest" skips="2" tests="118" time="47.482">
+    <testcase classname="stestr.tests.test_bisect_return_codes.TestBisectReturnCodes" file="stestr/tests/test_bisect_return_codes.py" line="51" name="test_bisect_serial_fail_detected">
+    </testcase>
+</testsuite>

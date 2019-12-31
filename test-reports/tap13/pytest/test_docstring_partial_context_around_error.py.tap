@@ -1,0 +1,19 @@
+# TAP results for test_docstring_partial_context_around_error.py
+not ok 1 - test_docstring_partial_context_around_error.py::[doctest] test_docstring_partial_context_around_error.foo
+# 005                 text-line-3
+# 006                 text-line-4
+# 007                 text-line-5
+# 008                 text-line-6
+# 009                 text-line-7
+# 010                 text-line-8
+# 011                 text-line-9
+# 012                 text-line-10
+# 013                 text-line-11
+# 014                 >>> 1 + 1
+# Expected:
+#     3
+# Got:
+#     2
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_docstring_partial_context_around_error0/test_docstring_partial_context_around_error.py:14: DocTestFailure
+1..1

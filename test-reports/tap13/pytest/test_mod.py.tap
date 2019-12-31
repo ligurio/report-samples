@@ -1,0 +1,12 @@
+# TAP results for test_mod.py
+ok 1 - test_mod.py::test_pass
+ok 2 - test_mod.py::test_skip # SKIP hello
+not ok 3 - test_mod.py::test_fail
+# 
+# >   def test_fail(): raise ValueError("FAIL")
+# E   ValueError: FAIL
+# 
+# test_mod.py:4: ValueError
+ok 4 - test_mod.py::test_xfail # SKIP 
+ok 5 - test_mod.py::test_xpass
+1..5

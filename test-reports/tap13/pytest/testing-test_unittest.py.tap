@@ -1,0 +1,46 @@
+# TAP results for testing/test_unittest.py
+ok 1 - testing/test_unittest.py::test_simple_unittest
+ok 2 - testing/test_unittest.py::test_runTest_method
+ok 3 - testing/test_unittest.py::test_isclasscheck_issue53
+ok 4 - testing/test_unittest.py::test_setup
+ok 5 - testing/test_unittest.py::test_setUpModule
+ok 6 - testing/test_unittest.py::test_setUpModule_failing_no_teardown
+ok 7 - testing/test_unittest.py::test_new_instances
+ok 8 - testing/test_unittest.py::test_teardown
+ok 9 - testing/test_unittest.py::test_teardown_issue1649
+ok 10 - testing/test_unittest.py::test_unittest_skip_issue148
+ok 11 - testing/test_unittest.py::test_method_and_teardown_failing_reporting
+ok 12 - testing/test_unittest.py::test_setup_failure_is_shown
+ok 13 - testing/test_unittest.py::test_setup_setUpClass
+ok 14 - testing/test_unittest.py::test_setup_class
+ok 15 - testing/test_unittest.py::test_testcase_adderrorandfailure_defers[Error]
+ok 16 - testing/test_unittest.py::test_testcase_adderrorandfailure_defers[Failure]
+ok 17 - testing/test_unittest.py::test_testcase_custom_exception_info[Error]
+ok 18 - testing/test_unittest.py::test_testcase_custom_exception_info[Failure]
+ok 19 - testing/test_unittest.py::test_testcase_totally_incompatible_exception_info
+ok 20 - testing/test_unittest.py::test_module_level_pytestmark
+ok 21 - testing/test_unittest.py::TestTrialUnittest.test_trial_testcase_runtest_not_collected # SKIP could not import 'twisted.trial.unittest'
+ok 22 - testing/test_unittest.py::TestTrialUnittest.test_trial_exceptions_with_skips # SKIP could not import 'twisted.trial.unittest'
+ok 23 - testing/test_unittest.py::TestTrialUnittest.test_trial_error # SKIP could not import 'twisted.trial.unittest'
+ok 24 - testing/test_unittest.py::TestTrialUnittest.test_trial_pdb # SKIP could not import 'twisted.trial.unittest'
+ok 25 - testing/test_unittest.py::TestTrialUnittest.test_trial_testcase_skip_property # SKIP could not import 'twisted.trial.unittest'
+ok 26 - testing/test_unittest.py::TestTrialUnittest.test_trial_testfunction_skip_property # SKIP could not import 'twisted.trial.unittest'
+ok 27 - testing/test_unittest.py::TestTrialUnittest.test_trial_testcase_todo_property # SKIP could not import 'twisted.trial.unittest'
+ok 28 - testing/test_unittest.py::TestTrialUnittest.test_trial_testfunction_todo_property # SKIP could not import 'twisted.trial.unittest'
+ok 29 - testing/test_unittest.py::test_djangolike_testcase
+ok 30 - testing/test_unittest.py::test_unittest_not_shown_in_traceback
+ok 31 - testing/test_unittest.py::test_unorderable_types
+ok 32 - testing/test_unittest.py::test_unittest_typerror_traceback
+ok 33 - testing/test_unittest.py::test_unittest_expected_failure_for_failing_test_is_xfail[pytest]
+ok 34 - testing/test_unittest.py::test_unittest_expected_failure_for_failing_test_is_xfail[unittest]
+ok 35 - testing/test_unittest.py::test_unittest_expected_failure_for_passing_test_is_fail[pytest]
+ok 36 - testing/test_unittest.py::test_unittest_expected_failure_for_passing_test_is_fail[unittest]
+ok 37 - testing/test_unittest.py::test_unittest_setup_interaction[fixture-return]
+ok 38 - testing/test_unittest.py::test_unittest_setup_interaction[yield_fixture-yield]
+ok 39 - testing/test_unittest.py::test_non_unittest_no_setupclass_support
+ok 40 - testing/test_unittest.py::test_no_teardown_if_setupclass_failed
+ok 41 - testing/test_unittest.py::test_issue333_result_clearing
+ok 42 - testing/test_unittest.py::test_unittest_raise_skip_issue748
+ok 43 - testing/test_unittest.py::test_unittest_skip_issue1169
+ok 44 - testing/test_unittest.py::test_class_method_containing_test_issue1558
+1..44

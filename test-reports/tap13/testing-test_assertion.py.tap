@@ -1,0 +1,234 @@
+# TAP results for testing/test_assertion.py
+ok 1 - testing/test_assertion.py::TestImportHookInstallation.test_conftest_assertion_rewrite[plain-True]
+ok 2 - testing/test_assertion.py::TestImportHookInstallation.test_conftest_assertion_rewrite[plain-False]
+ok 3 - testing/test_assertion.py::TestImportHookInstallation.test_conftest_assertion_rewrite[rewrite-True]
+ok 4 - testing/test_assertion.py::TestImportHookInstallation.test_conftest_assertion_rewrite[rewrite-False]
+ok 5 - testing/test_assertion.py::TestImportHookInstallation.test_rewrite_assertions_pytester_plugin
+ok 6 - testing/test_assertion.py::TestImportHookInstallation.test_pytest_plugins_rewrite[plain]
+ok 7 - testing/test_assertion.py::TestImportHookInstallation.test_pytest_plugins_rewrite[rewrite]
+ok 8 - testing/test_assertion.py::TestImportHookInstallation.test_pytest_plugins_rewrite_module_names[str]
+ok 9 - testing/test_assertion.py::TestImportHookInstallation.test_pytest_plugins_rewrite_module_names[list]
+ok 10 - testing/test_assertion.py::TestImportHookInstallation.test_pytest_plugins_rewrite_module_names_correctly
+ok 11 - testing/test_assertion.py::TestImportHookInstallation.test_installed_plugin_rewrite[development-plain]
+ok 12 - testing/test_assertion.py::TestImportHookInstallation.test_installed_plugin_rewrite[development-rewrite]
+ok 13 - testing/test_assertion.py::TestImportHookInstallation.test_installed_plugin_rewrite[installed-plain]
+ok 14 - testing/test_assertion.py::TestImportHookInstallation.test_installed_plugin_rewrite[installed-rewrite]
+ok 15 - testing/test_assertion.py::TestImportHookInstallation.test_rewrite_ast
+ok 16 - testing/test_assertion.py::TestImportHookInstallation.test_register_assert_rewrite_checks_types
+ok 17 - testing/test_assertion.py::TestBinReprIntegration.test_pytest_assertrepr_compare_called
+ok 18 - testing/test_assertion.py::TestAssert_reprcompare.test_different_types
+ok 19 - testing/test_assertion.py::TestAssert_reprcompare.test_summary
+ok 20 - testing/test_assertion.py::TestAssert_reprcompare.test_text_diff
+ok 21 - testing/test_assertion.py::TestAssert_reprcompare.test_text_skipping
+ok 22 - testing/test_assertion.py::TestAssert_reprcompare.test_text_skipping_verbose
+ok 23 - testing/test_assertion.py::TestAssert_reprcompare.test_multiline_text_diff
+ok 24 - testing/test_assertion.py::TestAssert_reprcompare.test_list
+ok 25 - testing/test_assertion.py::TestAssert_reprcompare.test_iterable_full_diff[left0-right0-
+                Full diff:
+                - [0, 1]
+                ?     ^
+                + [0, 2]
+                ?     ^
+            ]
+ok 26 - testing/test_assertion.py::TestAssert_reprcompare.test_iterable_full_diff[left1-right1-
+                Full diff:
+                - {0: 1}
+                ?     ^
+                + {0: 2}
+                ?     ^
+            ]
+ok 27 - testing/test_assertion.py::TestAssert_reprcompare.test_iterable_full_diff[left2-right2-
+                Full diff:
+                - set([0, 1])
+                ?         ^
+                + set([0, 2])
+                ?         ^
+            ]
+ok 28 - testing/test_assertion.py::TestAssert_reprcompare.test_list_different_lengths
+ok 29 - testing/test_assertion.py::TestAssert_reprcompare.test_dict
+ok 30 - testing/test_assertion.py::TestAssert_reprcompare.test_dict_omitting
+ok 31 - testing/test_assertion.py::TestAssert_reprcompare.test_dict_omitting_with_verbosity_1
+ok 32 - testing/test_assertion.py::TestAssert_reprcompare.test_dict_omitting_with_verbosity_2
+ok 33 - testing/test_assertion.py::TestAssert_reprcompare.test_set
+ok 34 - testing/test_assertion.py::TestAssert_reprcompare.test_frozenzet
+ok 35 - testing/test_assertion.py::TestAssert_reprcompare.test_Sequence
+ok 36 - testing/test_assertion.py::TestAssert_reprcompare.test_list_tuples
+ok 37 - testing/test_assertion.py::TestAssert_reprcompare.test_list_bad_repr
+ok 38 - testing/test_assertion.py::TestAssert_reprcompare.test_one_repr_empty
+ok 39 - testing/test_assertion.py::TestAssert_reprcompare.test_repr_no_exc
+ok 40 - testing/test_assertion.py::TestAssert_reprcompare.test_unicode
+ok 41 - testing/test_assertion.py::TestAssert_reprcompare.test_nonascii_text
+ok 42 - testing/test_assertion.py::TestAssert_reprcompare.test_format_nonascii_explanation
+ok 43 - testing/test_assertion.py::TestAssert_reprcompare.test_mojibake
+ok 44 - testing/test_assertion.py::TestFormatExplanation.test_special_chars_full
+ok 45 - testing/test_assertion.py::TestFormatExplanation.test_fmt_simple
+ok 46 - testing/test_assertion.py::TestFormatExplanation.test_fmt_where
+ok 47 - testing/test_assertion.py::TestFormatExplanation.test_fmt_and
+ok 48 - testing/test_assertion.py::TestFormatExplanation.test_fmt_where_nested
+ok 49 - testing/test_assertion.py::TestFormatExplanation.test_fmt_newline
+ok 50 - testing/test_assertion.py::TestFormatExplanation.test_fmt_newline_escaped
+ok 51 - testing/test_assertion.py::TestFormatExplanation.test_fmt_newline_before_where
+ok 52 - testing/test_assertion.py::TestFormatExplanation.test_fmt_multi_newline_before_where
+ok 53 - testing/test_assertion.py::TestTruncateExplanation.test_doesnt_truncate_when_input_is_empty_list
+ok 54 - testing/test_assertion.py::TestTruncateExplanation.test_doesnt_truncate_at_when_input_is_5_lines_and_LT_max_chars
+ok 55 - testing/test_assertion.py::TestTruncateExplanation.test_truncates_at_8_lines_when_given_list_of_empty_strings
+ok 56 - testing/test_assertion.py::TestTruncateExplanation.test_truncates_at_8_lines_when_first_8_lines_are_LT_max_chars
+ok 57 - testing/test_assertion.py::TestTruncateExplanation.test_truncates_at_8_lines_when_first_8_lines_are_EQ_max_chars
+ok 58 - testing/test_assertion.py::TestTruncateExplanation.test_truncates_at_4_lines_when_first_4_lines_are_GT_max_chars
+ok 59 - testing/test_assertion.py::TestTruncateExplanation.test_truncates_at_1_line_when_first_line_is_GT_max_chars
+ok 60 - testing/test_assertion.py::TestTruncateExplanation.test_full_output_truncated
+ok 61 - testing/test_assertion.py::test_python25_compile_issue257
+ok 62 - testing/test_assertion.py::test_rewritten
+ok 63 - testing/test_assertion.py::test_reprcompare_notin
+ok 64 - testing/test_assertion.py::test_pytest_assertrepr_compare_integration
+ok 65 - testing/test_assertion.py::test_sequence_comparison_uses_repr
+ok 66 - testing/test_assertion.py::test_assertrepr_loaded_per_dir
+ok 67 - testing/test_assertion.py::test_assertion_options
+ok 68 - testing/test_assertion.py::test_triple_quoted_string_issue113
+ok 69 - testing/test_assertion.py::test_traceback_failure
+ok 70 - testing/test_assertion.py::test_exception_handling_no_traceback # SKIP Python 3.4+ shows chained exceptions on multiprocess
+ok 71 - testing/test_assertion.py::test_warn_missing
+ok 72 - testing/test_assertion.py::test_recursion_source_decode
+ok 73 - testing/test_assertion.py::test_AssertionError_message
+ok 74 - testing/test_assertion.py::test_set_with_unsortable_elements
+ok 75 - testing/test_assertion.py::test_diff_newline_at_end
+ok 76 - testing/test_assertion.py::test_assert_tuple_warning
+ok 77 - testing/test_assertion.py::test_assert_indirect_tuple_no_warning
+not ok 78 - testing/test_assertion.py::test_assert_with_unicode
+# 
+# monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fa011a8d090>
+# testdir = <Testdir local('/tmp/pytest-of-sergeyb/pytest-28/test_assert_with_unicode0')>
+# 
+#     def test_assert_with_unicode(monkeypatch, testdir):
+#         testdir.makepyfile(u"""
+#             # -*- coding: utf-8 -*-
+#             def test_unicode():
+#                 assert u'유니코드' == u'Unicode'
+#         """)
+#         result = testdir.runpytest()
+# >       result.stdout.fnmatch_lines(['*AssertionError*'])
+# 
+# /home/sergeyb/Downloads/pytest/testing/test_assertion.py:1033: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_pytest.pytester.LineMatcher object at 0x7fa011fa07d0>, lines2 = ['*AssertionError*']
+# 
+#     def fnmatch_lines(self, lines2):
+#         """Search captured text for matching lines using ``fnmatch.fnmatch``.
+#     
+#             The argument is a list of lines which have to match and can use glob
+#             wildcards.  If they do not match a pytest.fail() is called.  The
+#             matches and non-matches are also printed on stdout.
+#     
+#             """
+# >       self._match_lines(lines2, fnmatch, 'fnmatch')
+# E       Failed: nomatch: '*AssertionError*'
+# E           and: u'============================= test session starts =============================='
+# E           and: u'platform linux2 -- Python 2.7.14, pytest-3.5.0, py-1.5.3, pluggy-0.6.0'
+# E           and: u'rootdir: /tmp/pytest-of-sergeyb/pytest-28/test_assert_with_unicode0, inifile:'
+# E           and: u'plugins: tap-2.2, hypothesis-3.55.1'
+# E           and: u'collected 1 item'
+# E           and: u''
+# E           and: u'test_assert_with_unicode.py F'
+# E           and: u'INTERNALERROR> Traceback (most recent call last):'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 107, in wrap_session'
+# E           and: u'INTERNALERROR>     session.exitstatus = doit(config, session) or 0'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 145, in _main'
+# E           and: u'INTERNALERROR>     config.hook.pytest_runtestloop(session=session)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 168, in pytest_runtestloop'
+# E           and: u'INTERNALERROR>     item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 62, in pytest_runtest_protocol'
+# E           and: u'INTERNALERROR>     runtestprotocol(item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 79, in runtestprotocol'
+# E           and: u'INTERNALERROR>     reports.append(call_and_report(item, "call", log))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 162, in call_and_report'
+# E           and: u'INTERNALERROR>     hook.pytest_runtest_logreport(report=report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 68, in pytest_runtest_logreport'
+# E           and: u'INTERNALERROR>     diagnostics = _make_as_diagnostics(report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 82, in _make_as_diagnostics'
+# E           and: u'INTERNALERROR>     report.toterminal(tw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 233, in toterminal'
+# E           and: u'INTERNALERROR>     longrepr.toterminal(out)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/_code/code.py", line 751, in toterminal'
+# E           and: u'INTERNALERROR>     self.reprtraceback.toterminal(tw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/_code/code.py", line 768, in toterminal'
+# E           and: u'INTERNALERROR>     entry.toterminal(tw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/_code/code.py", line 818, in toterminal'
+# E           and: u'INTERNALERROR>     tw.line(line, bold=True, red=red)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 234, in line'
+# E           and: u'INTERNALERROR>     self.write(s, **kw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 224, in write'
+# E           and: u'INTERNALERROR>     write_out(self._file, markupmsg)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 372, in write_out'
+# E           and: u'INTERNALERROR>     if fil.encoding:'
+# E           and: u"INTERNALERROR> AttributeError: 'cStringIO.StringO' object has no attribute 'encoding'"
+# E           and: u''
+# E           and: u'=========================== 1 failed in 0.14 seconds ==========================='
+# E           and: u''
+# E       remains unmatched: '*AssertionError*'
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/pytester.py:1175: Failed
+ok 79 - testing/test_assertion.py::test_raise_unprintable_assertion_error
+ok 80 - testing/test_assertion.py::test_raise_assertion_error_raisin_repr
+ok 81 - testing/test_assertion.py::test_issue_1944
+1..81

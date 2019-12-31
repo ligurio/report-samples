@@ -1,0 +1,4 @@
+# TAP results for test_std_functional.py
+ok 1 - test_std_functional.py::test_hello
+ok 2 - test_std_functional.py::test_hello
+1..2

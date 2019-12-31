@@ -1,0 +1,22 @@
+# TAP results for test_filterwarnings_mark.py
+ok 1 - test_filterwarnings_mark.py::test_ignore_runtime_warning
+not ok 2 - test_filterwarnings_mark.py::test_warning_error
+# 
+#     @pytest.mark.filterwarnings('error')
+#     def test_warning_error():
+# >       warnings.warn(RuntimeWarning())
+# E       RuntimeWarning
+# 
+# test_filterwarnings_mark.py:10: RuntimeWarning
+ok 3 - test_filterwarnings_mark.py::test_show_warning
+ok 4 - test_filterwarnings_mark.py::test_ignore_runtime_warning
+not ok 5 - test_filterwarnings_mark.py::test_warning_error
+# 
+#     @pytest.mark.filterwarnings('error')
+#     def test_warning_error():
+# >       warnings.warn(RuntimeWarning())
+# E       RuntimeWarning
+# 
+# test_filterwarnings_mark.py:10: RuntimeWarning
+ok 6 - test_filterwarnings_mark.py::test_show_warning
+1..6

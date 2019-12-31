@@ -1,0 +1,3 @@
+# TAP results for test_dontreadfrominput_has_encoding.py
+ok 1 - test_dontreadfrominput_has_encoding.py::test_capattr
+1..1

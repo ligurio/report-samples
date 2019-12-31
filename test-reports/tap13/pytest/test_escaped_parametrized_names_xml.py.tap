@@ -1,0 +1,3 @@
+# TAP results for test_escaped_parametrized_names_xml.py
+ok 1 - test_escaped_parametrized_names_xml.py::test_func[\x00]
+1..1

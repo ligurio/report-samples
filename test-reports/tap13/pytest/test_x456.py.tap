@@ -1,0 +1,13 @@
+# TAP results for test_x456.py
+not ok 1 - test_x456.py::test
+# 
+#     def test():
+# >       assert x456.__file__.startswith('/tmp/pytest-of-sergeyb/pytest-28/test_import_prepend_append0/root2')
+# E       AssertionError: assert False
+# E        +  where False = <built-in method startswith of str object at 0x7fa00f65b880>('/tmp/pytest-of-sergeyb/pytest-28/test_import_prepend_append0/root2')
+# E        +    where <built-in method startswith of str object at 0x7fa00f65b880> = '/tmp/pytest-of-sergeyb/pytest-28/test_import_prepend_append0/root1/x456.py'.startswith
+# E        +      where '/tmp/pytest-of-sergeyb/pytest-28/test_import_prepend_append0/root1/x456.py' = x456.__file__
+# 
+# test_x456.py:3: AssertionError
+ok 2 - test_x456.py::test
+1..2

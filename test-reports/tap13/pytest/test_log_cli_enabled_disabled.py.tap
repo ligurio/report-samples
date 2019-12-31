@@ -1,0 +1,4 @@
+# TAP results for test_log_cli_enabled_disabled.py
+ok 1 - test_log_cli_enabled_disabled.py::test_log_cli
+ok 2 - test_log_cli_enabled_disabled.py::test_log_cli
+1..2

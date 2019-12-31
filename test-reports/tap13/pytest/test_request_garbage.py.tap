@@ -1,0 +1,3 @@
+# TAP results for test_request_garbage.py
+ok 1 - test_request_garbage.py::test_func
+1..1

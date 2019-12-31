@@ -1,0 +1,3 @@
+# TAP results for test_normal_flow.py
+ok 1 - test_normal_flow.py::test_func
+1..1

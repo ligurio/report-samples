@@ -1,0 +1,9 @@
+# TAP results for test_raise_unprintable_assertion_error.py
+not ok 1 - test_raise_unprintable_assertion_error.py::test_raise_assertion_error
+# 
+#     def test_raise_assertion_error():
+# >       raise AssertionError('\xff')
+# E       AssertionError: ÿ
+# 
+# test_raise_unprintable_assertion_error.py:2: AssertionError
+1..1

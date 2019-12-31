@@ -1,0 +1,10 @@
+# TAP results for test_contains_unicode.py
+not ok 1 - test_contains_unicode.py::[doctest] test_contains_unicode.foo
+# 003 
+# 004                 >>> name = 'с' # not letter 'c' but instead Cyrillic 's'.
+# Expected:
+#     'anything'
+# Got nothing
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_contains_unicode0/test_contains_unicode.py:4: DocTestFailure
+1..1

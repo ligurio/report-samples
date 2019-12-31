@@ -1,0 +1,3 @@
+# TAP results for test_request_cached_setup_two_args.py
+ok 1 - test_request_cached_setup_two_args.py::test_two_different_setups
+1..1

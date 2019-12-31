@@ -1,0 +1,12 @@
+# TAP results for test_doctestmodule.py
+not ok 1 - test_doctestmodule.py::[doctest] test_doctestmodule
+# 001 
+# 002                 >>> x = 1
+# 003                 >>> x == 1
+# Expected:
+#     False
+# Got:
+#     True
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctestmodule0/test_doctestmodule.py:3: DocTestFailure
+1..1

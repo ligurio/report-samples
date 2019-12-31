@@ -1,0 +1,3 @@
+# TAP results for test.foo
+ok 1 - test.foo::[doctest] test.foo
+1..1

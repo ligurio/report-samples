@@ -1,0 +1,12 @@
+# TAP results for test_diff_newline_at_end.py
+not ok 1 - test_diff_newline_at_end.py::test_diff
+# 
+#     def test_diff():
+# >       assert 'asdf' == 'asdf\n'
+# E       AssertionError: assert 'asdf' == 'asdf\n'
+# E         - asdf
+# E         + asdf
+# E         ?     +
+# 
+# test_diff_newline_at_end.py:2: AssertionError
+1..1

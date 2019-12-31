@@ -1,0 +1,3 @@
+# TAP results for test_teardown_capturing.py
+ok 1 - test_teardown_capturing.py::test_func1
+1..1

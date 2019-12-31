@@ -1,0 +1,4 @@
+# TAP results for test_parametrize_ID_generation_string_int_works.py
+ok 1 - test_parametrize_ID_generation_string_int_works.py::test_limit[00]
+ok 2 - test_parametrize_ID_generation_string_int_works.py::test_limit[01]
+1..2

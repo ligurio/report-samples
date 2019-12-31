@@ -1,0 +1,9 @@
+# TAP results for test_cache_failure_warns.py
+not ok 1 - test_cache_failure_warns.py::test_error
+# 
+#     def test_error():
+# >       raise Exception
+# E       Exception
+# 
+# test_cache_failure_warns.py:2: Exception
+1..1

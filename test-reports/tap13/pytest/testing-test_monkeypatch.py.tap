@@ -1,0 +1,34 @@
+# TAP results for testing/test_monkeypatch.py
+ok 1 - testing/test_monkeypatch.py::test_setattr
+ok 2 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_string_expression
+ok 3 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_string_expression_class
+ok 4 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_unicode_string
+ok 5 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_wrong_target
+ok 6 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_unknown_import
+ok 7 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_unknown_attr
+ok 8 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_unknown_attr_non_raising
+ok 9 - testing/test_monkeypatch.py::TestSetattrWithImportPath.test_delattr
+ok 10 - testing/test_monkeypatch.py::test_delattr
+ok 11 - testing/test_monkeypatch.py::test_setitem
+ok 12 - testing/test_monkeypatch.py::test_setitem_deleted_meanwhile
+ok 13 - testing/test_monkeypatch.py::test_setenv_deleted_meanwhile[True]
+ok 14 - testing/test_monkeypatch.py::test_setenv_deleted_meanwhile[False]
+ok 15 - testing/test_monkeypatch.py::test_delitem
+ok 16 - testing/test_monkeypatch.py::test_setenv
+ok 17 - testing/test_monkeypatch.py::test_delenv
+ok 18 - testing/test_monkeypatch.py::test_setenv_prepend
+ok 19 - testing/test_monkeypatch.py::test_monkeypatch_plugin
+ok 20 - testing/test_monkeypatch.py::test_syspath_prepend
+ok 21 - testing/test_monkeypatch.py::test_syspath_prepend_double_undo
+ok 22 - testing/test_monkeypatch.py::test_chdir_with_path_local
+ok 23 - testing/test_monkeypatch.py::test_chdir_with_str
+ok 24 - testing/test_monkeypatch.py::test_chdir_undo
+ok 25 - testing/test_monkeypatch.py::test_chdir_double_undo
+ok 26 - testing/test_monkeypatch.py::test_issue185_time_breaks
+ok 27 - testing/test_monkeypatch.py::test_importerror
+ok 28 - testing/test_monkeypatch.py::test_issue156_undo_staticmethod[new]
+ok 29 - testing/test_monkeypatch.py::test_issue156_undo_staticmethod[new-inherit]
+ok 30 - testing/test_monkeypatch.py::test_issue156_undo_staticmethod[old]
+ok 31 - testing/test_monkeypatch.py::test_issue156_undo_staticmethod[old-inherit]
+ok 32 - testing/test_monkeypatch.py::test_issue1338_name_resolving # SKIP could not import 'requests'
+1..32

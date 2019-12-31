@@ -1,0 +1,4 @@
+# TAP results for testing/freeze/tests/test_trivial.py
+ok 1 - testing/freeze/tests/test_trivial.py::test_upper
+ok 2 - testing/freeze/tests/test_trivial.py::test_lower
+1..2

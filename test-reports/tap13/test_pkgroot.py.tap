@@ -1,0 +1,5 @@
+# TAP results for test_pkgroot.py
+ok 1 - test_pkgroot.py::test_pkgroot
+ok 2 - test_pkgroot.py::test_pkgroot
+ok 3 - test_pkgroot.py::test_pkgroot
+1..3

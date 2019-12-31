@@ -1,0 +1,12 @@
+# TAP results for test_messages_logged.py
+not ok 1 - test_messages_logged.py::test_foo
+# 
+#     def test_foo():
+#         sys.stdout.write('text going to stdout')
+#         sys.stderr.write('text going to stderr')
+#         logger.info('text going to logger')
+# >       assert False
+# E       assert False
+# 
+# test_messages_logged.py:10: AssertionError
+1..1

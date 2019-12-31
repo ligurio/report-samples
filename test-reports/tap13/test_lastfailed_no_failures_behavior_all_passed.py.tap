@@ -1,0 +1,8 @@
+# TAP results for test_lastfailed_no_failures_behavior_all_passed.py
+ok 1 - test_lastfailed_no_failures_behavior_all_passed.py::test_1
+ok 2 - test_lastfailed_no_failures_behavior_all_passed.py::test_2
+ok 3 - test_lastfailed_no_failures_behavior_all_passed.py::test_1
+ok 4 - test_lastfailed_no_failures_behavior_all_passed.py::test_2
+ok 5 - test_lastfailed_no_failures_behavior_all_passed.py::test_1
+ok 6 - test_lastfailed_no_failures_behavior_all_passed.py::test_2
+1..6

@@ -1,0 +1,3 @@
+# TAP results for test_override_multiple_and_default.py
+ok 1 - test_override_multiple_and_default.py::test_multiple_options
+1..1

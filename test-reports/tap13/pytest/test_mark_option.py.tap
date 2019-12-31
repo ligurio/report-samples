@@ -1,0 +1,6 @@
+# TAP results for test_mark_option.py
+ok 1 - test_mark_option.py::test_one
+ok 2 - test_mark_option.py::test_two
+ok 3 - test_mark_option.py::test_one
+ok 4 - test_mark_option.py::test_two
+1..4

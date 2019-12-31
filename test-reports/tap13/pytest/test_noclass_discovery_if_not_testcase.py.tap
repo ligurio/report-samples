@@ -1,0 +1,12 @@
+# TAP results for test_noclass_discovery_if_not_testcase.py
+not ok 1 - test_noclass_discovery_if_not_testcase.py::TestHello.test_hello
+# 
+# self = <test_noclass_discovery_if_not_testcase.TestHello object at 0x7fa011ad1390>
+# 
+#     def test_hello(self):
+# >       assert self.attr
+# E       AttributeError: 'TestHello' object has no attribute 'attr'
+# 
+# test_noclass_discovery_if_not_testcase.py:4: AttributeError
+ok 2 - test_noclass_discovery_if_not_testcase.py::RealTest.test_hello
+1..2

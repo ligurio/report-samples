@@ -1,0 +1,10 @@
+# TAP results for test_assertion_magic.py
+not ok 1 - test_assertion_magic.py::test_this
+# 
+#     def test_this():
+#         x = 0
+# >       assert x
+# E       assert 0
+# 
+# test_assertion_magic.py:3: AssertionError
+1..1

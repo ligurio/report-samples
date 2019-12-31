@@ -1,0 +1,3 @@
+# TAP results for test_collector_attributes.py
+ok 1 - test_collector_attributes.py::test_hello
+1..1

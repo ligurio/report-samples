@@ -1,0 +1,9 @@
+# TAP results for testing/test_helpconfig.py
+ok 1 - testing/test_helpconfig.py::test_version
+ok 2 - testing/test_helpconfig.py::test_help
+ok 3 - testing/test_helpconfig.py::test_hookvalidation_unknown
+ok 4 - testing/test_helpconfig.py::test_hookvalidation_optional
+ok 5 - testing/test_helpconfig.py::test_traceconfig
+ok 6 - testing/test_helpconfig.py::test_debug
+ok 7 - testing/test_helpconfig.py::test_PYTEST_DEBUG
+1..7

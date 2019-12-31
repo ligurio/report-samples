@@ -1,0 +1,5 @@
+# TAP results for test_raises_as_contextmanager.py
+ok 1 - test_raises_as_contextmanager.py::test_simple
+ok 2 - test_raises_as_contextmanager.py::test_noraise
+ok 3 - test_raises_as_contextmanager.py::test_raise_wrong_exception_passes_by
+1..3

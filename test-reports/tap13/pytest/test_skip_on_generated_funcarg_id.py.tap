@@ -1,0 +1,3 @@
+# TAP results for test_skip_on_generated_funcarg_id.py
+ok 1 - test_skip_on_generated_funcarg_id.py::test_func[hello-123] # SKIP hello
+1..1

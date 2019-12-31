@@ -1,0 +1,3 @@
+# TAP results for test_getfixturevalue_recursive.py
+ok 1 - test_getfixturevalue_recursive.py::test_func
+1..1

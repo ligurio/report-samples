@@ -1,0 +1,4 @@
+# TAP results for ../hello/ns_pkg/hello/test_hello.py
+ok 1 - ../hello/ns_pkg/hello/test_hello.py::test_hello
+ok 2 - ../hello/ns_pkg/hello/test_hello.py::test_other
+1..2

@@ -1,0 +1,4 @@
+# TAP results for test_non_unittest_no_setupclass_support.py
+ok 1 - test_non_unittest_no_setupclass_support.py::TestFoo.test_method1
+ok 2 - test_non_unittest_no_setupclass_support.py::test_not_teareddown
+1..2

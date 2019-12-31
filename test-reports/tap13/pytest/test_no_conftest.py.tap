@@ -1,0 +1,3 @@
+# TAP results for test_no_conftest.py
+ok 1 - test_no_conftest.py::test_no_conftest
+1..1

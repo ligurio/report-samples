@@ -1,0 +1,83 @@
+# TAP results for testing/test_mark.py
+ok 1 - testing/test_mark.py::TestMark.test_markinfo_repr
+ok 2 - testing/test_mark.py::TestMark.test_pytest_exists_in_namespace_all[py.test-mark]
+ok 3 - testing/test_mark.py::TestMark.test_pytest_exists_in_namespace_all[py.test-param]
+ok 4 - testing/test_mark.py::TestMark.test_pytest_exists_in_namespace_all[pytest-mark]
+ok 5 - testing/test_mark.py::TestMark.test_pytest_exists_in_namespace_all[pytest-param]
+ok 6 - testing/test_mark.py::TestMark.test_pytest_mark_notcallable
+ok 7 - testing/test_mark.py::TestMark.test_mark_with_param
+ok 8 - testing/test_mark.py::TestMark.test_pytest_mark_name_starts_with_underscore
+ok 9 - testing/test_mark.py::TestMark.test_pytest_mark_bare
+ok 10 - testing/test_mark.py::TestMark.test_pytest_mark_keywords
+ok 11 - testing/test_mark.py::TestMark.test_apply_multiple_and_merge
+ok 12 - testing/test_mark.py::TestMark.test_pytest_mark_positional
+ok 13 - testing/test_mark.py::TestMark.test_pytest_mark_positional_func_and_keyword
+ok 14 - testing/test_mark.py::TestMark.test_pytest_mark_reuse
+ok 15 - testing/test_mark.py::test_marked_class_run_twice
+ok 16 - testing/test_mark.py::test_ini_markers
+ok 17 - testing/test_mark.py::test_markers_option
+ok 18 - testing/test_mark.py::test_ini_markers_whitespace
+ok 19 - testing/test_mark.py::test_marker_without_description
+ok 20 - testing/test_mark.py::test_markers_option_with_plugin_in_current_dir
+ok 21 - testing/test_mark.py::test_mark_on_pseudo_function
+ok 22 - testing/test_mark.py::test_strict_prohibits_unregistered_markers
+ok 23 - testing/test_mark.py::test_mark_option[spec0]
+ok 24 - testing/test_mark.py::test_mark_option[spec1]
+ok 25 - testing/test_mark.py::test_mark_option[spec2]
+ok 26 - testing/test_mark.py::test_mark_option[spec3]
+ok 27 - testing/test_mark.py::test_mark_option_custom[spec0]
+ok 28 - testing/test_mark.py::test_mark_option_custom[spec1]
+ok 29 - testing/test_mark.py::test_keyword_option_custom[spec0]
+ok 30 - testing/test_mark.py::test_keyword_option_custom[spec1]
+ok 31 - testing/test_mark.py::test_keyword_option_custom[spec2]
+ok 32 - testing/test_mark.py::test_keyword_option_custom[spec3]
+ok 33 - testing/test_mark.py::test_keyword_option_parametrize[spec0]
+ok 34 - testing/test_mark.py::test_keyword_option_parametrize[spec1]
+ok 35 - testing/test_mark.py::test_keyword_option_parametrize[spec2]
+ok 36 - testing/test_mark.py::test_keyword_option_wrong_arguments[spec0]
+ok 37 - testing/test_mark.py::test_keyword_option_wrong_arguments[spec1]
+ok 38 - testing/test_mark.py::test_parametrized_collected_from_command_line
+ok 39 - testing/test_mark.py::test_parametrized_collect_with_wrong_args
+ok 40 - testing/test_mark.py::test_parametrized_with_kwargs
+ok 41 - testing/test_mark.py::TestFunctional.test_mark_per_function
+ok 42 - testing/test_mark.py::TestFunctional.test_mark_per_module
+ok 43 - testing/test_mark.py::TestFunctional.test_marklist_per_class
+ok 44 - testing/test_mark.py::TestFunctional.test_marklist_per_module
+ok 45 - testing/test_mark.py::TestFunctional.test_mark_per_class_decorator
+ok 46 - testing/test_mark.py::TestFunctional.test_mark_per_class_decorator_plus_existing_dec
+ok 47 - testing/test_mark.py::TestFunctional.test_merging_markers
+ok 48 - testing/test_mark.py::TestFunctional.test_merging_markers_deep # SKIP unfixed
+ok 49 - testing/test_mark.py::TestFunctional.test_mark_decorator_subclass_does_not_propagate_to_base
+ok 50 - testing/test_mark.py::TestFunctional.test_mark_should_not_pass_to_siebling_class # SKIP markers smear on methods of base classes
+ok 51 - testing/test_mark.py::TestFunctional.test_mark_decorator_baseclasses_merged
+ok 52 - testing/test_mark.py::TestFunctional.test_mark_with_wrong_marker
+ok 53 - testing/test_mark.py::TestFunctional.test_mark_dynamically_in_funcarg
+ok 54 - testing/test_mark.py::TestFunctional.test_merging_markers_two_functions
+ok 55 - testing/test_mark.py::TestFunctional.test_no_marker_match_on_unmarked_names
+ok 56 - testing/test_mark.py::TestFunctional.test_keywords_at_node_level
+ok 57 - testing/test_mark.py::TestFunctional.test_keyword_added_for_session
+ok 58 - testing/test_mark.py::TestFunctional.test_mark_from_parameters # SKIP callspec2.setmulti misuses keywords
+ok 59 - testing/test_mark.py::TestKeywordSelection.test_select_simple
+ok 60 - testing/test_mark.py::TestKeywordSelection.test_select_extra_keywords[xxx]
+ok 61 - testing/test_mark.py::TestKeywordSelection.test_select_extra_keywords[xxx and test_2]
+ok 62 - testing/test_mark.py::TestKeywordSelection.test_select_extra_keywords[TestClass]
+ok 63 - testing/test_mark.py::TestKeywordSelection.test_select_extra_keywords[xxx and not test_1]
+ok 64 - testing/test_mark.py::TestKeywordSelection.test_select_extra_keywords[TestClass and test_2]
+ok 65 - testing/test_mark.py::TestKeywordSelection.test_select_extra_keywords[xxx and TestClass and test_2]
+ok 66 - testing/test_mark.py::TestKeywordSelection.test_select_starton
+ok 67 - testing/test_mark.py::TestKeywordSelection.test_keyword_extra
+ok 68 - testing/test_mark.py::TestKeywordSelection.test_keyword_extra_dash # SKIP 
+ok 69 - testing/test_mark.py::TestKeywordSelection.test_no_magic_values
+ok 70 - testing/test_mark.py::test_parameterset_extractfrom[argval0-expected0]
+ok 71 - testing/test_mark.py::test_parameterset_extractfrom[argval1-expected1]
+ok 72 - testing/test_mark.py::test_legacy_transfer
+ok 73 - testing/test_mark.py::TestMarkDecorator.test__eq__[lhs0-rhs0-True]
+ok 74 - testing/test_mark.py::TestMarkDecorator.test__eq__[lhs1-rhs1-False]
+ok 75 - testing/test_mark.py::TestMarkDecorator.test__eq__[lhs2-bar-False]
+ok 76 - testing/test_mark.py::TestMarkDecorator.test__eq__[foo-rhs3-False]
+ok 77 - testing/test_mark.py::test_parameterset_for_parametrize_marks[None]
+ok 78 - testing/test_mark.py::test_parameterset_for_parametrize_marks[]
+ok 79 - testing/test_mark.py::test_parameterset_for_parametrize_marks[skip]
+ok 80 - testing/test_mark.py::test_parameterset_for_parametrize_marks[xfail]
+ok 81 - testing/test_mark.py::test_parameterset_for_parametrize_bad_markname
+1..81

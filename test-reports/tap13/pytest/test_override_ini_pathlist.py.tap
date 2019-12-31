@@ -1,0 +1,3 @@
+# TAP results for test_override_ini_pathlist.py
+ok 1 - test_override_ini_pathlist.py::test_pathlist
+1..1

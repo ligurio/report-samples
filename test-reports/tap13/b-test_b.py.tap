@@ -1,0 +1,8 @@
+# TAP results for b/test_b.py
+not ok 1 - b/test_b.py::test_b
+# 
+# >   def test_b(): assert 1 == 2
+# E   assert summary b
+# 
+# b/test_b.py:1: AssertionError
+1..1

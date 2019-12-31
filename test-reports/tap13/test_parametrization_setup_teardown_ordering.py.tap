@@ -1,0 +1,7 @@
+# TAP results for test_parametrization_setup_teardown_ordering.py
+ok 1 - test_parametrization_setup_teardown_ordering.py::TestClass.test_step1[1]
+ok 2 - test_parametrization_setup_teardown_ordering.py::TestClass.test_step2[1]
+ok 3 - test_parametrization_setup_teardown_ordering.py::TestClass.test_step1[2]
+ok 4 - test_parametrization_setup_teardown_ordering.py::TestClass.test_step2[2]
+ok 5 - test_parametrization_setup_teardown_ordering.py::test_finish
+1..5

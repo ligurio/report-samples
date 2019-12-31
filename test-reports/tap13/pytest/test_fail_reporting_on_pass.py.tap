@@ -1,0 +1,3 @@
+# TAP results for test_fail_reporting_on_pass.py
+ok 1 - test_fail_reporting_on_pass.py::test_this
+1..1

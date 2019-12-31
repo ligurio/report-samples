@@ -1,0 +1,8 @@
+# TAP results for testing/test_compat.py
+ok 1 - testing/test_compat.py::test_is_generator
+ok 2 - testing/test_compat.py::test_real_func_loop_limit
+ok 3 - testing/test_compat.py::test_is_generator_asyncio # SKIP asyncio available in Python 3.4+
+ok 4 - testing/test_compat.py::test_is_generator_async_syntax # SKIP async syntax available in Python 3.5+
+ok 5 - testing/test_compat.py::test_helper_failures
+ok 6 - testing/test_compat.py::test_safe_getattr
+1..6

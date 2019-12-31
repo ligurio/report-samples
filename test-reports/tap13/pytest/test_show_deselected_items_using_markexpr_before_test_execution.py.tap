@@ -1,0 +1,4 @@
+# TAP results for test_show_deselected_items_using_markexpr_before_test_execution.py
+ok 1 - test_show_deselected_items_using_markexpr_before_test_execution.py::test_bar
+ok 2 - test_show_deselected_items_using_markexpr_before_test_execution.py::test_pass
+1..2

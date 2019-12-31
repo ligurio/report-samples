@@ -1,0 +1,78 @@
+# TAP results for testing/test_skipping.py
+ok 1 - testing/test_skipping.py::TestEvaluator.test_no_marker
+ok 2 - testing/test_skipping.py::TestEvaluator.test_marked_no_args
+ok 3 - testing/test_skipping.py::TestEvaluator.test_marked_one_arg
+ok 4 - testing/test_skipping.py::TestEvaluator.test_marked_one_arg_unicode
+ok 5 - testing/test_skipping.py::TestEvaluator.test_marked_one_arg_with_reason
+ok 6 - testing/test_skipping.py::TestEvaluator.test_marked_one_arg_twice
+ok 7 - testing/test_skipping.py::TestEvaluator.test_marked_one_arg_twice2
+ok 8 - testing/test_skipping.py::TestEvaluator.test_marked_skip_with_not_string
+ok 9 - testing/test_skipping.py::TestEvaluator.test_skipif_class
+ok 10 - testing/test_skipping.py::TestXFail.test_xfail_simple[True]
+ok 11 - testing/test_skipping.py::TestXFail.test_xfail_simple[False]
+ok 12 - testing/test_skipping.py::TestXFail.test_xfail_xpassed
+ok 13 - testing/test_skipping.py::TestXFail.test_xfail_using_platform
+ok 14 - testing/test_skipping.py::TestXFail.test_xfail_xpassed_strict
+ok 15 - testing/test_skipping.py::TestXFail.test_xfail_run_anyway
+ok 16 - testing/test_skipping.py::TestXFail.test_xfail_evalfalse_but_fails
+ok 17 - testing/test_skipping.py::TestXFail.test_xfail_not_report_default
+ok 18 - testing/test_skipping.py::TestXFail.test_xfail_not_run_xfail_reporting
+ok 19 - testing/test_skipping.py::TestXFail.test_xfail_not_run_no_setup_run
+ok 20 - testing/test_skipping.py::TestXFail.test_xfail_xpass
+ok 21 - testing/test_skipping.py::TestXFail.test_xfail_imperative
+ok 22 - testing/test_skipping.py::TestXFail.test_xfail_imperative_in_setup_function
+ok 23 - testing/test_skipping.py::TestXFail.test_dynamic_xfail_no_run
+ok 24 - testing/test_skipping.py::TestXFail.test_dynamic_xfail_set_during_funcarg_setup
+ok 25 - testing/test_skipping.py::TestXFail.test_xfail_raises[TypeError-TypeError-*1 xfailed*]
+ok 26 - testing/test_skipping.py::TestXFail.test_xfail_raises[(AttributeError, TypeError)-TypeError-*1 xfailed*]
+ok 27 - testing/test_skipping.py::TestXFail.test_xfail_raises[TypeError-IndexError-*1 failed*]
+ok 28 - testing/test_skipping.py::TestXFail.test_xfail_raises[(AttributeError, TypeError)-IndexError-*1 failed*]
+ok 29 - testing/test_skipping.py::TestXFail.test_strict_sanity
+ok 30 - testing/test_skipping.py::TestXFail.test_strict_xfail[True]
+ok 31 - testing/test_skipping.py::TestXFail.test_strict_xfail[False]
+ok 32 - testing/test_skipping.py::TestXFail.test_strict_xfail_condition[True]
+ok 33 - testing/test_skipping.py::TestXFail.test_strict_xfail_condition[False]
+ok 34 - testing/test_skipping.py::TestXFail.test_xfail_condition_keyword[True]
+ok 35 - testing/test_skipping.py::TestXFail.test_xfail_condition_keyword[False]
+ok 36 - testing/test_skipping.py::TestXFail.test_strict_xfail_default_from_file[true]
+ok 37 - testing/test_skipping.py::TestXFail.test_strict_xfail_default_from_file[false]
+ok 38 - testing/test_skipping.py::TestXFailwithSetupTeardown.test_failing_setup_issue9
+ok 39 - testing/test_skipping.py::TestXFailwithSetupTeardown.test_failing_teardown_issue9
+ok 40 - testing/test_skipping.py::TestSkip.test_skip_class
+ok 41 - testing/test_skipping.py::TestSkip.test_skips_on_false_string
+ok 42 - testing/test_skipping.py::TestSkip.test_arg_as_reason
+ok 43 - testing/test_skipping.py::TestSkip.test_skip_no_reason
+ok 44 - testing/test_skipping.py::TestSkip.test_skip_with_reason
+ok 45 - testing/test_skipping.py::TestSkip.test_only_skips_marked_test
+ok 46 - testing/test_skipping.py::TestSkip.test_strict_and_skip
+ok 47 - testing/test_skipping.py::TestSkipif.test_skipif_conditional
+ok 48 - testing/test_skipping.py::TestSkipif.test_skipif_reporting["hasattr(sys, 'platform')"]
+ok 49 - testing/test_skipping.py::TestSkipif.test_skipif_reporting[True, reason="invalid platform"]
+ok 50 - testing/test_skipping.py::TestSkipif.test_skipif_using_platform
+ok 51 - testing/test_skipping.py::TestSkipif.test_skipif_reporting_multiple[skipif-SKIP-skipped]
+ok 52 - testing/test_skipping.py::TestSkipif.test_skipif_reporting_multiple[xfail-XPASS-xpassed]
+ok 53 - testing/test_skipping.py::test_skip_not_report_default
+ok 54 - testing/test_skipping.py::test_skipif_class
+ok 55 - testing/test_skipping.py::test_skip_reasons_folding
+ok 56 - testing/test_skipping.py::test_skipped_reasons_functional
+ok 57 - testing/test_skipping.py::test_skipped_folding
+ok 58 - testing/test_skipping.py::test_reportchars
+ok 59 - testing/test_skipping.py::test_reportchars_error
+ok 60 - testing/test_skipping.py::test_reportchars_all
+ok 61 - testing/test_skipping.py::test_reportchars_all_error
+ok 62 - testing/test_skipping.py::test_errors_in_xfail_skip_expressions
+ok 63 - testing/test_skipping.py::test_xfail_skipif_with_globals
+ok 64 - testing/test_skipping.py::test_direct_gives_error
+ok 65 - testing/test_skipping.py::test_default_markers
+ok 66 - testing/test_skipping.py::test_xfail_test_setup_exception
+ok 67 - testing/test_skipping.py::test_imperativeskip_on_xfail_test
+ok 68 - testing/test_skipping.py::TestBooleanCondition.test_skipif
+ok 69 - testing/test_skipping.py::TestBooleanCondition.test_skipif_noreason
+ok 70 - testing/test_skipping.py::TestBooleanCondition.test_xfail
+ok 71 - testing/test_skipping.py::test_xfail_item
+ok 72 - testing/test_skipping.py::test_module_level_skip_error
+ok 73 - testing/test_skipping.py::test_module_level_skip_with_allow_module_level
+ok 74 - testing/test_skipping.py::test_invalid_skip_keyword_parameter
+ok 75 - testing/test_skipping.py::test_mark_xfail_item
+ok 76 - testing/test_skipping.py::test_summary_list_after_errors
+1..76

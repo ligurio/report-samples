@@ -1,0 +1,30 @@
+# TAP results for test_errored.py
+not ok 1 - test_errored.py::test_error
+# 
+#     def test_error():
+# >       assert False
+# E       assert False
+# 
+# test_errored.py:2: AssertionError
+not ok 2 - test_errored.py::test_error
+# 
+#     def test_error():
+# >       assert False
+# E       assert False
+# 
+# test_errored.py:2: AssertionError
+not ok 3 - test_errored.py::test_error
+# 
+#     def test_error():
+# >       assert False
+# E       assert False
+# 
+# test_errored.py:2: AssertionError
+not ok 4 - test_errored.py::test_error
+# 
+#     def test_error():
+# >       assert False
+# E       assert False
+# 
+# test_errored.py:2: AssertionError
+1..4

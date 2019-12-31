@@ -1,0 +1,90 @@
+# TAP results for test_tb_option.py
+not ok 1 - test_tb_option.py::test_func
+# 
+#     def test_func():
+#         print (6*7)
+# >       g()  # --calling--
+# 
+# test_tb_option.py:6: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def g():
+# >       raise IndexError
+# E       IndexError
+# 
+# test_tb_option.py:3: IndexError
+not ok 2 - test_tb_option.py::test_func
+# test_tb_option.py:6: in test_func
+#     g()  # --calling--
+# test_tb_option.py:3: in g
+#     raise IndexError
+# E   IndexError
+not ok 3 - test_tb_option.py::test_func
+# E   IndexError
+not ok 4 - test_tb_option.py::test_func
+# 
+#     def test_func():
+#         print (6*7)
+# >       g()  # --calling--
+# 
+# test_tb_option.py:6: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def g():
+# >       raise IndexError
+# E       IndexError
+# 
+# test_tb_option.py:3: IndexError
+not ok 5 - test_tb_option.py::test_func
+# test_tb_option.py:6: in test_func
+#     g()  # --calling--
+# test_tb_option.py:3: in g
+#     raise IndexError
+# E   IndexError
+not ok 6 - test_tb_option.py::test_func
+# E   IndexError
+not ok 7 - test_tb_option.py::test_func
+# 
+#     def test_func():
+#         print (6*7)
+# >       g()  # --calling--
+# 
+# test_tb_option.py:6: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def g():
+# >       raise IndexError
+# E       IndexError
+# 
+# test_tb_option.py:3: IndexError
+not ok 8 - test_tb_option.py::test_func
+# test_tb_option.py:6: in test_func
+#     g()  # --calling--
+# test_tb_option.py:3: in g
+#     raise IndexError
+# E   IndexError
+not ok 9 - test_tb_option.py::test_func
+# E   IndexError
+not ok 10 - test_tb_option.py::test_func
+# 
+#     def test_func():
+#         print (6*7)
+# >       g()  # --calling--
+# 
+# test_tb_option.py:6: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+#     def g():
+# >       raise IndexError
+# E       IndexError
+# 
+# test_tb_option.py:3: IndexError
+not ok 11 - test_tb_option.py::test_func
+# test_tb_option.py:6: in test_func
+#     g()  # --calling--
+# test_tb_option.py:3: in g
+#     raise IndexError
+# E   IndexError
+not ok 12 - test_tb_option.py::test_func
+# E   IndexError
+1..12

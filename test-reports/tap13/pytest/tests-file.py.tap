@@ -1,0 +1,9 @@
+# TAP results for tests/file.py
+not ok 1 - tests/file.py::test_simple_failure
+# 
+#     def test_simple_failure():
+# >       assert 1 + 1 == 3
+# E       assert (1 + 1) == 3
+# 
+# tests/file.py:3: AssertionError
+1..1

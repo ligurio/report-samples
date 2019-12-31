@@ -1,0 +1,20 @@
+# TAP results for test_doctest_id.txt
+not ok 1 - test_doctest_id.txt::[doctest] test_doctest_id.txt
+# 001 >>> x=3
+# 002 >>> x
+# Expected:
+#     4
+# Got:
+#     3
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_id0/test_doctest_id.txt:2: DocTestFailure
+not ok 2 - test_doctest_id.txt::[doctest] test_doctest_id.txt
+# 001 >>> x=3
+# 002 >>> x
+# Expected:
+#     4
+# Got:
+#     3
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_id0/test_doctest_id.txt:2: DocTestFailure
+1..2

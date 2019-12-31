@@ -1,0 +1,47 @@
+# TAP results for test_importerror.py
+not ok 1 - test_importerror.py::test_importerror
+# 
+# monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7fa010455c90>
+# 
+#     def test_importerror(monkeypatch):
+# >       monkeypatch.setattr('package.a.x', 2)
+# 
+# test_importerror.py:2: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/monkeypatch.py:85: in derive_importpath
+#     target = resolve(module)
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# name = 'package.a'
+# 
+#     def resolve(name):
+#         # simplified from zope.dottedname
+#         parts = name.split('.')
+#     
+#         used = parts.pop(0)
+#         found = __import__(used)
+#         for part in parts:
+#             used += '.' + part
+#             try:
+#                 found = getattr(found, part)
+#             except AttributeError:
+#                 pass
+#             else:
+#                 continue
+#             # we use explicit un-nesting of the handling block in order
+#             # to avoid nested exceptions on python 3
+#             try:
+#                 __import__(used)
+#             except ImportError as ex:
+#                 # str is used for py2 vs py3
+#                 expected = str(ex).split()[-1]
+#                 if expected == used:
+#                     raise
+#                 else:
+#                     raise ImportError(
+# >                       'import error in %s: %s' % (used, ex)
+#                     )
+# E                   ImportError: import error in package.a: No module named doesnotexist
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/monkeypatch.py:62: ImportError
+1..1

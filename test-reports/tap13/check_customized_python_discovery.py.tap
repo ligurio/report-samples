@@ -1,0 +1,4 @@
+# TAP results for check_customized_python_discovery.py
+ok 1 - check_customized_python_discovery.py::check_simple
+ok 2 - check_customized_python_discovery.py::CheckMyApp.check_meth
+1..2

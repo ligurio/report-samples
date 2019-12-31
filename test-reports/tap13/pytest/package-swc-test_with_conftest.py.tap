@@ -1,0 +1,8 @@
+# TAP results for package/swc/test_with_conftest.py
+ok 1 - package/swc/test_with_conftest.py::test_with_conftest
+ok 2 - package/swc/test_with_conftest.py::test_with_conftest
+ok 3 - package/swc/test_with_conftest.py::test_with_conftest
+ok 4 - package/swc/test_with_conftest.py::test_with_conftest
+ok 5 - package/swc/test_with_conftest.py::test_with_conftest
+ok 6 - package/swc/test_with_conftest.py::test_with_conftest
+1..6

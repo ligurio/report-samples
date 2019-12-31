@@ -1,0 +1,99 @@
+./scripts/domain/050-transient-lifecycle..........
+1..2
+# Creating a new transient domain
+ok 1 - created transient domain object
+# Destroying the transient doamin
+# Checking that transient domain has gone away
+ok 2 - NO_DOMAIN error raised from missing domain
+ok
+./scripts/domain/060-persistent-lifecycle.........
+1..9
+# Defining an inactive domain config
+ok 1 - defined persistent domain config
+# Undefining inactive domain config
+# Checking that persistent domain has gone away
+ok 2 - NO_DOMAIN error raised from missing domain
+# Defining inactive domain config again
+ok 3 - defined persistent domain config
+# Starting inactive domain config
+ok 4 - running domain has an ID > 0
+# Trying another domain lookup by name
+ok 5 - the running domain object
+ok 6 - running domain has an ID > 0
+# Destroying the running domain
+# Checking there is still an inactive domain config
+ok 7 - the inactive domain object
+ok 8 - inactive domain has an ID == -1
+# Undefining the inactive domain config
+ok 9 - NO_DOMAIN error raised from missing domain
+ok
+./scripts/domain/070-transient-to-persistent......
+1..4
+# Creating a new transient domain
+ok 1 - created transient domain
+# Defining config for transient guest
+ok 2 - defined transient domain
+# Destroying active domain
+# Checking that an inactive domain config still exists
+ok 3 - transient domain config
+# Removing inactive domain config
+# Checking that inactive domain has really gone
+ok 4 - NO_DOMAIN error raised from missing domain
+ok
+./scripts/domain/080-unique-identifiers...........
+1..20
+# Starting phase 1
+# Defining persistent domain config
+ok 1 - defined persistent domain
+# Trying to create a running guest with same name, different UUID
+ok 2 - OPERATION_FAILED error raised from clashing name
+# Trying to create a running guest with same UUID, different name
+ok 3 - OPERATION_FAILED error raised from clashing name
+# Trying to define a inactive guest with same name, different UUID
+ok 4 - OPERATION_FAILED error raised from clashing name
+# Trying to define a inactive guest with same UUID, different name
+ok 5 - defined persistent domain
+# Checking that domain test1 has really gone after rename
+ok 6 - NO_DOMAIN error raised from missing (renamed) domain
+# Checking the guest really has got new name
+ok 7 - fetched persistent domain
+# Undefining persistent guest config
+# Checking that domain has now gone
+ok 8 - NO_DOMAIN error raised from undefined domain
+# Checking that original domain is still gone
+ok 9 - NO_DOMAIN error raised from undefined domain
+# Starting phase 2
+# Creating transient active domain
+ok 10 - created transient domain
+# Trying to create a running guest with same name, different UUID
+ok 11 - OPERATION_FAILED error raised from clashing name
+# Trying to create a running guest with same UUID, different name
+ok 12 - OPERATION_FAILED error raised from clashing name
+# Trying to define a inactive guest with same name, different UUID
+ok 13 - OPERATION_FAILED error raised from clashing name
+# Trying to define a inactive guest with same UUID, different name
+ok 14 - defined persistent domain
+# Checking that domain test1 has really gone after rename
+ok 15 - NO_DOMAIN error raised from missing (renamed) domain
+# Checking the guest really has got new name
+ok 16 - fetched persistent domain
+# Stopping active guest
+# Checking the guest has still got new name
+ok 17 - fetched persistent domain
+# Checking that original domain is still gone
+ok 18 - NO_DOMAIN error raised from undefined domain
+# Undefining persistent guest config
+# Checking that domain has now gone
+ok 19 - NO_DOMAIN error raised from undefined domain
+# Checking that original domain is still gone
+ok 20 - NO_DOMAIN error raised from undefined domain
+ok
+./scripts/domain/090-invalid-ops-when-inactive....
+1..2
+# Creating a new persistent domain
+ok 1 - defined persistent domain object
+ok 2 - suspend of inactive domain not allowed
+ok
+All tests successful.
+Files=5, Tests=37,  0 wallclock secs ( 0.02 usr  0.01 sys +  0.22 cusr  0.04 csys =  0.29 CPU)
+Result: PASS

@@ -1,0 +1,3 @@
+# TAP results for test_unittest_skip_issue148.py
+ok 1 - test_unittest_skip_issue148.py::MyTestCase.test_one # SKIP hello
+1..1

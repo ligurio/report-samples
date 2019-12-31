@@ -1,0 +1,3 @@
+# TAP results for test_ignore_collect_path.py
+ok 1 - test_ignore_collect_path.py::test_hello
+1..1

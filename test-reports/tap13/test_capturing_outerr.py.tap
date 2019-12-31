@@ -1,0 +1,12 @@
+# TAP results for test_capturing_outerr.py
+ok 1 - test_capturing_outerr.py::test_capturing
+not ok 2 - test_capturing_outerr.py::test_capturing_error
+# 
+#     def test_capturing_error():
+#         print (1)
+#         sys.stderr.write(str(2))
+# >       raise ValueError
+# E       ValueError
+# 
+# test_capturing_outerr.py:8: ValueError
+1..2

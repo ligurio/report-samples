@@ -1,0 +1,12 @@
+# TAP results for test_issue731.py
+not ok 1 - test_issue731.py::test_long_repr
+# 
+#     def test_long_repr():
+#         obj = LongReprWithBraces()
+# >       assert obj.some_method()
+# E       assert False
+# E        +  where False = <bound method LongReprWithBraces.some_method of LongReprWithBraces({aaaaaaaaaa...aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)>()
+# E        +    where <bound method LongReprWithBraces.some_method of LongReprWithBraces({aaaaaaaaaa...aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)> = LongReprWithBraces({aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa).some_method
+# 
+# test_issue731.py:10: AssertionError
+1..1

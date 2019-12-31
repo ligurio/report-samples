@@ -1,0 +1,3 @@
+# TAP results for test_cachefuncarg.py
+ok 1 - test_cachefuncarg.py::test_cachefuncarg
+1..1

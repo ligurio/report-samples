@@ -1,0 +1,4 @@
+# TAP results for test_mark_option_custom.py
+ok 1 - test_mark_option_custom.py::test_interface
+ok 2 - test_mark_option_custom.py::test_nointer
+1..2

@@ -1,0 +1,23 @@
+# TAP results for test_1.py
+ok 1 - test_1.py::[doctest] test_1.test_foo
+ok 2 - test_1.py::test_foo
+ok 3 - test_1.py::test_bar
+ok 4 - test_1.py::[doctest] test_1.test_foo
+ok 5 - test_1.py::test_foo
+ok 6 - test_1.py::test_bar
+ok 7 - test_1.py::[doctest] test_1.test_foo
+ok 8 - test_1.py::test_foo
+ok 9 - test_1.py::test_bar
+ok 10 - test_1.py::[doctest] test_1.test_foo
+ok 11 - test_1.py::test_foo
+ok 12 - test_1.py::test_bar
+ok 13 - test_1.py::test_foo
+ok 14 - test_1.py::test_bar
+ok 15 - test_1.py::test_foo
+ok 16 - test_1.py::test_bar
+ok 17 - test_1.py::test_foo
+ok 18 - test_1.py::test_bar
+ok 19 - test_1.py::test_foo
+ok 20 - test_1.py::test_bar
+ok 21 - test_1.py::test_check_test0_has_teardown_correct
+1..21

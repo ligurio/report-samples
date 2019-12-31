@@ -1,0 +1,43 @@
+# TAP results for test_lastfailed_usecase.py
+not ok 1 - test_lastfailed_usecase.py::test_1
+# 
+#     def test_1():
+# >       assert 0
+# E       assert 0
+# 
+# test_lastfailed_usecase.py:2: AssertionError
+not ok 2 - test_lastfailed_usecase.py::test_2
+# 
+#     def test_2():
+# >       assert 0
+# E       assert 0
+# 
+# test_lastfailed_usecase.py:4: AssertionError
+ok 3 - test_lastfailed_usecase.py::test_3
+ok 4 - test_lastfailed_usecase.py::test_1
+ok 5 - test_lastfailed_usecase.py::test_2
+ok 6 - test_lastfailed_usecase.py::test_1
+ok 7 - test_lastfailed_usecase.py::test_2
+not ok 8 - test_lastfailed_usecase.py::test_3
+# 
+# >   ???
+# E   assert 0
+# 
+# test_lastfailed_usecase.py:9: AssertionError
+ok 9 - test_lastfailed_usecase.py::test_1
+ok 10 - test_lastfailed_usecase.py::test_2
+not ok 11 - test_lastfailed_usecase.py::test_3
+# 
+# >   ???
+# E   assert 0
+# 
+# test_lastfailed_usecase.py:9: AssertionError
+ok 12 - test_lastfailed_usecase.py::test_1
+ok 13 - test_lastfailed_usecase.py::test_2
+not ok 14 - test_lastfailed_usecase.py::test_3
+# 
+# >   ???
+# E   assert 0
+# 
+# test_lastfailed_usecase.py:9: AssertionError
+1..14

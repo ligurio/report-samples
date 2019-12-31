@@ -1,0 +1,3 @@
+# TAP results for a123/test_hello123.py
+ok 1 - a123/test_hello123.py::TestClass.test_method
+1..1

@@ -1,0 +1,14 @@
+# TAP results for test_docstring_full_context_around_error.py
+not ok 1 - test_docstring_full_context_around_error.py::[doctest] test_docstring_full_context_around_error.foo
+# 002 
+# 003                 text-line-1
+# 004                 text-line-2
+# 005 
+# 006                 >>> 1 + 1
+# Expected:
+#     3
+# Got:
+#     2
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_docstring_full_context_around_error0/test_docstring_full_context_around_error.py:6: DocTestFailure
+1..1

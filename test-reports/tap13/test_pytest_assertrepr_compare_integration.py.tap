@@ -1,0 +1,15 @@
+# TAP results for test_pytest_assertrepr_compare_integration.py
+not ok 1 - test_pytest_assertrepr_compare_integration.py::test_hello
+# 
+#     def test_hello():
+#         x = set(range(100))
+#         y = x.copy()
+#         y.remove(50)
+# >       assert x == y
+# E       assert set([0, 1, 2, 3, 4, 5, ...]) == set([0, 1, 2, 3, 4, 5, ...])
+# E         Extra items in the left set:
+# E         50
+# E         Use -v to get the full diff
+# 
+# test_pytest_assertrepr_compare_integration.py:5: AssertionError
+1..1

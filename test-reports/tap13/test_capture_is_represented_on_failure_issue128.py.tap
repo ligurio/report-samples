@@ -1,0 +1,22 @@
+# TAP results for test_capture_is_represented_on_failure_issue128.py
+not ok 1 - test_capture_is_represented_on_failure_issue128.py::test_hello
+# 
+# capsys = <_pytest.capture.CaptureFixture object at 0x7fa011fa0110>
+# 
+#     def test_hello(capsys):
+#         print ("xxx42xxx")
+# >       assert 0
+# E       assert 0
+# 
+# test_capture_is_represented_on_failure_issue128.py:3: AssertionError
+not ok 2 - test_capture_is_represented_on_failure_issue128.py::test_hello
+# 
+# capfd = <_pytest.capture.CaptureFixture object at 0x7fa01191b150>
+# 
+#     def test_hello(capfd):
+#         print ("xxx42xxx")
+# >       assert 0
+# E       assert 0
+# 
+# test_capture_is_represented_on_failure_issue128.py:3: AssertionError
+1..2

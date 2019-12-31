@@ -1,0 +1,65 @@
+# TAP results for test_bar.py
+ok 1 - test_bar.py::test_bar_1
+not ok 2 - test_bar.py::test_bar_2
+# 
+#     def test_bar_2():
+# >       assert 0
+# E       assert 0
+# 
+# test_bar.py:4: AssertionError
+ok 3 - test_bar.py::test_bar_1
+ok 4 - test_bar.py::test_bar_2
+ok 5 - test_bar.py::test_bar_1
+ok 6 - test_bar.py::test_bar_2
+ok 7 - test_bar.py::test_bar[0]
+ok 8 - test_bar.py::test_bar[1]
+ok 9 - test_bar.py::test_bar[2]
+ok 10 - test_bar.py::test_bar[3]
+ok 11 - test_bar.py::test_bar[4]
+ok 12 - test_bar.py::test_bar[5]
+ok 13 - test_bar.py::test_bar[6]
+ok 14 - test_bar.py::test_bar[7]
+ok 15 - test_bar.py::test_bar[8]
+ok 16 - test_bar.py::test_bar[9]
+ok 17 - test_bar.py::test_bar[0]
+ok 18 - test_bar.py::test_bar[1]
+ok 19 - test_bar.py::test_bar[2]
+ok 20 - test_bar.py::test_bar[3]
+ok 21 - test_bar.py::test_bar[4]
+ok 22 - test_bar.py::test_bar[5]
+ok 23 - test_bar.py::test_bar[6]
+ok 24 - test_bar.py::test_bar[7]
+ok 25 - test_bar.py::test_bar[8]
+ok 26 - test_bar.py::test_bar[9]
+ok 27 - test_bar.py::test_bar[0]
+ok 28 - test_bar.py::test_bar[1]
+ok 29 - test_bar.py::test_bar[2]
+ok 30 - test_bar.py::test_bar[3]
+ok 31 - test_bar.py::test_bar[4]
+ok 32 - test_bar.py::test_bar[5]
+ok 33 - test_bar.py::test_bar[6]
+ok 34 - test_bar.py::test_bar[7]
+ok 35 - test_bar.py::test_bar[8]
+ok 36 - test_bar.py::test_bar[9]
+ok 37 - test_bar.py::test_bar[0]
+ok 38 - test_bar.py::test_bar[1]
+ok 39 - test_bar.py::test_bar[2]
+ok 40 - test_bar.py::test_bar[3]
+ok 41 - test_bar.py::test_bar[4]
+ok 42 - test_bar.py::test_bar[5]
+ok 43 - test_bar.py::test_bar[6]
+ok 44 - test_bar.py::test_bar[7]
+ok 45 - test_bar.py::test_bar[8]
+ok 46 - test_bar.py::test_bar[9]
+ok 47 - test_bar.py::test_bar[0]
+ok 48 - test_bar.py::test_bar[1]
+ok 49 - test_bar.py::test_bar[2]
+ok 50 - test_bar.py::test_bar[3]
+ok 51 - test_bar.py::test_bar[4]
+ok 52 - test_bar.py::test_bar[0]
+ok 53 - test_bar.py::test_bar[1]
+ok 54 - test_bar.py::test_bar[2]
+ok 55 - test_bar.py::test_bar[3]
+ok 56 - test_bar.py::test_bar[4]
+ok 57 - test_bar.py::test_bar # SKIP <Skipped instance>
+1..57

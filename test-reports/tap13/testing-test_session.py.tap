@@ -1,0 +1,24 @@
+# TAP results for testing/test_session.py
+ok 1 - testing/test_session.py::TestNewSession.test_basic_testitem_events
+ok 2 - testing/test_session.py::TestNewSession.test_nested_import_error
+ok 3 - testing/test_session.py::TestNewSession.test_raises_output
+ok 4 - testing/test_session.py::TestNewSession.test_generator_yields_None
+ok 5 - testing/test_session.py::TestNewSession.test_syntax_error_module
+ok 6 - testing/test_session.py::TestNewSession.test_exit_first_problem
+ok 7 - testing/test_session.py::TestNewSession.test_maxfail
+ok 8 - testing/test_session.py::TestNewSession.test_broken_repr
+ok 9 - testing/test_session.py::TestNewSession.test_skip_file_by_conftest
+ok 10 - testing/test_session.py::TestNewSession.test_order_of_execution
+ok 11 - testing/test_session.py::TestNewSession.test_collect_only_with_various_situations
+ok 12 - testing/test_session.py::TestNewSession.test_minus_x_import_error
+ok 13 - testing/test_session.py::TestNewSession.test_minus_x_overridden_by_maxfail
+ok 14 - testing/test_session.py::test_plugin_specify
+ok 15 - testing/test_session.py::test_plugin_already_exists
+ok 16 - testing/test_session.py::test_exclude
+ok 17 - testing/test_session.py::test_deselect
+ok 18 - testing/test_session.py::test_sessionfinish_with_start
+ok 19 - testing/test_session.py::test_rootdir_option_arg[root]
+ok 20 - testing/test_session.py::test_rootdir_option_arg[{relative}/root]
+ok 21 - testing/test_session.py::test_rootdir_option_arg[{environment}/root]
+ok 22 - testing/test_session.py::test_rootdir_wrong_option_arg
+1..22

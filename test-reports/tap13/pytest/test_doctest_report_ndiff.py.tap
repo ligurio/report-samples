@@ -1,0 +1,15 @@
+# TAP results for test_doctest_report_ndiff.py
+not ok 1 - test_doctest_report_ndiff.py::[doctest] test_doctest_report_ndiff.foo
+# 002 
+# 003                 >>> foo()
+# Differences (ndiff with -expected +actual):
+#          a  b
+#       0  1  4
+#     - 1  2  4
+#     ?       ^
+#     + 1  2  5
+#     ?       ^
+#       2  3  6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_report_ndiff0/test_doctest_report_ndiff.py:3: DocTestFailure
+1..1

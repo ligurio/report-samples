@@ -1,0 +1,4 @@
+# TAP results for foo/test_foo.py
+ok 1 - foo/test_foo.py::Test.test_foo
+ok 2 - foo/test_foo.py::test_foo
+1..2

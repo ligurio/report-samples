@@ -1,0 +1,8 @@
+# TAP results for test_exit_first_problem.py
+not ok 1 - test_exit_first_problem.py::test_one
+# 
+# >   def test_one(): assert 0
+# E   assert 0
+# 
+# test_exit_first_problem.py:1: AssertionError
+1..1

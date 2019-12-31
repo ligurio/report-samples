@@ -1,0 +1,10 @@
+# TAP results for test_assertion_message_escape.py
+not ok 1 - test_assertion_message_escape.py::test_foo
+# 
+#     def test_foo():
+# >       assert 1 == 2, 'To be escaped: %'
+# E       AssertionError: To be escaped: %
+# E       assert 1 == 2
+# 
+# test_assertion_message_escape.py:2: AssertionError
+1..1

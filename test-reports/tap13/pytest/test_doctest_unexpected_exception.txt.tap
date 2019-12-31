@@ -1,0 +1,16 @@
+# TAP results for test_doctest_unexpected_exception.txt
+not ok 1 - test_doctest_unexpected_exception.txt::[doctest] test_doctest_unexpected_exception.txt
+# 001 >>> i = 0
+# 002 >>> 0 / i
+# UNEXPECTED EXCEPTION: ZeroDivisionError('integer division or modulo by zero',)
+# Traceback (most recent call last):
+# 
+#   File "/usr/lib/python2.7/doctest.py", line 1315, in __run
+#     compileflags, 1) in test.globs
+# 
+#   File "<doctest test_doctest_unexpected_exception.txt[1]>", line 1, in <module>
+# 
+# ZeroDivisionError: integer division or modulo by zero
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_unexpected_exception0/test_doctest_unexpected_exception.txt:2: UnexpectedException
+1..1

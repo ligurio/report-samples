@@ -1,0 +1,4 @@
+# TAP results for test_yields_more_than_one.py
+ok 1 - test_yields_more_than_one.py::test_1
+ok 2 - test_yields_more_than_one.py::test_1
+1..2

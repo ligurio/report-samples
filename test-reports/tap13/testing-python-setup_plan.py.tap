@@ -1,0 +1,3 @@
+# TAP results for testing/python/setup_plan.py
+ok 1 - testing/python/setup_plan.py::test_show_fixtures_and_test
+1..1

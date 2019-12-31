@@ -1,0 +1,4 @@
+# TAP results for test_funcarg_and_setup.py
+ok 1 - test_funcarg_and_setup.py::test_hello
+ok 2 - test_funcarg_and_setup.py::test_hello2
+1..2

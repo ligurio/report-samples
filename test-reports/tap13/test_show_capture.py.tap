@@ -1,0 +1,32 @@
+# TAP results for test_show_capture.py
+not ok 1 - test_show_capture.py::test_one
+# test_show_capture.py:7: in test_one
+#     assert False, 'Something failed'
+# E   AssertionError: Something failed
+# E   assert False
+not ok 2 - test_show_capture.py::test_one
+# test_show_capture.py:7: in test_one
+#     assert False, 'Something failed'
+# E   AssertionError: Something failed
+# E   assert False
+not ok 3 - test_show_capture.py::test_one
+# test_show_capture.py:7: in test_one
+#     assert False, 'Something failed'
+# E   AssertionError: Something failed
+# E   assert False
+not ok 4 - test_show_capture.py::test_one
+# test_show_capture.py:7: in test_one
+#     assert False, 'Something failed'
+# E   AssertionError: Something failed
+# E   assert False
+not ok 5 - test_show_capture.py::test_one
+# test_show_capture.py:7: in test_one
+#     assert False, 'Something failed'
+# E   AssertionError: Something failed
+# E   assert False
+not ok 6 - test_show_capture.py::test_one
+# test_show_capture.py:7: in test_one
+#     assert False, 'Something failed'
+# E   AssertionError: Something failed
+# E   assert False
+1..6

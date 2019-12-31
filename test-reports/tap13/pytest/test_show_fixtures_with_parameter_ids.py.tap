@@ -1,0 +1,4 @@
+# TAP results for test_show_fixtures_with_parameter_ids.py
+ok 1 - test_show_fixtures_with_parameter_ids.py::test_arg1[spam]
+ok 2 - test_show_fixtures_with_parameter_ids.py::test_arg1[ham]
+1..2

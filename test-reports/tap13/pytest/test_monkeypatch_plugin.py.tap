@@ -1,0 +1,3 @@
+# TAP results for test_monkeypatch_plugin.py
+ok 1 - test_monkeypatch_plugin.py::test_method
+1..1

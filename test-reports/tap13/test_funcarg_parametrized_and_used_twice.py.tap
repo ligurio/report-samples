@@ -1,0 +1,4 @@
+# TAP results for test_funcarg_parametrized_and_used_twice.py
+ok 1 - test_funcarg_parametrized_and_used_twice.py::test_add[1]
+ok 2 - test_funcarg_parametrized_and_used_twice.py::test_add[2]
+1..2

@@ -1,0 +1,10 @@
+# TAP results for test_junit_prefixing.py
+not ok 1 - test_junit_prefixing.py::test_func
+# 
+#     def test_func():
+# >       assert 0
+# E       assert 0
+# 
+# test_junit_prefixing.py:2: AssertionError
+ok 2 - test_junit_prefixing.py::TestHello.test_hello
+1..2

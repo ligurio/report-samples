@@ -1,0 +1,3 @@
+# TAP results for test_capture_early_option_parsing.py
+ok 1 - test_capture_early_option_parsing.py::test_func
+1..1

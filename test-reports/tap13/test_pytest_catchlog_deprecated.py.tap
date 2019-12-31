@@ -1,0 +1,4 @@
+# TAP results for test_pytest_catchlog_deprecated.py
+ok 1 - test_pytest_catchlog_deprecated.py::test_func
+ok 2 - test_pytest_catchlog_deprecated.py::test_func
+1..2

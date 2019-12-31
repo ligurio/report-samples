@@ -1,0 +1,15 @@
+# TAP results for test_doctest_unex_importerror_only_txt.txt
+not ok 1 - test_doctest_unex_importerror_only_txt.txt::[doctest] test_doctest_unex_importerror_only_txt.txt
+# 001 >>> import asdalsdkjaslkdjasd
+# UNEXPECTED EXCEPTION: ImportError('No module named asdalsdkjaslkdjasd',)
+# Traceback (most recent call last):
+# 
+#   File "/usr/lib/python2.7/doctest.py", line 1315, in __run
+#     compileflags, 1) in test.globs
+# 
+#   File "<doctest test_doctest_unex_importerror_only_txt.txt[0]>", line 1, in <module>
+# 
+# ImportError: No module named asdalsdkjaslkdjasd
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_unex_importerror_only_txt0/test_doctest_unex_importerror_only_txt.txt:1: UnexpectedException
+1..1

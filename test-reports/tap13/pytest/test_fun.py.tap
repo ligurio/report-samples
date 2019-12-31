@@ -1,0 +1,7 @@
+# TAP results for test_fun.py
+ok 1 - test_fun.py::test_loader
+ok 2 - test_fun.py::test_loader
+ok 3 - test_fun.py::test_fun
+ok 4 - test_fun.py::test_missing
+ok 5 - test_fun.py::test_loader
+1..5

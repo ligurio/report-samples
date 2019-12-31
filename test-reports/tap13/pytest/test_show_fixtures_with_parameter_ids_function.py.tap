@@ -1,0 +1,4 @@
+# TAP results for test_show_fixtures_with_parameter_ids_function.py
+ok 1 - test_show_fixtures_with_parameter_ids_function.py::test_foobar[FOO]
+ok 2 - test_show_fixtures_with_parameter_ids_function.py::test_foobar[BAR]
+1..2

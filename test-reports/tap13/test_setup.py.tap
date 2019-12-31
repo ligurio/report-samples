@@ -1,0 +1,7 @@
+# TAP results for test_setup.py
+ok 1 - test_setup.py::MyTestCase.test_both
+ok 2 - test_setup.py::test_func
+ok 3 - test_setup.py::test_func
+ok 4 - test_setup.py::test_func
+ok 5 - test_setup.py::test_func
+1..5

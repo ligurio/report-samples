@@ -1,0 +1,11 @@
+# TAP results for kics/security_policy/test_utility_for_rules_conversion.py
+ok 1 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[d4_politic2.0-d4_alerts.pcapng-expected_alerts0-system_command0]
+ok 2 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[s7comm_politic2.0-s7comm_alert.pcap-expected_alerts1-system_command1]
+ok 3 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[104_politic2.0-104_alert.pcap-expected_alerts2-system_command2]
+ok 4 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[melseq_politic2.0-melseq_alert.pcap-expected_alerts3-system_command3]
+ok 5 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[modbus_m340_politic2.0-modbus_m340_alert.pcapng-expected_alerts4-system_command4]
+ok 6 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[rockwell_politic2.0-rockwell_alert.pcap-expected_alerts5-system_command5]
+ok 7 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[goose_politic2.0-goose_alert.pcap-expected_alerts6-system_command6] # SKIP TFS #2609396
+ok 8 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[mms_politic2.0-mms_alert.pcap-expected_alerts7-system_command7]
+ok 9 - kics/security_policy/test_utility_for_rules_conversion.py::test_wd1_009[lua_politic2.0-lua_alert.pcap-expected_alerts8-system_command8]
+1..9

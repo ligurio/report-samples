@@ -1,0 +1,7 @@
+# TAP results for snc/test_no_conftest.py
+ok 1 - snc/test_no_conftest.py::test_no_conftest
+ok 2 - snc/test_no_conftest.py::test_no_conftest
+ok 3 - snc/test_no_conftest.py::test_no_conftest
+ok 4 - snc/test_no_conftest.py::test_no_conftest
+ok 5 - snc/test_no_conftest.py::test_no_conftest
+1..5

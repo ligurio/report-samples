@@ -1,0 +1,365 @@
+# TAP results for testing/test_runner.py
+ok 1 - testing/test_runner.py::TestSetupState.test_setup
+ok 2 - testing/test_runner.py::TestSetupState.test_teardown_exact_stack_empty
+ok 3 - testing/test_runner.py::TestSetupState.test_setup_fails_and_failure_is_cached
+ok 4 - testing/test_runner.py::TestSetupState.test_teardown_multiple_one_fails
+ok 5 - testing/test_runner.py::TestSetupState.test_teardown_multiple_fail
+ok 6 - testing/test_runner.py::TestExecutionNonForked.test_passfunction
+ok 7 - testing/test_runner.py::TestExecutionNonForked.test_failfunction
+ok 8 - testing/test_runner.py::TestExecutionNonForked.test_skipfunction
+ok 9 - testing/test_runner.py::TestExecutionNonForked.test_skip_in_setup_function
+ok 10 - testing/test_runner.py::TestExecutionNonForked.test_failure_in_setup_function
+ok 11 - testing/test_runner.py::TestExecutionNonForked.test_failure_in_teardown_function
+ok 12 - testing/test_runner.py::TestExecutionNonForked.test_custom_failure_repr
+ok 13 - testing/test_runner.py::TestExecutionNonForked.test_teardown_final_returncode
+ok 14 - testing/test_runner.py::TestExecutionNonForked.test_logstart_logfinish_hooks
+ok 15 - testing/test_runner.py::TestExecutionNonForked.test_exact_teardown_issue90
+ok 16 - testing/test_runner.py::TestExecutionNonForked.test_exact_teardown_issue1206
+ok 17 - testing/test_runner.py::TestExecutionNonForked.test_failure_in_setup_function_ignores_custom_repr
+ok 18 - testing/test_runner.py::TestExecutionNonForked.test_systemexit_does_not_bail_out
+ok 19 - testing/test_runner.py::TestExecutionNonForked.test_exit_propagates
+ok 20 - testing/test_runner.py::TestExecutionNonForked.test_keyboardinterrupt_propagates
+ok 21 - testing/test_runner.py::TestExecutionForked.test_passfunction # SKIP could not import 'xdist.boxed'
+ok 22 - testing/test_runner.py::TestExecutionForked.test_failfunction # SKIP could not import 'xdist.boxed'
+ok 23 - testing/test_runner.py::TestExecutionForked.test_skipfunction # SKIP could not import 'xdist.boxed'
+ok 24 - testing/test_runner.py::TestExecutionForked.test_skip_in_setup_function # SKIP could not import 'xdist.boxed'
+ok 25 - testing/test_runner.py::TestExecutionForked.test_failure_in_setup_function # SKIP could not import 'xdist.boxed'
+ok 26 - testing/test_runner.py::TestExecutionForked.test_failure_in_teardown_function # SKIP could not import 'xdist.boxed'
+ok 27 - testing/test_runner.py::TestExecutionForked.test_custom_failure_repr # SKIP could not import 'xdist.boxed'
+ok 28 - testing/test_runner.py::TestExecutionForked.test_teardown_final_returncode
+ok 29 - testing/test_runner.py::TestExecutionForked.test_logstart_logfinish_hooks
+ok 30 - testing/test_runner.py::TestExecutionForked.test_exact_teardown_issue90
+ok 31 - testing/test_runner.py::TestExecutionForked.test_exact_teardown_issue1206
+ok 32 - testing/test_runner.py::TestExecutionForked.test_failure_in_setup_function_ignores_custom_repr # SKIP could not import 'xdist.boxed'
+ok 33 - testing/test_runner.py::TestExecutionForked.test_systemexit_does_not_bail_out # SKIP could not import 'xdist.boxed'
+ok 34 - testing/test_runner.py::TestExecutionForked.test_exit_propagates # SKIP could not import 'xdist.boxed'
+ok 35 - testing/test_runner.py::TestExecutionForked.test_suicide # SKIP could not import 'xdist.boxed'
+ok 36 - testing/test_runner.py::TestSessionReports.test_collect_result
+ok 37 - testing/test_runner.py::test_report_extra_parameters[BaseReport]
+ok 38 - testing/test_runner.py::test_report_extra_parameters[TestReport]
+ok 39 - testing/test_runner.py::test_report_extra_parameters[TeardownErrorReport]
+ok 40 - testing/test_runner.py::test_report_extra_parameters[CollectReport]
+ok 41 - testing/test_runner.py::test_callinfo
+ok 42 - testing/test_runner.py::test_runtest_in_module_ordering # SKIP 
+ok 43 - testing/test_runner.py::test_outcomeexception_exceptionattributes
+ok 44 - testing/test_runner.py::test_outcomeexception_passes_except_Exception
+ok 45 - testing/test_runner.py::test_pytest_exit
+ok 46 - testing/test_runner.py::test_pytest_fail
+ok 47 - testing/test_runner.py::test_pytest_exit_msg
+ok 48 - testing/test_runner.py::test_pytest_fail_notrace
+not ok 49 - testing/test_runner.py::test_pytest_fail_notrace_non_ascii[u]
+# 
+# testdir = <Testdir local('/tmp/pytest-of-sergeyb/pytest-28/test_pytest_fail_notrace_non_ascii0')>, str_prefix = 'u'
+# 
+#     @pytest.mark.parametrize('str_prefix', ['u', ''])
+#     def test_pytest_fail_notrace_non_ascii(testdir, str_prefix):
+#         """Fix pytest.fail with pytrace=False with non-ascii characters (#1178).
+#     
+#         This tests with native and unicode strings containing non-ascii chars.
+#         """
+#         testdir.makepyfile(u"""
+#             # coding: utf-8
+#             import pytest
+#     
+#             def test_hello():
+#                 pytest.fail(%s'oh oh: ☺', pytrace=False)
+#         """ % str_prefix)
+#         result = testdir.runpytest()
+#         if sys.version_info[0] >= 3:
+#             result.stdout.fnmatch_lines(['*test_hello*', "oh oh: ☺"])
+#         else:
+# >           result.stdout.fnmatch_lines(['*test_hello*', "oh oh: *"])
+# 
+# /home/sergeyb/Downloads/pytest/testing/test_runner.py:541: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_pytest.pytester.LineMatcher object at 0x7fa010b3a790>, lines2 = ['*test_hello*', 'oh oh: *']
+# 
+#     def fnmatch_lines(self, lines2):
+#         """Search captured text for matching lines using ``fnmatch.fnmatch``.
+#     
+#             The argument is a list of lines which have to match and can use glob
+#             wildcards.  If they do not match a pytest.fail() is called.  The
+#             matches and non-matches are also printed on stdout.
+#     
+#             """
+# >       self._match_lines(lines2, fnmatch, 'fnmatch')
+# E       Failed: nomatch: '*test_hello*'
+# E           and: u'============================= test session starts =============================='
+# E           and: u'platform linux2 -- Python 2.7.14, pytest-3.5.0, py-1.5.3, pluggy-0.6.0'
+# E           and: u'rootdir: /tmp/pytest-of-sergeyb/pytest-28/test_pytest_fail_notrace_non_ascii0, inifile:'
+# E           and: u'plugins: tap-2.2, hypothesis-3.55.1'
+# E           and: u'collected 1 item'
+# E           and: u''
+# E           and: u'test_pytest_fail_notrace_non_ascii.py F'
+# E           and: u'INTERNALERROR> Traceback (most recent call last):'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 107, in wrap_session'
+# E           and: u'INTERNALERROR>     session.exitstatus = doit(config, session) or 0'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 145, in _main'
+# E           and: u'INTERNALERROR>     config.hook.pytest_runtestloop(session=session)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 168, in pytest_runtestloop'
+# E           and: u'INTERNALERROR>     item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 62, in pytest_runtest_protocol'
+# E           and: u'INTERNALERROR>     runtestprotocol(item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 79, in runtestprotocol'
+# E           and: u'INTERNALERROR>     reports.append(call_and_report(item, "call", log))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 162, in call_and_report'
+# E           and: u'INTERNALERROR>     hook.pytest_runtest_logreport(report=report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 68, in pytest_runtest_logreport'
+# E           and: u'INTERNALERROR>     diagnostics = _make_as_diagnostics(report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 82, in _make_as_diagnostics'
+# E           and: u'INTERNALERROR>     report.toterminal(tw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 236, in toterminal'
+# E           and: u'INTERNALERROR>     out.line(longrepr)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 234, in line'
+# E           and: u'INTERNALERROR>     self.write(s, **kw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 224, in write'
+# E           and: u'INTERNALERROR>     write_out(self._file, markupmsg)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 372, in write_out'
+# E           and: u'INTERNALERROR>     if fil.encoding:'
+# E           and: u"INTERNALERROR> AttributeError: 'cStringIO.StringO' object has no attribute 'encoding'"
+# E           and: u''
+# E           and: u'=========================== 1 failed in 0.01 seconds ==========================='
+# E           and: u''
+# E       remains unmatched: '*test_hello*'
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/pytester.py:1175: Failed
+not ok 50 - testing/test_runner.py::test_pytest_fail_notrace_non_ascii[]
+# 
+# testdir = <Testdir local('/tmp/pytest-of-sergeyb/pytest-28/test_pytest_fail_notrace_non_ascii1')>, str_prefix = ''
+# 
+#     @pytest.mark.parametrize('str_prefix', ['u', ''])
+#     def test_pytest_fail_notrace_non_ascii(testdir, str_prefix):
+#         """Fix pytest.fail with pytrace=False with non-ascii characters (#1178).
+#     
+#         This tests with native and unicode strings containing non-ascii chars.
+#         """
+#         testdir.makepyfile(u"""
+#             # coding: utf-8
+#             import pytest
+#     
+#             def test_hello():
+#                 pytest.fail(%s'oh oh: ☺', pytrace=False)
+#         """ % str_prefix)
+#         result = testdir.runpytest()
+#         if sys.version_info[0] >= 3:
+#             result.stdout.fnmatch_lines(['*test_hello*', "oh oh: ☺"])
+#         else:
+# >           result.stdout.fnmatch_lines(['*test_hello*', "oh oh: *"])
+# 
+# /home/sergeyb/Downloads/pytest/testing/test_runner.py:541: 
+# _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+# 
+# self = <_pytest.pytester.LineMatcher object at 0x7fa012f6dc10>, lines2 = ['*test_hello*', 'oh oh: *']
+# 
+#     def fnmatch_lines(self, lines2):
+#         """Search captured text for matching lines using ``fnmatch.fnmatch``.
+#     
+#             The argument is a list of lines which have to match and can use glob
+#             wildcards.  If they do not match a pytest.fail() is called.  The
+#             matches and non-matches are also printed on stdout.
+#     
+#             """
+# >       self._match_lines(lines2, fnmatch, 'fnmatch')
+# E       Failed: nomatch: '*test_hello*'
+# E           and: u'============================= test session starts =============================='
+# E           and: u'platform linux2 -- Python 2.7.14, pytest-3.5.0, py-1.5.3, pluggy-0.6.0'
+# E           and: u'rootdir: /tmp/pytest-of-sergeyb/pytest-28/test_pytest_fail_notrace_non_ascii1, inifile:'
+# E           and: u'plugins: tap-2.2, hypothesis-3.55.1'
+# E           and: u'collected 1 item'
+# E           and: u''
+# E           and: u'test_pytest_fail_notrace_non_ascii.py F'
+# E           and: u'INTERNALERROR> Traceback (most recent call last):'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 107, in wrap_session'
+# E           and: u'INTERNALERROR>     session.exitstatus = doit(config, session) or 0'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 145, in _main'
+# E           and: u'INTERNALERROR>     config.hook.pytest_runtestloop(session=session)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/main.py", line 168, in pytest_runtestloop'
+# E           and: u'INTERNALERROR>     item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 62, in pytest_runtest_protocol'
+# E           and: u'INTERNALERROR>     runtestprotocol(item, nextitem=nextitem)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 79, in runtestprotocol'
+# E           and: u'INTERNALERROR>     reports.append(call_and_report(item, "call", log))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 162, in call_and_report'
+# E           and: u'INTERNALERROR>     hook.pytest_runtest_logreport(report=report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 617, in __call__'
+# E           and: u'INTERNALERROR>     return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 222, in _hookexec'
+# E           and: u'INTERNALERROR>     return self._inner_hookexec(hook, methods, kwargs)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 182, in __call__'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 48, in from_call'
+# E           and: u'INTERNALERROR>     result = func()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 180, in <lambda>'
+# E           and: u'INTERNALERROR>     outcome = _Result.from_call(lambda: self.oldcall(hook, hook_impls, kwargs))'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/__init__.py", line 216, in <lambda>'
+# E           and: u"INTERNALERROR>     firstresult=hook.spec_opts.get('firstresult'),"
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 201, in _multicall'
+# E           and: u'INTERNALERROR>     return outcome.get_result()'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 77, in get_result'
+# E           and: u'INTERNALERROR>     _reraise(*ex)  # noqa'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pluggy/callers.py", line 180, in _multicall'
+# E           and: u'INTERNALERROR>     res = hook_impl.function(*args)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 68, in pytest_runtest_logreport'
+# E           and: u'INTERNALERROR>     diagnostics = _make_as_diagnostics(report)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/pytest_tap/plugin.py", line 82, in _make_as_diagnostics'
+# E           and: u'INTERNALERROR>     report.toterminal(tw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/runner.py", line 236, in toterminal'
+# E           and: u'INTERNALERROR>     out.line(longrepr)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 234, in line'
+# E           and: u'INTERNALERROR>     self.write(s, **kw)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 224, in write'
+# E           and: u'INTERNALERROR>     write_out(self._file, markupmsg)'
+# E           and: u'INTERNALERROR>   File "/home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/py/_io/terminalwriter.py", line 372, in write_out'
+# E           and: u'INTERNALERROR>     if fil.encoding:'
+# E           and: u"INTERNALERROR> AttributeError: 'cStringIO.StringO' object has no attribute 'encoding'"
+# E           and: u''
+# E           and: u'=========================== 1 failed in 0.01 seconds ==========================='
+# E           and: u''
+# E       remains unmatched: '*test_hello*'
+# 
+# /home/sergeyb/Downloads/pytest/pip/local/lib/python2.7/site-packages/_pytest/pytester.py:1175: Failed
+ok 51 - testing/test_runner.py::test_pytest_no_tests_collected_exit_status
+ok 52 - testing/test_runner.py::test_exception_printing_skip
+ok 53 - testing/test_runner.py::test_importorskip
+ok 54 - testing/test_runner.py::test_importorskip_imports_last_module_part
+ok 55 - testing/test_runner.py::test_importorskip_dev_module
+ok 56 - testing/test_runner.py::test_importorskip_module_level
+ok 57 - testing/test_runner.py::test_pytest_cmdline_main
+not ok 58 - testing/test_runner.py::test_unicode_in_longrepr
+# 
+# testdir = <Testdir local('/tmp/pytest-of-sergeyb/pytest-28/test_unicode_in_longrepr0')>
+# 
+#     def test_unicode_in_longrepr(testdir):
+#         testdir.makeconftest("""
+#             # -*- coding: utf-8 -*-
+#             import pytest
+#             @pytest.hookimpl(hookwrapper=True)
+#             def pytest_runtest_makereport():
+#                 outcome = yield
+#                 rep = outcome.get_result()
+#                 if rep.when == "call":
+#                     rep.longrepr = u'ä'
+#         """)
+#         testdir.makepyfile("""
+#             def test_out():
+#                 assert 0
+#         """)
+#         result = testdir.runpytest()
+# >       assert result.ret == 1
+# E       assert 3 == 1
+# E        +  where 3 = <_pytest.pytester.RunResult object at 0x7fa010d50810>.ret
+# 
+# /home/sergeyb/Downloads/pytest/testing/test_runner.py:668: AssertionError
+ok 59 - testing/test_runner.py::test_failure_in_setup
+ok 60 - testing/test_runner.py::test_makereport_getsource
+ok 61 - testing/test_runner.py::test_makereport_getsource_dynamic_code
+ok 62 - testing/test_runner.py::test_store_except_info_on_eror
+ok 63 - testing/test_runner.py::test_current_test_env_var
+ok 64 - testing/test_runner.py::TestReportContents.test_longreprtext_pass
+ok 65 - testing/test_runner.py::TestReportContents.test_longreprtext_failure
+ok 66 - testing/test_runner.py::TestReportContents.test_captured_text
+ok 67 - testing/test_runner.py::TestReportContents.test_no_captured_text
+1..67

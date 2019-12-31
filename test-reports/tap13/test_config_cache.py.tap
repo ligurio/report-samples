@@ -1,0 +1,3 @@
+# TAP results for test_config_cache.py
+ok 1 - test_config_cache.py::test_session
+1..1

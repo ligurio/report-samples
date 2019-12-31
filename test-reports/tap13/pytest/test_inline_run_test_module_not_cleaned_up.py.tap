@@ -1,0 +1,9 @@
+# TAP results for test_inline_run_test_module_not_cleaned_up.py
+ok 1 - test_inline_run_test_module_not_cleaned_up.py::test_foo
+not ok 2 - test_inline_run_test_module_not_cleaned_up.py::test_foo
+# 
+# >   def test_foo(): assert False
+# E   assert False
+# 
+# test_inline_run_test_module_not_cleaned_up.py:1: AssertionError
+1..2

@@ -1,0 +1,11 @@
+# TAP results for test.py
+not ok 1 - test.py::test_compare
+# 
+#     def test_compare():
+#         f1 = Foo(1)
+#         f2 = Foo(2)
+# >       assert f1 == f2
+# E       assert <test.Foo instance at 0x2927ab8> == <test.Foo instance at 0x2929cf8>
+# 
+# test.py:11: AssertionError
+1..1

@@ -1,0 +1,94 @@
+# TAP results for test_b.py
+not ok 1 - test_b.py::test_always_fails
+# 
+#     def test_always_fails():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:3: AssertionError
+not ok 2 - test_b.py::test_always_fails
+# 
+#     def test_always_fails():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:3: AssertionError
+not ok 3 - test_b.py::test_always_fails
+# 
+#     def test_always_fails():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+not ok 4 - test_b.py::test_always_fails
+# 
+#     def test_always_fails():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+not ok 5 - test_b.py::test_b1
+# 
+#     def test_b1():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+not ok 6 - test_b.py::test_b1
+# 
+#     def test_b1():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+ok 7 - test_b.py::test_b1
+not ok 8 - test_b.py::test_b1
+# 
+#     def test_b1():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+not ok 9 - test_b.py::test_b2
+# 
+#     def test_b2():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:4: AssertionError
+not ok 10 - test_b.py::test_b1
+# 
+#     def test_b1():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+not ok 11 - test_b.py::test_b2
+# 
+#     def test_b2():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:4: AssertionError
+not ok 12 - test_b.py::test_b1
+# 
+#     def test_b1():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+not ok 13 - test_b.py::test_b2
+# 
+#     def test_b2():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:4: AssertionError
+not ok 14 - test_b.py::test_b1
+# 
+#     def test_b1():
+# >       assert 0
+# E       assert 0
+# 
+# test_b.py:2: AssertionError
+1..14

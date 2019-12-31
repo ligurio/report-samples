@@ -1,0 +1,10 @@
+# TAP results for test_ordering_dependencies_torndown_first.py
+ok 1 - test_ordering_dependencies_torndown_first.py::test_arg
+ok 2 - test_ordering_dependencies_torndown_first.py::test_check
+ok 3 - test_ordering_dependencies_torndown_first.py::test_arg[1]
+ok 4 - test_ordering_dependencies_torndown_first.py::test_check
+ok 5 - test_ordering_dependencies_torndown_first.py::test_arg[1]
+ok 6 - test_ordering_dependencies_torndown_first.py::test_check
+ok 7 - test_ordering_dependencies_torndown_first.py::test_arg[1-1]
+ok 8 - test_ordering_dependencies_torndown_first.py::test_check
+1..8

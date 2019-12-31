@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_auto_scope_indirect.py
+ok 1 - test_parametrize_auto_scope_indirect.py::test_1[dog-1]
+ok 2 - test_parametrize_auto_scope_indirect.py::test_1[cat-2]
+ok 3 - test_parametrize_auto_scope_indirect.py::test_2[fish-3]
+1..3

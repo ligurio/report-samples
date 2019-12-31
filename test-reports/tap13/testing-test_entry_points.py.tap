@@ -1,0 +1,5 @@
+# TAP results for testing/test_entry_points.py
+ok 1 - testing/test_entry_points.py::test_entry_point_exist[py.test]
+ok 2 - testing/test_entry_points.py::test_entry_point_exist[pytest]
+ok 3 - testing/test_entry_points.py::test_pytest_entry_points_are_identical
+1..3

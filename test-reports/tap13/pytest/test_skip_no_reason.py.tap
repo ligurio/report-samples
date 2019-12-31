@@ -1,0 +1,3 @@
+# TAP results for test_skip_no_reason.py
+ok 1 - test_skip_no_reason.py::test_foo # SKIP unconditional skip
+1..1

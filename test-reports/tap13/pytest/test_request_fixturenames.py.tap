@@ -1,0 +1,3 @@
+# TAP results for test_request_fixturenames.py
+ok 1 - test_request_fixturenames.py::test_function
+1..1

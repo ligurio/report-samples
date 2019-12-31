@@ -1,0 +1,9 @@
+# TAP results for test_order_of_execution.py
+ok 1 - test_order_of_execution.py::test_1
+ok 2 - test_order_of_execution.py::test_2
+ok 3 - test_order_of_execution.py::test_3
+ok 4 - test_order_of_execution.py::Testmygroup.test_1
+ok 5 - test_order_of_execution.py::Testmygroup.test_2
+ok 6 - test_order_of_execution.py::Testmygroup.test_3
+ok 7 - test_order_of_execution.py::Testmygroup.test_4
+1..7

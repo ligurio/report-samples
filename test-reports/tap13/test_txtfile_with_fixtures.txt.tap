@@ -1,0 +1,3 @@
+# TAP results for test_txtfile_with_fixtures.txt
+ok 1 - test_txtfile_with_fixtures.txt::[doctest] test_txtfile_with_fixtures.txt
+1..1

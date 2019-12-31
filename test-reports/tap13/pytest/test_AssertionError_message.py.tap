@@ -1,0 +1,11 @@
+# TAP results for test_AssertionError_message.py
+not ok 1 - test_AssertionError_message.py::test_hello
+# 
+#     def test_hello():
+#         x,y = 1,2
+# >       assert 0, (x,y)
+# E       AssertionError: (1, 2)
+# E       assert 0
+# 
+# test_AssertionError_message.py:3: AssertionError
+1..1

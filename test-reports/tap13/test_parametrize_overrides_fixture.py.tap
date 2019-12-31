@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_overrides_fixture.py
+ok 1 - test_parametrize_overrides_fixture.py::test_overridden_via_param[overridden]
+ok 2 - test_parametrize_overrides_fixture.py::test_not_overridden[overridden]
+ok 3 - test_parametrize_overrides_fixture.py::test_overridden_via_multiparam[foo-overridden]
+1..3

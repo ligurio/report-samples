@@ -1,0 +1,4 @@
+# TAP results for test_method_setup_uses_fresh_instances.py
+ok 1 - test_method_setup_uses_fresh_instances.py::TestSelfState1.test_hello
+ok 2 - test_method_setup_uses_fresh_instances.py::TestSelfState1.test_afterhello
+1..2

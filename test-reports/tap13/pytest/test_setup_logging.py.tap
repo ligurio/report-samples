@@ -1,0 +1,10 @@
+# TAP results for test_setup_logging.py
+not ok 1 - test_setup_logging.py::test_foo
+# 
+#     def test_foo():
+#         logger.info('text going to logger from call')
+# >       assert False
+# E       assert False
+# 
+# test_setup_logging.py:10: AssertionError
+1..1

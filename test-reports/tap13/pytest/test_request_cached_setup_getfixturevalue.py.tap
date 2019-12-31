@@ -1,0 +1,3 @@
+# TAP results for test_request_cached_setup_getfixturevalue.py
+ok 1 - test_request_cached_setup_getfixturevalue.py::test_two_funcarg
+1..1

@@ -1,0 +1,3 @@
+# TAP results for test_generate_tests_in_class.py
+ok 1 - test_generate_tests_in_class.py::TestClass.test_myfunc[hello]
+1..1

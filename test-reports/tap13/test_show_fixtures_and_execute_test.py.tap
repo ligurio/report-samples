@@ -1,0 +1,11 @@
+# TAP results for test_show_fixtures_and_execute_test.py
+not ok 1 - test_show_fixtures_and_execute_test.py::test_arg
+# 
+# arg = None
+# 
+#     def test_arg(arg):
+# >       assert False
+# E       assert False
+# 
+# test_show_fixtures_and_execute_test.py:6: AssertionError
+1..1

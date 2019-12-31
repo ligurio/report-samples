@@ -1,0 +1,5 @@
+# TAP results for test_keyword_option_parametrize.py
+ok 1 - test_keyword_option_parametrize.py::test_func[None]
+ok 2 - test_keyword_option_parametrize.py::test_func[1.3]
+ok 3 - test_keyword_option_parametrize.py::test_func[2-3]
+1..3

@@ -1,0 +1,3 @@
+# TAP results for test_terminalreporter_reportopt_addopts.py
+ok 1 - test_terminalreporter_reportopt_addopts.py::test_opt
+1..1

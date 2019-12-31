@@ -1,0 +1,66 @@
+# TAP results for test_parametrize_multiple_times.py
+not ok 1 - test_parametrize_multiple_times.py::test_func[1]
+# 
+# x = 1
+# 
+#     def test_func(x):
+# >       assert 0, x
+# E       AssertionError: 1
+# E       assert 0
+# 
+# test_parametrize_multiple_times.py:4: AssertionError
+not ok 2 - test_parametrize_multiple_times.py::test_func[2]
+# 
+# x = 2
+# 
+#     def test_func(x):
+# >       assert 0, x
+# E       AssertionError: 2
+# E       assert 0
+# 
+# test_parametrize_multiple_times.py:4: AssertionError
+not ok 3 - test_parametrize_multiple_times.py::TestClass.test_meth[3-1]
+# 
+# self = <test_parametrize_multiple_times.TestClass object at 0x7fa0104b3350>
+# x = 1, y = 3
+# 
+#     def test_meth(self, x, y):
+# >       assert 0, x
+# E       AssertionError: 1
+# E       assert 0
+# 
+# test_parametrize_multiple_times.py:8: AssertionError
+not ok 4 - test_parametrize_multiple_times.py::TestClass.test_meth[3-2]
+# 
+# self = <test_parametrize_multiple_times.TestClass object at 0x7fa00e803dd0>
+# x = 2, y = 3
+# 
+#     def test_meth(self, x, y):
+# >       assert 0, x
+# E       AssertionError: 2
+# E       assert 0
+# 
+# test_parametrize_multiple_times.py:8: AssertionError
+not ok 5 - test_parametrize_multiple_times.py::TestClass.test_meth[4-1]
+# 
+# self = <test_parametrize_multiple_times.TestClass object at 0x7fa00f5d8b50>
+# x = 1, y = 4
+# 
+#     def test_meth(self, x, y):
+# >       assert 0, x
+# E       AssertionError: 1
+# E       assert 0
+# 
+# test_parametrize_multiple_times.py:8: AssertionError
+not ok 6 - test_parametrize_multiple_times.py::TestClass.test_meth[4-2]
+# 
+# self = <test_parametrize_multiple_times.TestClass object at 0x7fa00eb11e90>
+# x = 2, y = 4
+# 
+#     def test_meth(self, x, y):
+# >       assert 0, x
+# E       AssertionError: 2
+# E       assert 0
+# 
+# test_parametrize_multiple_times.py:8: AssertionError
+1..6

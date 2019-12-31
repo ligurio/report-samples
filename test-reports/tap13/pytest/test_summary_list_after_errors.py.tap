@@ -1,0 +1,9 @@
+# TAP results for test_summary_list_after_errors.py
+not ok 1 - test_summary_list_after_errors.py::test_fail
+# 
+#     def test_fail():
+# >       assert 0
+# E       assert 0
+# 
+# test_summary_list_after_errors.py:3: AssertionError
+1..1

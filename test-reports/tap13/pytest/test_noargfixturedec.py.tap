@@ -1,0 +1,3 @@
+# TAP results for test_noargfixturedec.py
+ok 1 - test_noargfixturedec.py::test_func
+1..1

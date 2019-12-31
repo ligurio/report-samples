@@ -1,0 +1,3 @@
+# TAP results for setup.py
+ok 1 - setup.py::test_foo
+1..1

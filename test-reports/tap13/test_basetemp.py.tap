@@ -1,0 +1,3 @@
+# TAP results for test_basetemp.py
+ok 1 - test_basetemp.py::test_1
+1..1

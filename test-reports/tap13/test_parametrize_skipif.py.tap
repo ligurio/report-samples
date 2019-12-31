@@ -1,0 +1,5 @@
+# TAP results for test_parametrize_skipif.py
+ok 1 - test_parametrize_skipif.py::test_skip_if[0]
+ok 2 - test_parametrize_skipif.py::test_skip_if[1]
+ok 3 - test_parametrize_skipif.py::test_skip_if[2] # SKIP condition: True
+1..3

@@ -1,0 +1,8 @@
+# TAP results for .virtual/test_invenv.py
+ok 1 - .virtual/test_invenv.py::test_hello
+ok 2 - .virtual/test_invenv.py::test_hello
+ok 3 - .virtual/test_invenv.py::test_hello
+ok 4 - .virtual/test_invenv.py::test_hello
+ok 5 - .virtual/test_invenv.py::test_hello
+ok 6 - .virtual/test_invenv.py::test_hello
+1..6

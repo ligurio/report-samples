@@ -1,0 +1,12 @@
+# TAP results for test_parametrize_with_ids.py
+ok 1 - test_parametrize_with_ids.py::test_function[basic]
+not ok 2 - test_parametrize_with_ids.py::test_function[advanced]
+# 
+# a = 1, b = 2
+# 
+#     def test_function(a, b):
+# >       assert a == b
+# E       assert 1 == 2
+# 
+# test_parametrize_with_ids.py:7: AssertionError
+1..2

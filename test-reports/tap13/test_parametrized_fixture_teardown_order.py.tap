@@ -1,0 +1,5 @@
+# TAP results for test_parametrized_fixture_teardown_order.py
+ok 1 - test_parametrized_fixture_teardown_order.py::TestClass.test[1]
+ok 2 - test_parametrized_fixture_teardown_order.py::TestClass.test[2]
+ok 3 - test_parametrized_fixture_teardown_order.py::test_finish
+1..3

@@ -1,0 +1,3 @@
+# TAP results for test_xfailure_function.py
+ok 1 - test_xfailure_function.py::test_xfail # SKIP reason: 42
+1..1

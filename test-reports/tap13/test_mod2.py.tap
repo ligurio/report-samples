@@ -1,0 +1,15 @@
+# TAP results for test_mod2.py
+ok 1 - test_mod2.py::test_3
+ok 2 - test_mod2.py::test_func2[s1]
+ok 3 - test_mod2.py::test_func3[s1-m1]
+ok 4 - test_mod2.py::test_func3b[s1-m1]
+ok 5 - test_mod2.py::test_func3[s1-m2]
+ok 6 - test_mod2.py::test_func3b[s1-m2]
+ok 7 - test_mod2.py::test_func2[s2]
+ok 8 - test_mod2.py::test_func3[s2-m1]
+ok 9 - test_mod2.py::test_func3b[s2-m1]
+ok 10 - test_mod2.py::test_func4[m1]
+ok 11 - test_mod2.py::test_func3[s2-m2]
+ok 12 - test_mod2.py::test_func3b[s2-m2]
+ok 13 - test_mod2.py::test_func4[m2]
+1..13

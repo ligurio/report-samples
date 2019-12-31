@@ -1,0 +1,3 @@
+# TAP results for test_one_skipped.py
+ok 1 - test_one_skipped.py::[doctest] test_one_skipped
+1..1

@@ -1,0 +1,3 @@
+# TAP results for test_setup_teardown_warnings.py
+ok 1 - test_setup_teardown_warnings.py::test_func
+1..1

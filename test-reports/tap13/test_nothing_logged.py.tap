@@ -1,0 +1,11 @@
+# TAP results for test_nothing_logged.py
+not ok 1 - test_nothing_logged.py::test_foo
+# 
+#     def test_foo():
+#         sys.stdout.write('text going to stdout')
+#         sys.stderr.write('text going to stderr')
+# >       assert False
+# E       assert False
+# 
+# test_nothing_logged.py:6: AssertionError
+1..1

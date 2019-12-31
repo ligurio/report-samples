@@ -1,0 +1,3 @@
+# TAP results for test_funcargnames_compatattr.py
+ok 1 - test_funcargnames_compatattr.py::test_hello
+1..1

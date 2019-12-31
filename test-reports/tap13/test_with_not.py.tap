@@ -1,0 +1,5 @@
+# TAP results for test_with_not.py
+ok 1 - test_with_not.py::test_something
+ok 2 - test_with_not.py::test_2
+ok 3 - test_with_not.py::test_3
+1..3

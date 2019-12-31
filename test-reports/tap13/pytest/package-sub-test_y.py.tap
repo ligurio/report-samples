@@ -1,0 +1,4 @@
+# TAP results for package/sub/test_y.py
+ok 1 - package/sub/test_y.py::test_x
+ok 2 - package/sub/test_y.py::test_x
+1..2

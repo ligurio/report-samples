@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="pytest" skips="2" tests="118" time="47.482">
+    <testcase line="51" time="0.12345">
+    </testcase>
+</testsuite>

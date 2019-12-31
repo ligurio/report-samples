@@ -1,0 +1,3 @@
+# TAP results for test_recwarn_functional.py
+ok 1 - test_recwarn_functional.py::test_method
+1..1

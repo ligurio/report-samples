@@ -1,0 +1,3 @@
+# TAP results for test_sys_meta_path_munged.py
+ok 1 - test_sys_meta_path_munged.py::test_meta_path
+1..1

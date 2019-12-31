@@ -1,0 +1,4 @@
+# TAP results for test_funcarg_lookup_modulelevel.py
+ok 1 - test_funcarg_lookup_modulelevel.py::TestClass.test_method
+ok 2 - test_funcarg_lookup_modulelevel.py::test_func
+1..2

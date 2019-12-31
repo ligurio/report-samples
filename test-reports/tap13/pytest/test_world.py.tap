@@ -1,0 +1,3 @@
+# TAP results for test_world.py
+ok 1 - test_world.py::test_hello
+1..1

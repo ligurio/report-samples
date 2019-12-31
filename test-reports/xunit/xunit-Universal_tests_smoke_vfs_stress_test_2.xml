@@ -1,0 +1,8 @@
+
+<testsuites>
+	<testsuite name='Universal/tests/smoke/vfs_stress_test_2' skip='0' timestamp='2020-02-04T09:47:35' failures='1' tests='1' errors='0'>
+		<testcase classname='Universal/tests/smoke/vfs_stress_test_2' time='0' name='vfs_stress_test_2'>
+			<failure/>
+		</testcase>
+	</testsuite>
+</testsuites>

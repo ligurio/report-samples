@@ -1,0 +1,4 @@
+# TAP results for test_show_fixtures_with_parameters.py
+ok 1 - test_show_fixtures_with_parameters.py::test_arg1[foo]
+ok 2 - test_show_fixtures_with_parameters.py::test_arg1[bar]
+1..2

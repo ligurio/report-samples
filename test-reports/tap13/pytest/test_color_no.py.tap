@@ -1,0 +1,3 @@
+# TAP results for test_color_no.py
+ok 1 - test_color_no.py::test_this
+1..1

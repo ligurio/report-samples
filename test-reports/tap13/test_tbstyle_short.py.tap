@@ -1,0 +1,16 @@
+# TAP results for test_tbstyle_short.py
+not ok 1 - test_tbstyle_short.py::test_opt
+# test_tbstyle_short.py:8: in test_opt
+#     assert x
+# E   assert 0
+not ok 2 - test_tbstyle_short.py::test_opt
+# 
+# arg = 42
+# 
+#     def test_opt(arg):
+#         x = 0
+# >       assert x
+# E       assert 0
+# 
+# test_tbstyle_short.py:8: AssertionError
+1..2

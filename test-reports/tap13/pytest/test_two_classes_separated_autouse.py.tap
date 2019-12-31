@@ -1,0 +1,4 @@
+# TAP results for test_two_classes_separated_autouse.py
+ok 1 - test_two_classes_separated_autouse.py::TestA.test_setup1
+ok 2 - test_two_classes_separated_autouse.py::TestB.test_setup2
+1..2

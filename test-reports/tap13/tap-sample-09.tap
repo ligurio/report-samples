@@ -1,0 +1,256 @@
+# Hardware architecture: x86_64
+# Timestamp: 2016-05-16 18:21 (GMT+1)
+# 
+TAP version 13
+1..251
+ok 1 - zdtm/static/conntracks # SKIP manual run only
+ok 2 - zdtm/static/sleeping00
+ok 4 - zdtm/static/busyloop00
+ok 6 - zdtm/static/caps00
+ok 8 - zdtm/static/pid00
+ok 10 - zdtm/static/wait00
+ok 12 - zdtm/static/fpu00
+ok 14 - zdtm/static/arm-neon00 # SKIP manual run only
+ok 15 - zdtm/static/zombie00
+ok 17 - zdtm/static/fpu01
+ok 19 - zdtm/static/futex-rl
+ok 21 - zdtm/static/mmx00
+ok 23 - zdtm/static/sse00
+ok 25 - zdtm/static/sse20
+ok 27 - zdtm/static/futex
+ok 29 - zdtm/static/mprotect00
+ok 31 - zdtm/static/sched_prio00
+ok 33 - zdtm/static/unbound_sock
+ok 35 - zdtm/static/sched_policy00
+ok 37 - zdtm/static/socket_listen
+ok 39 - zdtm/static/timerfd
+ok 41 - zdtm/static/socket_listen6
+ok 43 - zdtm/static/socket_udp
+ok 45 - zdtm/static/socket6_udp
+ok 47 - zdtm/static/sk-freebind
+ok 49 - zdtm/static/sk-freebind-false
+ok 51 - zdtm/static/shm
+ok 53 - zdtm/static/socket_udplite
+ok 55 - zdtm/static/timers
+ok 57 - zdtm/static/socket-tcp
+ok 59 - zdtm/static/pstree
+ok 61 - zdtm/static/sockets01
+ok 63 - zdtm/static/vdso01
+ok 65 - zdtm/static/socket-tcp-local
+ok 67 - zdtm/static/socket-tcp6-local
+ok 69 - zdtm/static/socket-tcpbuf-local
+ok 71 - zdtm/static/socket-tcpbuf6-local
+ok 73 - zdtm/static/maps03 # SKIP manual run only
+ok 74 - zdtm/static/sock_opts00
+ok 76 - zdtm/static/ipc_namespace
+ok 78 - zdtm/static/sk-unix-unconn
+ok 80 - zdtm/static/sem
+ok 82 - zdtm/static/groups
+ok 84 - zdtm/static/uptime_grow # SKIP manual run only
+ok 85 - zdtm/static/pdeath_sig
+ok 87 - zdtm/static/file_fown
+ok 89 - zdtm/static/signalfd00
+ok 91 - zdtm/static/session00
+ok 93 - zdtm/static/pty04
+ok 95 - zdtm/static/pty00
+ok 97 - zdtm/static/pty03
+ok 99 - zdtm/static/poll
+ok 100 - zdtm/static/tty02
+ok 101 - zdtm/static/maps04
+ok 102 - zdtm/static/mountpoints
+ok 103 - zdtm/static/unhashed_proc # SKIP manual run only
+ok 104 - zdtm/static/cow00 # SKIP manual run only
+ok 105 - zdtm/static/mem-touch # SKIP manual run only
+ok 106 - zdtm/static/socket-ext
+ok 108 - zdtm/static/sigpending
+ok 110 - zdtm/static/session01
+ok 112 - zdtm/static/sk-netlink
+ok 114 - zdtm/static/grow_map
+ok 116 - zdtm/static/stopped
+ok 118 - zdtm/static/stopped02
+ok 120 - zdtm/static/stopped12
+ok 122 - zdtm/static/dumpable02
+ok 124 - zdtm/static/dumpable01
+ok 126 - zdtm/static/rtc
+ok 128 - zdtm/static/aio00
+ok 130 - zdtm/static/seccomp_strict
+ok 132 - zdtm/static/aio01
+ok 134 - zdtm/static/fd
+ok 136 - zdtm/static/seccomp_filter_tsync
+ok 138 - zdtm/static/cgroupns # SKIP no cgroupns feature
+ok 139 - zdtm/static/seccomp_filter_inheritance
+ok 141 - zdtm/static/loginuid
+ok 143 - zdtm/static/bridge
+ok 145 - zdtm/static/write_read01
+ok 147 - zdtm/static/file_attr
+ok 149 - zdtm/static/unlink_largefile # SKIP manual run only
+ok 150 - zdtm/static/deleted_dev
+ok 152 - zdtm/static/maps00
+ok 154 - zdtm/static/unlink_fstat00
+ok 156 - zdtm/static/unlink_fstat01+
+ok 158 - zdtm/static/console
+ok 160 - zdtm/static/fifo
+ok 162 - zdtm/static/vt
+ok 164 - zdtm/static/unlink_fifo
+ok 166 - zdtm/static/unlink_mmap00
+ok 168 - zdtm/static/unlink_mmap02
+ok 170 - zdtm/static/file_append
+ok 172 - zdtm/static/sockets00
+ok 173 - zdtm/static/cow01
+ok 174 - zdtm/static/mtime_mmap
+ok 175 - zdtm/static/file_locks02
+ok 176 - zdtm/static/file_locks01
+ok 177 - zdtm/static/overmount_dev # SKIP manual run only
+ok 178 - zdtm/static/overmount_fifo # SKIP manual run only
+ok 179 - zdtm/static/netns-nf
+ok 181 - zdtm/static/socket_aio # SKIP manual run only
+ok 182 - zdtm/static/maps_file_prot
+ok 184 - zdtm/static/socket_snd_addr # SKIP manual run only
+ok 185 - zdtm/static/cwd01
+ok 187 - zdtm/static/cwd00
+ok 189 - zdtm/static/tempfs
+ok 191 - zdtm/static/socket_close_data
+ok 193 - zdtm/static/socket_dgram_data
+ok 195 - zdtm/static/ptrace_sig # SKIP manual run only
+ok 196 - zdtm/static/inotify_system # SKIP manual run only
+ok 197 - zdtm/static/inotify_system_nodel # SKIP manual run only
+ok 198 - zdtm/static/packet_sock
+ok 200 - zdtm/static/sock_filter
+ok 202 - zdtm/static/msgque
+ok 204 - zdtm/static/packet_sock_mmap
+ok 206 - zdtm/static/pthread02 # SKIP manual run only
+ok 207 - zdtm/static/pipe00
+ok 209 - zdtm/static/pipe01
+ok 211 - zdtm/static/pipe02
+ok 213 - zdtm/static/pthread00
+ok 215 - zdtm/static/vdso00
+ok 217 - zdtm/static/utsname
+ok 219 - zdtm/static/pthread01
+ok 221 - zdtm/static/sockets02
+ok 223 - zdtm/static/socket-tcp6
+ok 225 - zdtm/static/socket-closed-tcp # SKIP manual run only
+ok 226 - zdtm/static/sockets_spair
+ok 228 - zdtm/static/socket-tcp-nfconntrack
+ok 230 - zdtm/static/socket-tcpbuf
+ok 232 - zdtm/static/socket-tcpbuf6
+ok 234 - zdtm/static/socket_queues
+ok 236 - zdtm/static/sock_opts01
+ok 238 - zdtm/static/maps01
+ok 240 - zdtm/static/selfexe00
+ok 242 - zdtm/static/maps02
+ok 244 - zdtm/static/mlock_setuid
+ok 246 - zdtm/static/proc-self
+ok 248 - zdtm/static/xids00
+ok 250 - zdtm/static/eventfs00
+ok 252 - zdtm/static/maps05
+ok 254 - zdtm/static/pty02 # SKIP manual run only
+ok 255 - zdtm/static/tty00 # SKIP manual run only
+ok 256 - zdtm/static/inotify_irmap
+ok 258 - zdtm/static/fanotify00
+ok 260 - zdtm/static/rlimits00
+ok 262 - zdtm/static/session02 # SKIP manual run only
+ok 263 - zdtm/static/session03 # SKIP manual run only
+ok 264 - zdtm/static/pty01
+ok 266 - zdtm/static/netns-dev
+ok 268 - zdtm/static/netns
+ok 270 - zdtm/static/tty03
+ok 272 - zdtm/static/child_opened_proc
+ok 274 - zdtm/static/sigaltstack
+ok 276 - zdtm/static/grow_map03
+ok 278 - zdtm/static/posix_timers
+ok 280 - zdtm/static/grow_map02
+ok 282 - zdtm/static/tun
+ok 284 - zdtm/static/stopped01
+ok 286 - zdtm/static/apparmor # SKIP checkskip failed
+ok 287 - zdtm/static/clean_mntns
+ok 289 - zdtm/static/remap_dead_pid_root
+ok 291 - zdtm/static/vsx # SKIP arch ppc64le
+ok 292 - zdtm/static/remap_dead_pid
+ok 294 - zdtm/static/vfork00 # SKIP manual run only
+ok 295 - zdtm/static/mntns_rw_ro_rw
+ok 297 - zdtm/static/different_creds
+ok 299 - zdtm/static/seccomp_filter
+ok 301 - zdtm/static/oom_score_adj
+ok 303 - zdtm/static/write_read00
+ok 305 - zdtm/static/write_read02
+ok 307 - zdtm/static/write_read10
+ok 309 - zdtm/static/link10
+ok 311 - zdtm/static/deleted_unix_sock
+ok 313 - zdtm/static/sk-unix-rel
+ok 315 - zdtm/static/unlink_fstat01
+ok 317 - zdtm/static/unlink_fstat02
+ok 319 - zdtm/static/unlink_fstat03
+ok 321 - zdtm/static/fifo-ghost
+ok 323 - zdtm/static/fifo_ro
+ok 325 - zdtm/static/fifo_wronly
+ok 327 - zdtm/static/unlink_fifo_wronly
+ok 329 - zdtm/static/unlink_mmap01
+ok 331 - zdtm/static/file_shared
+ok 332 - zdtm/static/sockets_dgram
+ok 333 - zdtm/static/fdt_shared
+ok 334 - zdtm/static/file_locks00
+ok 335 - zdtm/static/file_locks03
+ok 336 - zdtm/static/file_locks04
+ok 337 - zdtm/static/file_locks05
+ok 338 - zdtm/static/overmount_file # SKIP manual run only
+ok 339 - zdtm/static/overmount_sock # SKIP manual run only
+ok 340 - zdtm/static/tempfs_ro
+ok 342 - zdtm/static/tempfs_overmounted
+ok 344 - zdtm/static/socket_close_data01
+ok 346 - zdtm/static/cwd02
+ok 348 - zdtm/static/mnt_ro_bind
+ok 350 - zdtm/static/bind-mount
+ok 352 - zdtm/static/cgroup_stray # SKIP no cgroupns feature
+ok 353 - zdtm/static/cgroup00
+ok 355 - zdtm/static/cgroup03
+ok 357 - zdtm/static/inotify00
+ok 359 - zdtm/static/cgroup01
+ok 361 - zdtm/static/mntns_shared_bind
+ok 363 - zdtm/static/mntns_link_ghost
+ok 365 - zdtm/static/mntns_root_bind
+ok 367 - zdtm/static/mntns_root_bind02
+ok 369 - zdtm/static/mnt_enablefs
+ok 371 - zdtm/static/autofs # SKIP no autofs feature
+ok 372 - zdtm/static/mntns_deleted
+ok 374 - zdtm/static/mntns_shared_vs_private
+ok 376 - zdtm/static/chroot-file
+ok 378 - zdtm/static/env00
+ok 380 - zdtm/static/tempfs_overmounted01
+ok 382 - zdtm/static/inotify02 # SKIP manual run only
+ok 383 - zdtm/static/fifo-rowo-pair
+ok 385 - zdtm/static/tempfs_subns
+ok 387 - zdtm/static/mount_paths
+ok 389 - zdtm/static/inotify01
+ok 391 - zdtm/static/rmdir_open
+ok 393 - zdtm/static/cgroup02
+ok 395 - zdtm/static/mntns_open
+ok 397 - zdtm/static/mntns_link_remap
+ok 399 - zdtm/static/unlink_fstat04
+ok 401 - zdtm/static/mnt_ext_dev # SKIP manual run only
+ok 402 - zdtm/static/unlink_regular00 # SKIP manual run only
+ok 403 - zdtm/static/mntns_overmount
+ok 405 - zdtm/static/mnt_ext_master
+ok 407 - zdtm/static/mntns_shared_bind02
+ok 408 - zdtm/static/mnt_ext_auto
+ok 409 - zdtm/static/chroot
+ok 410 - zdtm/static/binfmt_misc
+ok 411 - zdtm/transition/ptrace # SKIP manual run only
+ok 412 - zdtm/transition/epoll # SKIP manual run only
+ok 413 - zdtm/transition/ipc
+ok 415 - zdtm/transition/thread-bomb # SKIP manual run only
+ok 416 - zdtm/static/cmdlinenv00
+ok 418 - zdtm/static/umask00
+ok 420 - zdtm/transition/fork
+ok 422 - zdtm/transition/socket_loop00 # SKIP manual run only
+ok 423 - zdtm/transition/netlink00 # SKIP manual run only
+ok 424 - zdtm/transition/file_aio # SKIP manual run only
+ok 425 - zdtm/transition/fork2
+ok 427 - zdtm/transition/pipe_loop00
+ok 429 - zdtm/transition/socket-tcp
+ok 431 - zdtm/transition/unix_sock # SKIP manual run only
+ok 432 - zdtm/transition/fifo_dyn # SKIP manual run only
+ok 433 - zdtm/transition/fifo_loop # SKIP manual run only
+ok 434 - zdtm/transition/socket-tcp6
+ok 435 - zdtm/transition/pipe_shared00
+ok 436 - zdtm/transition/maps007
+ok 437 - zdtm/transition/file_read

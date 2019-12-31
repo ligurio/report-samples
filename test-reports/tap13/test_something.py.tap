@@ -1,0 +1,23 @@
+# TAP results for test_something.py
+not ok 1 - test_something.py::test_2
+# 
+#     def test_2():
+# >       assert 0
+# E       assert 0
+# 
+# test_something.py:3: AssertionError
+not ok 2 - test_something.py::test_2
+# 
+#     def test_2():
+# >       assert 0
+# E       assert 0
+# 
+# test_something.py:3: AssertionError
+not ok 3 - test_something.py::test_2
+# 
+#     def test_2():
+# >       assert 0
+# E       assert 0
+# 
+# test_something.py:3: AssertionError
+1..3

@@ -1,0 +1,6 @@
+# TAP results for test_calls_showall.py
+ok 1 - test_calls_showall.py::test_something
+ok 2 - test_calls_showall.py::test_2
+ok 3 - test_calls_showall.py::test_1
+ok 4 - test_calls_showall.py::test_3
+1..4

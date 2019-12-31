@@ -1,0 +1,21 @@
+# TAP results for testing/python/integration.py
+ok 1 - testing/python/integration.py::TestOEJSKITSpecials.test_funcarg_non_pycollectobj
+ok 2 - testing/python/integration.py::TestOEJSKITSpecials.test_autouse_fixture
+ok 3 - testing/python/integration.py::test_wrapped_getfslineno
+ok 4 - testing/python/integration.py::TestMockDecoration.test_wrapped_getfuncargnames
+ok 5 - testing/python/integration.py::TestMockDecoration.test_wrapped_getfuncargnames_patching
+ok 6 - testing/python/integration.py::TestMockDecoration.test_unittest_mock # SKIP could not import 'unittest.mock'
+ok 7 - testing/python/integration.py::TestMockDecoration.test_unittest_mock_and_fixture # SKIP could not import 'unittest.mock'
+ok 8 - testing/python/integration.py::TestMockDecoration.test_unittest_mock_and_pypi_mock # SKIP could not import 'unittest.mock'
+ok 9 - testing/python/integration.py::TestMockDecoration.test_mock # SKIP could not import 'mock'
+ok 10 - testing/python/integration.py::TestMockDecoration.test_mock_sorting # SKIP could not import 'mock'
+ok 11 - testing/python/integration.py::TestMockDecoration.test_mock_double_patch_issue473 # SKIP could not import 'mock'
+ok 12 - testing/python/integration.py::TestReRunTests.test_rerun
+ok 13 - testing/python/integration.py::test_pytestconfig_is_session_scoped
+ok 14 - testing/python/integration.py::TestNoselikeTestAttribute.test_module_with_global_test
+ok 15 - testing/python/integration.py::TestNoselikeTestAttribute.test_class_and_method
+ok 16 - testing/python/integration.py::TestNoselikeTestAttribute.test_unittest_class
+ok 17 - testing/python/integration.py::TestNoselikeTestAttribute.test_class_with_nasty_getattr
+ok 18 - testing/python/integration.py::TestParameterize.test_idfn_marker
+ok 19 - testing/python/integration.py::TestParameterize.test_idfn_fixture
+1..19

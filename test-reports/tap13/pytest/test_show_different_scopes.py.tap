@@ -1,0 +1,3 @@
+# TAP results for test_show_different_scopes.py
+ok 1 - test_show_different_scopes.py::test_arg1
+1..1

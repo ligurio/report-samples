@@ -1,0 +1,12 @@
+# TAP results for test_method_and_teardown_failing_reporting.py
+not ok 1 - test_method_and_teardown_failing_reporting.py::TC.test_method
+# 
+# self = <test_method_and_teardown_failing_reporting.TC testMethod=test_method>
+# 
+#     def test_method(self):
+# >       assert False, "down2"
+# E       AssertionError: down2
+# E       assert False
+# 
+# test_method_and_teardown_failing_reporting.py:6: AssertionError
+1..1

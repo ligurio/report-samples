@@ -1,0 +1,14 @@
+# TAP results for test_testcase_adderrorandfailure_defers.py
+not ok 1 - test_testcase_adderrorandfailure_defers.py::MyTestCase.test_hello
+# 
+# >   excinfo = pytest.raises(ZeroDivisionError, lambda: 0/0)
+# E   ZeroDivisionError: integer division or modulo by zero
+# 
+# test_testcase_adderrorandfailure_defers.py:5: ZeroDivisionError
+not ok 2 - test_testcase_adderrorandfailure_defers.py::MyTestCase.test_hello
+# 
+# >   excinfo = pytest.raises(ZeroDivisionError, lambda: 0/0)
+# E   ZeroDivisionError: integer division or modulo by zero
+# 
+# test_testcase_adderrorandfailure_defers.py:5: ZeroDivisionError
+1..2

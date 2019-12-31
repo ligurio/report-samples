@@ -1,0 +1,17 @@
+# TAP results for testing/test_runner_xunit.py
+ok 1 - testing/test_runner_xunit.py::test_module_and_function_setup
+ok 2 - testing/test_runner_xunit.py::test_module_setup_failure_no_teardown
+ok 3 - testing/test_runner_xunit.py::test_setup_function_failure_no_teardown
+ok 4 - testing/test_runner_xunit.py::test_class_setup
+ok 5 - testing/test_runner_xunit.py::test_class_setup_failure_no_teardown
+ok 6 - testing/test_runner_xunit.py::test_method_setup
+ok 7 - testing/test_runner_xunit.py::test_method_setup_failure_no_teardown
+ok 8 - testing/test_runner_xunit.py::test_method_generator_setup
+ok 9 - testing/test_runner_xunit.py::test_func_generator_setup
+ok 10 - testing/test_runner_xunit.py::test_method_setup_uses_fresh_instances
+ok 11 - testing/test_runner_xunit.py::test_setup_that_skips_calledagain
+ok 12 - testing/test_runner_xunit.py::test_setup_fails_again_on_all_tests
+ok 13 - testing/test_runner_xunit.py::test_setup_funcarg_setup_when_outer_scope_fails
+ok 14 - testing/test_runner_xunit.py::test_setup_teardown_function_level_with_optional_argument[]
+ok 15 - testing/test_runner_xunit.py::test_setup_teardown_function_level_with_optional_argument[arg]
+1..15

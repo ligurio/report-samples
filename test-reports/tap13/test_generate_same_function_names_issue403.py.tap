@@ -1,0 +1,6 @@
+# TAP results for test_generate_same_function_names_issue403.py
+ok 1 - test_generate_same_function_names_issue403.py::test_y[0]
+ok 2 - test_generate_same_function_names_issue403.py::test_y[1]
+ok 3 - test_generate_same_function_names_issue403.py::test_x[0]
+ok 4 - test_generate_same_function_names_issue403.py::test_x[1]
+1..4

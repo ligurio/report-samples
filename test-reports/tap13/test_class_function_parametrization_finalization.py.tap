@@ -1,0 +1,10 @@
+# TAP results for test_class_function_parametrization_finalization.py
+ok 1 - test_class_function_parametrization_finalization.py::TestClass.test_1[a-1]
+ok 2 - test_class_function_parametrization_finalization.py::TestClass.test_1[a-2]
+ok 3 - test_class_function_parametrization_finalization.py::TestClass.test_1[b-1]
+ok 4 - test_class_function_parametrization_finalization.py::TestClass.test_1[b-2]
+ok 5 - test_class_function_parametrization_finalization.py::TestClass2.test_2[a-1]
+ok 6 - test_class_function_parametrization_finalization.py::TestClass2.test_2[a-2]
+ok 7 - test_class_function_parametrization_finalization.py::TestClass2.test_2[b-1]
+ok 8 - test_class_function_parametrization_finalization.py::TestClass2.test_2[b-2]
+1..8

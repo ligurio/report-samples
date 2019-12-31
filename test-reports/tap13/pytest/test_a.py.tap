@@ -1,0 +1,42 @@
+# TAP results for test_a.py
+ok 1 - test_a.py::test_always_passes
+ok 2 - test_a.py::test_always_passes
+ok 3 - test_a.py::test_always_passes
+not ok 4 - test_a.py::test_a1
+# 
+#     def test_a1():
+# >       assert 0
+# E       assert 0
+# 
+# test_a.py:2: AssertionError
+ok 5 - test_a.py::test_a2
+not ok 6 - test_a.py::test_a1
+# 
+#     def test_a1():
+# >       assert 0
+# E       assert 0
+# 
+# test_a.py:2: AssertionError
+ok 7 - test_a.py::test_a1
+ok 8 - test_a.py::test_a2
+ok 9 - test_a.py::test_a1
+ok 10 - test_a.py::test_a2
+not ok 11 - test_a.py::test_a1
+# 
+#     def test_a1():
+# >       assert 0
+# E       assert 0
+# 
+# test_a.py:2: AssertionError
+ok 12 - test_a.py::test_a2
+not ok 13 - test_a.py::test_a1
+# 
+#     def test_a1():
+# >       assert 0
+# E       assert 0
+# 
+# test_a.py:2: AssertionError
+ok 14 - test_a.py::test_a2
+ok 15 - test_a.py::test_a1
+ok 16 - test_a.py::test_a2[0]
+1..16

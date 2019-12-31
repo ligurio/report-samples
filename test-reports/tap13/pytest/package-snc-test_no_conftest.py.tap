@@ -1,0 +1,8 @@
+# TAP results for package/snc/test_no_conftest.py
+ok 1 - package/snc/test_no_conftest.py::test_no_conftest
+ok 2 - package/snc/test_no_conftest.py::test_no_conftest
+ok 3 - package/snc/test_no_conftest.py::test_no_conftest
+ok 4 - package/snc/test_no_conftest.py::test_no_conftest
+ok 5 - package/snc/test_no_conftest.py::test_no_conftest
+ok 6 - package/snc/test_no_conftest.py::test_no_conftest
+1..6

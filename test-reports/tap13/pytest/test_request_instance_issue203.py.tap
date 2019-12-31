@@ -1,0 +1,3 @@
+# TAP results for test_request_instance_issue203.py
+ok 1 - test_request_instance_issue203.py::TestClass.test_hello
+1..1

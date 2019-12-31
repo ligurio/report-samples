@@ -1,0 +1,4 @@
+# TAP results for test_xfail_strict_considered_failure.py
+not ok 1 - test_xfail_strict_considered_failure.py::test
+# [XPASS(strict)]
+1..1

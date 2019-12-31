@@ -1,0 +1,5 @@
+# TAP results for test_doctestmodule_three_tests.py
+ok 1 - test_doctestmodule_three_tests.py::[doctest] test_doctestmodule_three_tests
+ok 2 - test_doctestmodule_three_tests.py::[doctest] test_doctestmodule_three_tests.another
+ok 3 - test_doctestmodule_three_tests.py::[doctest] test_doctestmodule_three_tests.my_func
+1..3

@@ -1,0 +1,3 @@
+# TAP results for test_double_colon_split_method_issue469.py
+ok 1 - test_double_colon_split_method_issue469.py::TestClass.test_func[double::colon]
+1..1

@@ -1,0 +1,4 @@
+# TAP results for tpkg/test_world.py
+ok 1 - tpkg/test_world.py::test_world
+ok 2 - tpkg/test_world.py::test_world
+1..2

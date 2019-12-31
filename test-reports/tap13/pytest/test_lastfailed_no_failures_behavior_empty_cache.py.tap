@@ -1,0 +1,18 @@
+# TAP results for test_lastfailed_no_failures_behavior_empty_cache.py
+ok 1 - test_lastfailed_no_failures_behavior_empty_cache.py::test_1
+not ok 2 - test_lastfailed_no_failures_behavior_empty_cache.py::test_2
+# 
+#     def test_2():
+# >       assert False
+# E       assert False
+# 
+# test_lastfailed_no_failures_behavior_empty_cache.py:4: AssertionError
+ok 3 - test_lastfailed_no_failures_behavior_empty_cache.py::test_1
+not ok 4 - test_lastfailed_no_failures_behavior_empty_cache.py::test_2
+# 
+#     def test_2():
+# >       assert False
+# E       assert False
+# 
+# test_lastfailed_no_failures_behavior_empty_cache.py:4: AssertionError
+1..4

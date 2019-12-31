@@ -1,0 +1,38 @@
+# TAP results for test_doctest_report_udiff.py
+not ok 1 - test_doctest_report_udiff.py::[doctest] test_doctest_report_udiff.foo
+# 002 
+# 003                 >>> foo()
+# Differences (unified diff with -expected +actual):
+#     @@ -1,4 +1,4 @@
+#         a  b
+#      0  1  4
+#     -1  2  4
+#     +1  2  5
+#      2  3  6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_report_udiff0/test_doctest_report_udiff.py:3: DocTestFailure
+not ok 2 - test_doctest_report_udiff.py::[doctest] test_doctest_report_udiff.foo
+# 002 
+# 003                 >>> foo()
+# Differences (unified diff with -expected +actual):
+#     @@ -1,4 +1,4 @@
+#         a  b
+#      0  1  4
+#     -1  2  4
+#     +1  2  5
+#      2  3  6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_report_udiff1/test_doctest_report_udiff.py:3: DocTestFailure
+not ok 3 - test_doctest_report_udiff.py::[doctest] test_doctest_report_udiff.foo
+# 002 
+# 003                 >>> foo()
+# Differences (unified diff with -expected +actual):
+#     @@ -1,4 +1,4 @@
+#         a  b
+#      0  1  4
+#     -1  2  4
+#     +1  2  5
+#      2  3  6
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_report_udiff2/test_doctest_report_udiff.py:3: DocTestFailure
+1..3

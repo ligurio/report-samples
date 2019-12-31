@@ -1,0 +1,12 @@
+# TAP results for test_simple_unittest.py
+not ok 1 - test_simple_unittest.py::MyTestCase.test_failing
+# 
+# self = <test_simple_unittest.MyTestCase testMethod=test_failing>
+# 
+#     def test_failing(self):
+# >       self.assertEqual('foo', 'bar')
+# E       AssertionError: 'foo' != 'bar'
+# 
+# test_simple_unittest.py:6: AssertionError
+ok 2 - test_simple_unittest.py::MyTestCase.testpassing
+1..2

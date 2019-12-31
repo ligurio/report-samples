@@ -1,0 +1,3 @@
+# TAP results for test_warn_config.py
+ok 1 - test_warn_config.py::test_proper
+1..1

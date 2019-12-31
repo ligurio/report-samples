@@ -1,0 +1,8 @@
+# TAP results for test_select.py
+ok 1 - test_select.py::TestClass.test_2
+ok 2 - test_select.py::TestClass.test_2
+ok 3 - test_select.py::TestClass.test_2
+ok 4 - test_select.py::TestClass.test_2
+ok 5 - test_select.py::TestClass.test_2
+ok 6 - test_select.py::TestClass.test_2
+1..6

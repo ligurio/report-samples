@@ -1,0 +1,8 @@
+# TAP results for sub/test_hello.py
+not ok 1 - sub/test_hello.py::test_func
+# 
+# >   def test_func(): 0/0
+# E   ZeroDivisionError: integer division or modulo by zero
+# 
+# sub/test_hello.py:1: ZeroDivisionError
+1..1

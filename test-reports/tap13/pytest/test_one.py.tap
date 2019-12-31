@@ -1,0 +1,14 @@
+# TAP results for test_one.py
+ok 1 - test_one.py::test_option
+ok 2 - test_one.py::test_this # SKIP 
+ok 3 - test_one.py::test_this # SKIP reason: [NOTRUN] noway
+ok 4 - test_one.py::test_this_true # SKIP reason: [NOTRUN] condition: True
+ok 5 - test_one.py::test_this_false
+ok 6 - test_one.py::test_this # SKIP reason: [NOTRUN] hello
+ok 7 - test_one.py::test_that
+ok 8 - test_one.py::test_this # SKIP hello
+ok 9 - test_one.py::test_func # SKIP test
+ok 10 - test_one.py::TestClass.test_method # SKIP test
+ok 11 - test_one.py::test_func # SKIP Folding
+ok 12 - test_one.py::TestClass.test_method # SKIP Folding
+1..12

@@ -1,0 +1,5 @@
+# TAP results for test_cookie.py
+ok 1 - test_cookie.py::test_rewritten
+ok 2 - test_cookie.py::test_rewritten
+ok 3 - test_cookie.py::test_rewritten
+1..3

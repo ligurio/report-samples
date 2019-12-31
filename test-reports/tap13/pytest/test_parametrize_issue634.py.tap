@@ -1,0 +1,8 @@
+# TAP results for test_parametrize_issue634.py
+ok 1 - test_parametrize_issue634.py::test_one[1]
+ok 2 - test_parametrize_issue634.py::test_two[2]
+ok 3 - test_parametrize_issue634.py::test_one[2]
+ok 4 - test_parametrize_issue634.py::test_two[3]
+ok 5 - test_parametrize_issue634.py::test_one[3]
+ok 6 - test_parametrize_issue634.py::test_one[4]
+1..6

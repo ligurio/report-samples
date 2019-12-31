@@ -1,0 +1,3 @@
+# TAP results for test_parametrized_with_bytes_regex.py
+ok 1 - test_parametrized_with_bytes_regex.py::test_stuff[foo]
+1..1

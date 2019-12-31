@@ -1,0 +1,3 @@
+# TAP results for test_dynamic_xfail_no_run.py
+ok 1 - test_dynamic_xfail_no_run.py::test_this # SKIP reason: [NOTRUN] 
+1..1

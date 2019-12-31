@@ -1,0 +1,10 @@
+# TAP results for test_assertion_options.py
+not ok 1 - test_assertion_options.py::test_hello
+# 
+#     def test_hello():
+#         x = 3
+# >       assert x == 4
+# E       assert 3 == 4
+# 
+# test_assertion_options.py:3: AssertionError
+1..1

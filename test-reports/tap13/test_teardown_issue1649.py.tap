@@ -1,0 +1,3 @@
+# TAP results for test_teardown_issue1649.py
+ok 1 - test_teardown_issue1649.py::TestCaseObjectsShouldBeCleanedUp.test_demo
+1..1

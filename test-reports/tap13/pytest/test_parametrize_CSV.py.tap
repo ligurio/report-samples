@@ -1,0 +1,4 @@
+# TAP results for test_parametrize_CSV.py
+ok 1 - test_parametrize_CSV.py::test_func[1-2]
+ok 2 - test_parametrize_CSV.py::test_func[2-3]
+1..2

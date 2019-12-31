@@ -1,0 +1,13 @@
+# TAP results for testing/test_resultlog.py
+ok 1 - testing/test_resultlog.py::test_generic_path
+ok 2 - testing/test_resultlog.py::test_write_log_entry
+ok 3 - testing/test_resultlog.py::TestWithFunctionIntegration.test_collection_report
+ok 4 - testing/test_resultlog.py::TestWithFunctionIntegration.test_log_test_outcomes
+ok 5 - testing/test_resultlog.py::TestWithFunctionIntegration.test_internal_exception[native]
+ok 6 - testing/test_resultlog.py::TestWithFunctionIntegration.test_internal_exception[long]
+ok 7 - testing/test_resultlog.py::TestWithFunctionIntegration.test_internal_exception[short]
+ok 8 - testing/test_resultlog.py::test_generic
+ok 9 - testing/test_resultlog.py::test_makedir_for_resultlog
+ok 10 - testing/test_resultlog.py::test_no_resultlog_on_slaves
+ok 11 - testing/test_resultlog.py::test_failure_issue380
+1..11

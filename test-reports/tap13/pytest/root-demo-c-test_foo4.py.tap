@@ -1,0 +1,3 @@
+# TAP results for root/demo-c/test_foo4.py
+ok 1 - root/demo-c/test_foo4.py::test1
+1..1

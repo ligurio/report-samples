@@ -1,0 +1,8 @@
+# TAP results for test_override_ini_names.py
+ok 1 - test_override_ini_names.py::test_pass
+ok 2 - test_override_ini_names.py::test_pass
+ok 3 - test_override_ini_names.py::test_pass
+ok 4 - test_override_ini_names.py::test_pass
+ok 5 - test_override_ini_names.py::test_pass
+ok 6 - test_override_ini_names.py::test_pass
+1..6

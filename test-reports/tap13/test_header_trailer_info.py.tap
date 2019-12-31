@@ -1,0 +1,3 @@
+# TAP results for test_header_trailer_info.py
+ok 1 - test_header_trailer_info.py::test_passes
+1..1

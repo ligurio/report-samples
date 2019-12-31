@@ -1,0 +1,3 @@
+# TAP results for subdir/test_overridden_fixture_finalizer.py
+ok 1 - subdir/test_overridden_fixture_finalizer.py::test_browser
+1..1

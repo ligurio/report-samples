@@ -1,0 +1,3 @@
+# TAP results for test_log_file_ini.py
+ok 1 - test_log_file_ini.py::test_log_file
+1..1

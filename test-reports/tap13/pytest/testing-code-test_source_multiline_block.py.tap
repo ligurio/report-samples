@@ -1,0 +1,3 @@
+# TAP results for testing/code/test_source_multiline_block.py
+ok 1 - testing/code/test_source_multiline_block.py::test_getstartingblock_multiline
+1..1

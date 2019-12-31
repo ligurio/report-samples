@@ -1,0 +1,4 @@
+# TAP results for test_request_subrequest_addfinalizer_exceptions.py
+ok 1 - test_request_subrequest_addfinalizer_exceptions.py::test_first
+ok 2 - test_request_subrequest_addfinalizer_exceptions.py::test_second
+1..2

@@ -1,0 +1,3 @@
+# TAP results for test_collect_single_item.py
+ok 1 - test_collect_single_item.py::test_foobar
+1..1

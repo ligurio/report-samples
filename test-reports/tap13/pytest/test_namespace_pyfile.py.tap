@@ -1,0 +1,6 @@
+# TAP results for test_namespace_pyfile.py
+ok 1 - test_namespace_pyfile.py::[doctest] test_namespace_pyfile.foo
+ok 2 - test_namespace_pyfile.py::[doctest] test_namespace_pyfile.foo
+ok 3 - test_namespace_pyfile.py::[doctest] test_namespace_pyfile.foo
+ok 4 - test_namespace_pyfile.py::[doctest] test_namespace_pyfile.foo
+1..4

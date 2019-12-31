@@ -1,0 +1,3 @@
+# TAP results for test_skips_on_false_string.py
+ok 1 - test_skips_on_false_string.py::test_foo # SKIP False
+1..1

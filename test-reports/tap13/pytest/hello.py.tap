@@ -1,0 +1,16 @@
+# TAP results for hello.py
+not ok 1 - hello.py::[doctest] hello.Fun.test
+# EXAMPLE LOCATION UNKNOWN, not showing all tests of that example
+# ??? >>> 1/0
+# UNEXPECTED EXCEPTION: ZeroDivisionError('integer division or modulo by zero',)
+# Traceback (most recent call last):
+# 
+#   File "/usr/lib/python2.7/doctest.py", line 1315, in __run
+#     compileflags, 1) in test.globs
+# 
+#   File "<doctest hello.Fun.test[1]>", line 1, in <module>
+# 
+# ZeroDivisionError: integer division or modulo by zero
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctest_linedata_missing0/hello.py:None: UnexpectedException
+1..1

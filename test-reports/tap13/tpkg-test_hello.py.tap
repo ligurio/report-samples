@@ -1,0 +1,5 @@
+# TAP results for tpkg/test_hello.py
+ok 1 - tpkg/test_hello.py::test_hello
+ok 2 - tpkg/test_hello.py::test_hello
+ok 3 - tpkg/test_hello.py::test_hello
+1..3

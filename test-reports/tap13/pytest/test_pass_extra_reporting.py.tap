@@ -1,0 +1,4 @@
+# TAP results for test_pass_extra_reporting.py
+ok 1 - test_pass_extra_reporting.py::test_this
+ok 2 - test_pass_extra_reporting.py::test_this
+1..2

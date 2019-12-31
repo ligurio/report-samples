@@ -1,0 +1,3 @@
+# TAP results for test_inline_run_taking_and_restoring_a_sys_modules_snapshot.py
+ok 1 - test_inline_run_taking_and_restoring_a_sys_modules_snapshot.py::test_foo
+1..1

@@ -1,0 +1,3 @@
+# TAP results for test_logxml_makedir.py
+ok 1 - test_logxml_makedir.py::test_pass
+1..1

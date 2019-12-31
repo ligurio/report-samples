@@ -1,0 +1,3 @@
+# TAP results for test_normal.txt
+ok 1 - test_normal.txt::[doctest] test_normal.txt
+1..1

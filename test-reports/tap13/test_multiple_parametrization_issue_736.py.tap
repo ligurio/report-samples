@@ -1,0 +1,11 @@
+# TAP results for test_multiple_parametrization_issue_736.py
+ok 1 - test_multiple_parametrization_issue_736.py::test_issue[1-4]
+ok 2 - test_multiple_parametrization_issue_736.py::test_issue[1-5]
+ok 3 - test_multiple_parametrization_issue_736.py::test_issue[1-6]
+ok 4 - test_multiple_parametrization_issue_736.py::test_issue[2-4]
+ok 5 - test_multiple_parametrization_issue_736.py::test_issue[2-5]
+ok 6 - test_multiple_parametrization_issue_736.py::test_issue[2-6]
+ok 7 - test_multiple_parametrization_issue_736.py::test_issue[3-4]
+ok 8 - test_multiple_parametrization_issue_736.py::test_issue[3-5]
+ok 9 - test_multiple_parametrization_issue_736.py::test_issue[3-6]
+1..9

@@ -1,0 +1,3 @@
+# TAP results for test_pdb_on_skip.py
+ok 1 - test_pdb_on_skip.py::test_func # SKIP hello
+1..1

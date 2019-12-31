@@ -1,0 +1,3 @@
+# TAP results for test_log_level_not_changed_by_default.py
+ok 1 - test_log_level_not_changed_by_default.py::test_log_file
+1..1

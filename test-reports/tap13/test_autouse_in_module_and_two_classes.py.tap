@@ -1,0 +1,5 @@
+# TAP results for test_autouse_in_module_and_two_classes.py
+ok 1 - test_autouse_in_module_and_two_classes.py::test_x
+ok 2 - test_autouse_in_module_and_two_classes.py::TestA.test_hello
+ok 3 - test_autouse_in_module_and_two_classes.py::TestA2.test_world
+1..3

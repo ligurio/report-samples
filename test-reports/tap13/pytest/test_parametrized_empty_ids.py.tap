@@ -1,0 +1,3 @@
+# TAP results for test_parametrized_empty_ids.py
+ok 1 - test_parametrized_empty_ids.py::test_temp[temp0] # SKIP got empty parameter set ['temp'], function test_temp at /tmp/pytest-of-sergeyb/pytest-28/test_parametrized_empty_ids0/test_parametrized_empty_ids.py:2
+1..1

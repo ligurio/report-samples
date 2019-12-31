@@ -1,0 +1,4 @@
+# TAP results for doc/en/example/assertion/test_setup_flow_example.py
+ok 1 - doc/en/example/assertion/test_setup_flow_example.py::TestStateFullThing.test_42
+ok 2 - doc/en/example/assertion/test_setup_flow_example.py::TestStateFullThing.test_23
+1..2

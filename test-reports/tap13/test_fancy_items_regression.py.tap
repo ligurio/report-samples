@@ -1,0 +1,6 @@
+# TAP results for test_fancy_items_regression.py
+ok 1 - test_fancy_items_regression.py::
+ok 2 - test_fancy_items_regression.py::
+ok 3 - test_fancy_items_regression.py::
+ok 4 - test_fancy_items_regression.py::test_pass
+1..4

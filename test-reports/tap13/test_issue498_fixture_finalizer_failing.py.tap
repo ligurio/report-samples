@@ -1,0 +1,5 @@
+# TAP results for test_issue498_fixture_finalizer_failing.py
+ok 1 - test_issue498_fixture_finalizer_failing.py::test_1
+ok 2 - test_issue498_fixture_finalizer_failing.py::test_2
+ok 3 - test_issue498_fixture_finalizer_failing.py::test_3
+1..3

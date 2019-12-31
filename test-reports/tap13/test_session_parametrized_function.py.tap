@@ -1,0 +1,6 @@
+# TAP results for test_session_parametrized_function.py
+ok 1 - test_session_parametrized_function.py::test_some[1]
+ok 2 - test_session_parametrized_function.py::test_result[1]
+ok 3 - test_session_parametrized_function.py::test_some[2]
+ok 4 - test_session_parametrized_function.py::test_result[2]
+1..4

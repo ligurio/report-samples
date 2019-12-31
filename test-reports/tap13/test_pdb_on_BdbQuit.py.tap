@@ -1,0 +1,9 @@
+# TAP results for test_pdb_on_BdbQuit.py
+not ok 1 - test_pdb_on_BdbQuit.py::test_func
+# 
+#     def test_func():
+# >       raise bdb.BdbQuit
+# E       BdbQuit
+# 
+# test_pdb_on_BdbQuit.py:3: BdbQuit
+1..1

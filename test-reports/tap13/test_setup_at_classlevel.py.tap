@@ -1,0 +1,4 @@
+# TAP results for test_setup_at_classlevel.py
+ok 1 - test_setup_at_classlevel.py::TestClass.test_method1
+ok 2 - test_setup_at_classlevel.py::TestClass.test_method2
+1..2

@@ -1,0 +1,9 @@
+# TAP results for test_order_of_execution_generator_same_codeline.py
+ok 1 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[0]
+ok 2 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[1]
+ok 3 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[2]
+ok 4 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[3]
+ok 5 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[4]
+ok 6 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[5]
+ok 7 - test_order_of_execution_generator_same_codeline.py::test_generative_order_of_execution[6]
+1..7

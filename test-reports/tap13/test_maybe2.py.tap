@@ -1,0 +1,8 @@
+# TAP results for test_maybe2.py
+ok 1 - test_maybe2.py::test_hello
+ok 2 - test_maybe2.py::test_pass
+ok 3 - test_maybe2.py::test_hello
+ok 4 - test_maybe2.py::test_pass
+ok 5 - test_maybe2.py::test_hello
+ok 6 - test_maybe2.py::test_pass
+1..6

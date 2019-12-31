@@ -1,0 +1,5 @@
+# TAP results for sub2/test_in_sub2.py
+ok 1 - sub2/test_in_sub2.py::test_2
+ok 2 - sub2/test_in_sub2.py::test_2
+ok 3 - sub2/test_in_sub2.py::test_2
+1..3

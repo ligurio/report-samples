@@ -1,0 +1,3 @@
+# TAP results for test_assert_indirect_tuple_no_warning.py
+ok 1 - test_assert_indirect_tuple_no_warning.py::test_tuple
+1..1

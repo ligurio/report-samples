@@ -1,0 +1,6 @@
+# TAP results for test_fixture_parametrized_with_iterator.py
+ok 1 - test_fixture_parametrized_with_iterator.py::test_1[1]
+ok 2 - test_fixture_parametrized_with_iterator.py::test_1[2]
+ok 3 - test_fixture_parametrized_with_iterator.py::test_2[1]
+ok 4 - test_fixture_parametrized_with_iterator.py::test_2[2]
+1..4

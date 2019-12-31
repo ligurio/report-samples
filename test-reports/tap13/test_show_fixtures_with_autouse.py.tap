@@ -1,0 +1,3 @@
+# TAP results for test_show_fixtures_with_autouse.py
+ok 1 - test_show_fixtures_with_autouse.py::test_arg1
+1..1

@@ -1,0 +1,3 @@
+# TAP results for doc/en/example/assertion/test_failures.py
+ok 1 - doc/en/example/assertion/test_failures.py::test_failure_demo_fails_properly
+1..1

@@ -1,0 +1,3 @@
+# TAP results for test_no_teardown_if_setupclass_failed.py
+ok 1 - test_no_teardown_if_setupclass_failed.py::test_notTornDown
+1..1

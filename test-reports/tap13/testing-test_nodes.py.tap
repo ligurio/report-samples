@@ -1,0 +1,10 @@
+# TAP results for testing/test_nodes.py
+ok 1 - testing/test_nodes.py::test_ischildnode[--True]
+ok 2 - testing/test_nodes.py::test_ischildnode[-foo-True]
+ok 3 - testing/test_nodes.py::test_ischildnode[-foo/bar-True]
+ok 4 - testing/test_nodes.py::test_ischildnode[-foo/bar::TestBaz::()-True]
+ok 5 - testing/test_nodes.py::test_ischildnode[foo-food-False]
+ok 6 - testing/test_nodes.py::test_ischildnode[foo/bar::TestBaz::()-foo/bar-False]
+ok 7 - testing/test_nodes.py::test_ischildnode[foo/bar::TestBaz::()-foo/bar::TestBop::()-False]
+ok 8 - testing/test_nodes.py::test_ischildnode[foo/bar-foo/bar::TestBop::()-True]
+1..8

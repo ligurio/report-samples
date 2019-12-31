@@ -1,0 +1,4 @@
+# TAP results for test_xfail_skipif_with_globals.py
+ok 1 - test_xfail_skipif_with_globals.py::test_skip1 # SKIP condition: x == 3
+ok 2 - test_xfail_skipif_with_globals.py::test_boolean # SKIP condition: x == 3
+1..2

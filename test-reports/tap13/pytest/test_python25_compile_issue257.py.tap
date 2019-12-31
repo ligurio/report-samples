@@ -1,0 +1,9 @@
+# TAP results for test_python25_compile_issue257.py
+not ok 1 - test_python25_compile_issue257.py::test_rewritten
+# 
+#     def test_rewritten():
+# >       assert 1 == 2
+# E       assert 1 == 2
+# 
+# test_python25_compile_issue257.py:2: AssertionError
+1..1

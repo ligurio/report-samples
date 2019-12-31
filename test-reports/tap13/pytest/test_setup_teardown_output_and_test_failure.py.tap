@@ -1,0 +1,10 @@
+# TAP results for test_setup_teardown_output_and_test_failure.py
+not ok 1 - test_setup_teardown_output_and_test_failure.py::test_fail
+# 
+#     def test_fail():
+# >       assert 0, "failingfunc"
+# E       AssertionError: failingfunc
+# E       assert 0
+# 
+# test_setup_teardown_output_and_test_failure.py:5: AssertionError
+1..1

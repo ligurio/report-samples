@@ -1,0 +1,16 @@
+# TAP results for subdir/test_spam.py
+ok 1 - subdir/test_spam.py::test_spam
+ok 2 - subdir/test_spam.py::test_spam
+ok 3 - subdir/test_spam.py::test_spam[1]
+ok 4 - subdir/test_spam.py::test_spam[2]
+ok 5 - subdir/test_spam.py::test_spam[3]
+ok 6 - subdir/test_spam.py::test_spam[1]
+ok 7 - subdir/test_spam.py::test_spam[2]
+ok 8 - subdir/test_spam.py::test_spam[3]
+ok 9 - subdir/test_spam.py::test_spam[1]
+ok 10 - subdir/test_spam.py::test_spam[2]
+ok 11 - subdir/test_spam.py::test_spam[3]
+ok 12 - subdir/test_spam.py::test_spam[1]
+ok 13 - subdir/test_spam.py::test_spam[2]
+ok 14 - subdir/test_spam.py::test_spam[3]
+1..14

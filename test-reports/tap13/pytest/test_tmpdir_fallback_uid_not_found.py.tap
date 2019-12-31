@@ -1,0 +1,3 @@
+# TAP results for test_tmpdir_fallback_uid_not_found.py
+ok 1 - test_tmpdir_fallback_uid_not_found.py::test_some
+1..1

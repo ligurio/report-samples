@@ -1,0 +1,11 @@
+# TAP results for test_finalizer_order_on_parametrization.py
+ok 1 - test_finalizer_order_on_parametrization.py::test_begin
+ok 2 - test_finalizer_order_on_parametrization.py::test_baz[1]
+ok 3 - test_finalizer_order_on_parametrization.py::test_other
+ok 4 - test_finalizer_order_on_parametrization.py::test_begin
+ok 5 - test_finalizer_order_on_parametrization.py::test_baz[1]
+ok 6 - test_finalizer_order_on_parametrization.py::test_other
+ok 7 - test_finalizer_order_on_parametrization.py::test_begin
+ok 8 - test_finalizer_order_on_parametrization.py::test_baz[1]
+ok 9 - test_finalizer_order_on_parametrization.py::test_other
+1..9

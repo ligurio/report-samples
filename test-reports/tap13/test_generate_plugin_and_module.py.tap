@@ -1,0 +1,13 @@
+# TAP results for test_generate_plugin_and_module.py
+ok 1 - test_generate_plugin_and_module.py::TestClass.test_myfunc[hello]
+not ok 2 - test_generate_plugin_and_module.py::TestClass.test_myfunc[world]
+# 
+# self = <test_generate_plugin_and_module.TestClass object at 0x7fa00e9ea190>
+# arg1 = 2, arg2 = 100
+# 
+#     def test_myfunc(self, arg1, arg2):
+# >       assert arg1 == arg2
+# E       assert 2 == 100
+# 
+# test_generate_plugin_and_module.py:14: AssertionError
+1..2

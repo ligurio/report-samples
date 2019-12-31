@@ -1,0 +1,4 @@
+# TAP results for test_request_cachedsetup_defaultmodule.py
+ok 1 - test_request_cachedsetup_defaultmodule.py::test_func1
+ok 2 - test_request_cachedsetup_defaultmodule.py::TestClass.test_func1a
+1..2

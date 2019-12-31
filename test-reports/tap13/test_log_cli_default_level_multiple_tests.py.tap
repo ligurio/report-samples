@@ -1,0 +1,4 @@
+# TAP results for test_log_cli_default_level_multiple_tests.py
+ok 1 - test_log_cli_default_level_multiple_tests.py::test_log_1
+ok 2 - test_log_cli_default_level_multiple_tests.py::test_log_2
+1..2

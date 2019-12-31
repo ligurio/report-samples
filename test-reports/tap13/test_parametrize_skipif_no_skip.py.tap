@@ -1,0 +1,14 @@
+# TAP results for test_parametrize_skipif_no_skip.py
+ok 1 - test_parametrize_skipif_no_skip.py::test_skipif_no_skip[0]
+ok 2 - test_parametrize_skipif_no_skip.py::test_skipif_no_skip[1]
+not ok 3 - test_parametrize_skipif_no_skip.py::test_skipif_no_skip[2]
+# 
+# x = 2
+# 
+#     @pytest.mark.parametrize('x', [0, 1, m(2)])
+#     def test_skipif_no_skip(x):
+# >       assert x < 2
+# E       assert 2 < 2
+# 
+# test_parametrize_skipif_no_skip.py:7: AssertionError
+1..3

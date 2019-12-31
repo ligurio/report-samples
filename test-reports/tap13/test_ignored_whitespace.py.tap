@@ -1,0 +1,3 @@
+# TAP results for test_ignored_whitespace.py
+ok 1 - test_ignored_whitespace.py::[doctest] test_ignored_whitespace.MyClass
+1..1

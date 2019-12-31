@@ -1,0 +1,4 @@
+# TAP results for test_threepass.py
+ok 1 - test_threepass.py::test_two
+ok 2 - test_threepass.py::test_three
+1..2

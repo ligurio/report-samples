@@ -1,0 +1,5 @@
+# TAP results for test_encoding.txt
+ok 1 - test_encoding.txt::[doctest] test_encoding.txt
+ok 2 - test_encoding.txt::[doctest] test_encoding.txt
+ok 3 - test_encoding.txt::[doctest] test_encoding.txt
+1..3

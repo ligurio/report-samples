@@ -1,0 +1,14 @@
+# TAP results for testing/test_tmpdir.py
+ok 1 - testing/test_tmpdir.py::test_funcarg
+ok 2 - testing/test_tmpdir.py::test_ensuretemp
+ok 3 - testing/test_tmpdir.py::TestTempdirHandler.test_mktemp
+ok 4 - testing/test_tmpdir.py::TestConfigTmpdir.test_getbasetemp_custom_removes_old
+ok 5 - testing/test_tmpdir.py::test_basetemp
+ok 6 - testing/test_tmpdir.py::test_tmpdir_always_is_realpath
+ok 7 - testing/test_tmpdir.py::test_tmpdir_too_long_on_parametrization
+ok 8 - testing/test_tmpdir.py::test_tmpdir_factory
+ok 9 - testing/test_tmpdir.py::test_tmpdir_fallback_tox_env
+ok 10 - testing/test_tmpdir.py::test_tmpdir_fallback_uid_not_found
+ok 11 - testing/test_tmpdir.py::test_get_user_uid_not_found
+ok 12 - testing/test_tmpdir.py::test_get_user # SKIP win only
+1..12

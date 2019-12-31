@@ -1,0 +1,11 @@
+# TAP results for test_match_raises_error.py
+not ok 1 - test_match_raises_error.py::test_division_zero
+# 
+#     def test_division_zero():
+#         with pytest.raises(ZeroDivisionError) as excinfo:
+#             0 / 0
+# >       excinfo.match(r'[123]+')
+# E       AssertionError: Pattern '[123]+' not found in 'integer division or modulo by zero'
+# 
+# test_match_raises_error.py:5: AssertionError
+1..1

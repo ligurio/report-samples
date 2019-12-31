@@ -1,0 +1,12 @@
+# TAP results for hello/__init__.py
+not ok 1 - hello/__init__.py::[doctest] hello.somefunc
+# 003 
+# 004                     >>> i = 0
+# 005                     >>> i + 1
+# Expected:
+#     2
+# Got:
+#     1
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_doctestmodule_external_and_issue1160/hello/__init__.py:5: DocTestFailure
+1..1

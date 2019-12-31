@@ -1,0 +1,4 @@
+# TAP results for test_custom_name.py
+ok 1 - test_custom_name.py::test_1
+ok 2 - test_custom_name.py::test_1
+1..2

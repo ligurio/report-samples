@@ -1,0 +1,3 @@
+# TAP results for test_test_plugins_given_as_strings.py
+ok 1 - test_test_plugins_given_as_strings.py::test_foo
+1..1

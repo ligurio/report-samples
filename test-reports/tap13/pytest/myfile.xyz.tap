@@ -1,0 +1,4 @@
+# TAP results for myfile.xyz
+not ok 1 - myfile.xyz::
+# custom item runtest failed
+1..1

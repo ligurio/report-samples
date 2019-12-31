@@ -1,0 +1,4 @@
+# TAP results for test_receives_funcargs.py
+ok 1 - test_receives_funcargs.py::test_add
+ok 2 - test_receives_funcargs.py::test_all
+1..2

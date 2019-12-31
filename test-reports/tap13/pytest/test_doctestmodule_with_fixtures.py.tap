@@ -1,0 +1,3 @@
+# TAP results for test_doctestmodule_with_fixtures.py
+ok 1 - test_doctestmodule_with_fixtures.py::[doctest] test_doctestmodule_with_fixtures
+1..1

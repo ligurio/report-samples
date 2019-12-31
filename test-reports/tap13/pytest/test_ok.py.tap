@@ -1,0 +1,3 @@
+# TAP results for test_ok.py
+ok 1 - test_ok.py::test_pass
+1..1

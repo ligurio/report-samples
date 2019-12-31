@@ -1,0 +1,14 @@
+# TAP results for test_showlocals.py
+not ok 1 - test_showlocals.py::test_showlocals
+# 
+#     def test_showlocals():
+#         x = 3
+#         y = "x" * 5000
+# >       assert 0
+# E       assert 0
+# 
+# x          = 3
+# y          = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+# 
+# test_showlocals.py:4: AssertionError
+1..1

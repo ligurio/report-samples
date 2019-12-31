@@ -1,0 +1,11 @@
+# TAP results for test_no_carry_over.py
+ok 1 - test_no_carry_over.py::test_func1
+not ok 2 - test_no_carry_over.py::test_func2
+# 
+#     def test_func2():
+#         print ("in func2")
+# >       assert 0
+# E       assert 0
+# 
+# test_no_carry_over.py:5: AssertionError
+1..2

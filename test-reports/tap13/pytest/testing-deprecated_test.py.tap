@@ -1,0 +1,16 @@
+# TAP results for testing/deprecated_test.py
+ok 1 - testing/deprecated_test.py::test_yield_tests_deprecation
+ok 2 - testing/deprecated_test.py::test_funcarg_prefix_deprecation
+ok 3 - testing/deprecated_test.py::test_pytest_setup_cfg_deprecated
+ok 4 - testing/deprecated_test.py::test_pytest_custom_cfg_deprecated
+ok 5 - testing/deprecated_test.py::test_str_args_deprecated
+ok 6 - testing/deprecated_test.py::test_getfuncargvalue_is_deprecated
+ok 7 - testing/deprecated_test.py::test_resultlog_is_deprecated
+ok 8 - testing/deprecated_test.py::test_metafunc_addcall_deprecated
+ok 9 - testing/deprecated_test.py::test_terminal_reporter_writer_attr
+ok 10 - testing/deprecated_test.py::test_pytest_catchlog_deprecated[catchlog]
+ok 11 - testing/deprecated_test.py::test_pytest_catchlog_deprecated[capturelog]
+ok 12 - testing/deprecated_test.py::test_pytest_plugins_in_non_top_level_conftest_deprecated
+ok 13 - testing/deprecated_test.py::test_pytest_plugins_in_non_top_level_conftest_deprecated_no_top_level_conftest
+ok 14 - testing/deprecated_test.py::test_pytest_plugins_in_non_top_level_conftest_deprecated_no_false_positives
+1..14

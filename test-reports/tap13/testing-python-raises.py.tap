@@ -1,0 +1,27 @@
+# TAP results for testing/python/raises.py
+ok 1 - testing/python/raises.py::TestRaises.test_raises
+ok 2 - testing/python/raises.py::TestRaises.test_raises_exec
+ok 3 - testing/python/raises.py::TestRaises.test_raises_syntax_error
+ok 4 - testing/python/raises.py::TestRaises.test_raises_function
+ok 5 - testing/python/raises.py::TestRaises.test_raises_callable_no_exception
+ok 6 - testing/python/raises.py::TestRaises.test_raises_as_contextmanager
+ok 7 - testing/python/raises.py::TestRaises.test_noclass
+not ok 8 - testing/python/raises.py::TestRaises.test_invalid_arguments_to_raises
+# 
+# self = <raises.TestRaises object at 0x7fa00e687d90>
+# 
+#     def test_invalid_arguments_to_raises(self):
+#         with pytest.raises(TypeError, match='unknown'):
+#             with pytest.raises(TypeError, unknown='bogus'):
+# >               raise ValueError()
+# E               ValueError
+# 
+# /home/sergeyb/Downloads/pytest/testing/python/raises.py:67: ValueError
+ok 9 - testing/python/raises.py::TestRaises.test_tuple
+ok 10 - testing/python/raises.py::TestRaises.test_no_raise_message
+ok 11 - testing/python/raises.py::TestRaises.test_custom_raise_message
+ok 12 - testing/python/raises.py::TestRaises.test_raises_cyclic_reference[function]
+ok 13 - testing/python/raises.py::TestRaises.test_raises_cyclic_reference[with]
+ok 14 - testing/python/raises.py::TestRaises.test_raises_match
+ok 15 - testing/python/raises.py::TestRaises.test_raises_match_wrong_type
+1..15

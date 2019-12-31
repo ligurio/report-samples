@@ -1,0 +1,11 @@
+# TAP results for test_txtfile_failing.txt
+not ok 1 - test_txtfile_failing.txt::[doctest] test_txtfile_failing.txt
+# 001 >>> i = 0
+# 002 >>> i + 1
+# Expected:
+#     2
+# Got:
+#     1
+# 
+# /tmp/pytest-of-sergeyb/pytest-28/test_txtfile_failing0/test_txtfile_failing.txt:2: DocTestFailure
+1..1

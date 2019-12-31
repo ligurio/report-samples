@@ -1,0 +1,35 @@
+# TAP results for test_failure_function.py
+not ok 1 - test_failure_function.py::test_fail
+# 
+#     def test_fail():
+#         print ("hello-stdout")
+#         sys.stderr.write("hello-stderr\n")
+#         logging.info('info msg')
+#         logging.warning('warning msg')
+# >       raise ValueError(42)
+# E       ValueError: 42
+# 
+# test_failure_function.py:9: ValueError
+not ok 2 - test_failure_function.py::test_fail
+# 
+#     def test_fail():
+#         print ("hello-stdout")
+#         sys.stderr.write("hello-stderr\n")
+#         logging.info('info msg')
+#         logging.warning('warning msg')
+# >       raise ValueError(42)
+# E       ValueError: 42
+# 
+# test_failure_function.py:9: ValueError
+not ok 3 - test_failure_function.py::test_fail
+# 
+#     def test_fail():
+#         print ("hello-stdout")
+#         sys.stderr.write("hello-stderr\n")
+#         logging.info('info msg')
+#         logging.warning('warning msg')
+# >       raise ValueError(42)
+# E       ValueError: 42
+# 
+# test_failure_function.py:9: ValueError
+1..3

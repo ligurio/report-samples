@@ -1,0 +1,5 @@
+# TAP results for test_scope_session_exc.py
+ok 1 - test_scope_session_exc.py::test_1 # SKIP skipping
+ok 2 - test_scope_session_exc.py::test_2 # SKIP skipping
+ok 3 - test_scope_session_exc.py::test_last
+1..3

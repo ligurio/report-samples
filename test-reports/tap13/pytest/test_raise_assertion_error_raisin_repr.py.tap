@@ -1,0 +1,9 @@
+# TAP results for test_raise_assertion_error_raisin_repr.py
+not ok 1 - test_raise_assertion_error_raisin_repr.py::test_raising_repr
+# 
+#     def test_raising_repr():
+# >       raise AssertionError(RaisingRepr())
+# E       AssertionError: <unprintable AssertionError object>
+# 
+# test_raise_assertion_error_raisin_repr.py:5: AssertionError
+1..1

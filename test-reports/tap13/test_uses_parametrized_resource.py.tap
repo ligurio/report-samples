@@ -1,0 +1,4 @@
+# TAP results for test_uses_parametrized_resource.py
+ok 1 - test_uses_parametrized_resource.py::test_hello[1]
+ok 2 - test_uses_parametrized_resource.py::test_hello[2]
+1..2

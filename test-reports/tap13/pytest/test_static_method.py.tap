@@ -1,0 +1,4 @@
+# TAP results for test_static_method.py
+ok 1 - test_static_method.py::Test.test_something
+ok 2 - test_static_method.py::Test.test_fix
+1..2

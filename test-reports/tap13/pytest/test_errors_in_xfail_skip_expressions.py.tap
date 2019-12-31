@@ -1,0 +1,3 @@
+# TAP results for test_errors_in_xfail_skip_expressions.py
+ok 1 - test_errors_in_xfail_skip_expressions.py::test_func
+1..1

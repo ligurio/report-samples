@@ -1,0 +1,5 @@
+# TAP results for test_class_scope_with_normal_tests.py
+ok 1 - test_class_scope_with_normal_tests.py::test_a
+ok 2 - test_class_scope_with_normal_tests.py::Test1.test_b
+ok 3 - test_class_scope_with_normal_tests.py::Test2.test_c
+1..3

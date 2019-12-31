@@ -1,0 +1,3 @@
+# TAP results for test_customized_python_discovery_functions.py
+ok 1 - test_customized_python_discovery_functions.py::_test_underscore
+1..1
